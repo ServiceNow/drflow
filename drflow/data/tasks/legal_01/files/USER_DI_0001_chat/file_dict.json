@@ -1,0 +1,312 @@
+{
+    "file_name": "mattermost_chat_20260409_101830",
+    "content": "{\"type\": \"version\", \"version\": 1}\n{\"type\": \"team\", \"team\": {\"name\": \"ops-risk-compliance\", \"display_name\": \"Ops, Risk & Compliance\", \"type\": \"O\", \"header\": \"Operational risk management, internal controls, and regulatory readiness for HarborPoint Community Bank.\", \"purpose\": \"Coordinate policy implementation, control testing, issue remediation, and audit/regulatory requests across business units.\"}}\n{\"type\": \"team\", \"team\": {\"name\": \"workplace-services\", \"display_name\": \"Workplace Services\", \"type\": \"O\", \"header\": \"Facilities, security, and workplace operations supporting HarborPoint offices.\", \"purpose\": \"Manage building operations, vendor coordination, maintenance schedules, and employee workplace issues.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"ops-risk-compliance\", \"name\": \"controls-issues-log\", \"display_name\": \"Controls & Issues Log\", \"type\": \"O\", \"header\": \"Track operational issues that may impact controls, service levels, or regulatory obligations.\", \"purpose\": \"Central place for reporting, triaging, and documenting remediation actions and evidence.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"workplace-services\", \"name\": \"facilities-hq-ops\", \"display_name\": \"Facilities (HQ Ops)\", \"type\": \"O\", \"header\": \"HQ facilities operations: HVAC, maintenance, vendors, and building updates.\", \"purpose\": \"Coordinate facilities requests, communicate maintenance actions, and provide status updates to stakeholders.\"}}\n{\"type\": \"user\", \"user\": {\"username\": \"daniel.han\", \"email\": \"daniel.han@harborpoint.com\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Daniel\", \"first_name\": \"Daniel\", \"last_name\": \"Han\", \"position\": \"Operations Manager\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"ops-risk-compliance\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"controls-issues-log\", \"roles\": \"channel_user\"}]}, {\"name\": \"workplace-services\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"facilities-hq-ops\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"maria.santos\", \"email\": \"maria.santos@harborpoint.com\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Maria\", \"first_name\": \"Maria\", \"last_name\": \"Santos\", \"position\": \"Facilities Manager\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"workplace-services\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"facilities-hq-ops\", \"roles\": \"channel_user\"}]}, {\"name\": \"ops-risk-compliance\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"controls-issues-log\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"kevin.lee\", \"email\": \"kevin.lee@harborpoint.com\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Kevin\", \"first_name\": \"Kevin\", \"last_name\": \"Lee\", \"position\": \"Workplace Operations Coordinator\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"workplace-services\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"facilities-hq-ops\", \"roles\": \"channel_user\"}]}, {\"name\": \"ops-risk-compliance\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"controls-issues-log\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"post\", \"post\": {\"team\": \"ops-risk-compliance\", \"channel\": \"controls-issues-log\", \"user\": \"daniel.han\", \"message\": \"Reminder: Q2 RCSA refresh is due next Friday. If you have any open control owner attestations, please update the status and attach supporting evidence (screen grabs or ticket IDs) so we\\u2019re audit-ready.\", \"create_at\": 1712649600000}}\n{\"type\": \"post\", \"post\": {\"team\": \"ops-risk-compliance\", \"channel\": \"controls-issues-log\", \"user\": \"maria.santos\", \"message\": \"Workplace Services note for the issues log: we completed the annual fire extinguisher inspection across HQ. Certificates are in the vendor portal; if you need a copy for the exam binder, I can upload PDFs to the shared evidence folder.\", \"create_at\": 1712649900000}}\n{\"type\": \"post\", \"post\": {\"team\": \"workplace-services\", \"channel\": \"facilities-hq-ops\", \"user\": \"kevin.lee\", \"message\": \"Heads up: the lobby flooring contractor is proposing the weekend of 4/20 for the polish/seal work. Minimal access impact, but we\\u2019ll need to rope off the east entrance for ~6 hours. Maria\\u2014OK to proceed if Procurement clears the COI?\", \"create_at\": 1712650200000}}\n{\"type\": \"post\", \"post\": {\"team\": \"workplace-services\", \"channel\": \"facilities-hq-ops\", \"user\": \"maria.santos\", \"message\": \"Yes, proceed once COI + W-9 are on file and the SOW includes after-hours cleanup. Kevin, please also confirm they\\u2019ll follow our vendor badge process (check-in at Security, no tailgating).\", \"create_at\": 1712650500000}}\n{\"type\": \"post\", \"post\": {\"team\": \"ops-risk-compliance\", \"channel\": \"controls-issues-log\", \"user\": \"daniel.han\", \"message\": \"Separate item: we had 2 instances this week of locked-file shred bins being overfilled in the branch ops area. Not a breach, but it\\u2019s a process gap. Maria/Kevin\\u2014can Workplace Services coordinate with the shredding vendor on pickup frequency?\", \"create_at\": 1712650800000}}\n{\"type\": \"post\", \"post\": {\"team\": \"workplace-services\", \"channel\": \"facilities-hq-ops\", \"user\": \"kevin.lee\", \"message\": \"I\\u2019ll reach out to IronClad Shred today to move us from biweekly to weekly pickups for the next 60 days, then we can reassess. Daniel\\u2014do you want a quick comms note to staff about not forcing materials into full bins?\", \"create_at\": 1712651100000}}\n{\"type\": \"post\", \"post\": {\"team\": \"ops-risk-compliance\", \"channel\": \"controls-issues-log\", \"user\": \"maria.santos\", \"message\": \"On the upcoming regulatory exam logistics: we can reserve the large conference room for the examiner workroom and ensure guest Wi-Fi instructions are printed. Daniel, send me the date range and expected headcount so we can set up access badges in advance.\", \"create_at\": 1712651400000}}\n{\"type\": \"post\", \"post\": {\"team\": \"workplace-services\", \"channel\": \"facilities-hq-ops\", \"user\": \"daniel.han\", \"message\": \"Thanks\\u2014dates are 5/6 through 5/17, likely 4 examiners onsite. I\\u2019ll share the examiner list once Compliance finalizes. Also, please confirm the after-hours cleaning schedule for that room so we can include it in the exam readiness checklist.\", \"create_at\": 1712651700000}}\n{\"type\": \"post\", \"post\": {\"team\": \"ops-risk-compliance\", \"channel\": \"controls-issues-log\", \"user\": \"daniel.han\", \"message\": \"Logging recurring employee complaints about inconsistent temperatures on HQ 4th floor (east side pods + two conference rooms). Not a control failure, but it\\u2019s impacting service levels (call time + meeting relocations). @maria.santos can Facilities confirm root cause + what action was taken so we can close the issue entry with remediation details?\", \"create_at\": 1775718900000}}\n{\"type\": \"post\", \"post\": {\"team\": \"ops-risk-compliance\", \"channel\": \"controls-issues-log\", \"user\": \"maria.santos\", \"message\": \"Yes \\u2014 this was a routine facilities maintenance issue (no compliance/investigation component). We found two thermostats in the 4th-floor HVAC zone intermittently failing/reading high, which was causing the zone to overcorrect. Action taken: Facilities replaced both failing thermostats and we rescheduled the preventive-maintenance cycle for the 4th-floor zone (moved it up to a monthly check for the next quarter). Complaints have dropped since the replacement.\", \"create_at\": 1775719320000}}\n{\"type\": \"post\", \"post\": {\"team\": \"workplace-services\", \"channel\": \"facilities-hq-ops\", \"user\": \"kevin.lee\", \"message\": \"FYI for visibility: HVAC temp complaints (HQ 4th floor) - vendor confirmed Thermostat #4F-17 and #4F-19 were failing intermittently. Both units replaced this morning; calibrated and tested across the zone. We also adjusted PM schedule for the 4th-floor zone per Maria\\u2019s direction (monthly spot-checks through end of quarter, then revert to standard cycle if stable).\", \"create_at\": 1775720100000}}\n{\"type\": \"post\", \"post\": {\"team\": \"workplace-services\", \"channel\": \"facilities-hq-ops\", \"user\": \"maria.santos\", \"message\": \"Thanks Kevin. Please keep the work order notes + vendor service report attached in the ticket; if anyone asks, the remediation is simply thermostat replacements + accelerated PM cycle for that specific 4th-floor HVAC zone. Nothing regulatory here\\u2014just building ops stabilization.\", \"create_at\": 1775720460000}}\n{\"type\": \"post\", \"post\": {\"team\": \"ops-risk-compliance\", \"channel\": \"controls-issues-log\", \"user\": \"daniel.han\", \"message\": \"Perfect\\u2014closing the issue log entry with: replaced two failing thermostats and rescheduled the preventive-maintenance cycle for the 4th-floor HVAC zone. Appreciate the quick turnaround.\", \"create_at\": 1775720940000}}",
+    "chat_setup": {
+        "teams": [
+            {
+                "type": "team",
+                "team": {
+                    "name": "ops-risk-compliance",
+                    "display_name": "Ops, Risk & Compliance",
+                    "type": "O",
+                    "header": "Operational risk management, internal controls, and regulatory readiness for HarborPoint Community Bank.",
+                    "purpose": "Coordinate policy implementation, control testing, issue remediation, and audit/regulatory requests across business units."
+                }
+            },
+            {
+                "type": "team",
+                "team": {
+                    "name": "workplace-services",
+                    "display_name": "Workplace Services",
+                    "type": "O",
+                    "header": "Facilities, security, and workplace operations supporting HarborPoint offices.",
+                    "purpose": "Manage building operations, vendor coordination, maintenance schedules, and employee workplace issues."
+                }
+            }
+        ],
+        "channels": [
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "ops-risk-compliance",
+                    "name": "controls-issues-log",
+                    "display_name": "Controls & Issues Log",
+                    "type": "O",
+                    "header": "Track operational issues that may impact controls, service levels, or regulatory obligations.",
+                    "purpose": "Central place for reporting, triaging, and documenting remediation actions and evidence."
+                }
+            },
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "workplace-services",
+                    "name": "facilities-hq-ops",
+                    "display_name": "Facilities (HQ Ops)",
+                    "type": "O",
+                    "header": "HQ facilities operations: HVAC, maintenance, vendors, and building updates.",
+                    "purpose": "Coordinate facilities requests, communicate maintenance actions, and provide status updates to stakeholders."
+                }
+            }
+        ],
+        "users": [
+            {
+                "type": "user",
+                "user": {
+                    "username": "daniel.han",
+                    "email": "daniel.han@harborpoint.com",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Daniel",
+                    "first_name": "Daniel",
+                    "last_name": "Han",
+                    "position": "Operations Manager",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "ops-risk-compliance",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "controls-issues-log",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "workplace-services",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "facilities-hq-ops",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "maria.santos",
+                    "email": "maria.santos@harborpoint.com",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Maria",
+                    "first_name": "Maria",
+                    "last_name": "Santos",
+                    "position": "Facilities Manager",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "workplace-services",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "facilities-hq-ops",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ops-risk-compliance",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "controls-issues-log",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "kevin.lee",
+                    "email": "kevin.lee@harborpoint.com",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Kevin",
+                    "first_name": "Kevin",
+                    "last_name": "Lee",
+                    "position": "Workplace Operations Coordinator",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "workplace-services",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "facilities-hq-ops",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ops-risk-compliance",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "controls-issues-log",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "chat_messages": [
+        {
+            "type": "post",
+            "post": {
+                "team": "ops-risk-compliance",
+                "channel": "controls-issues-log",
+                "user": "daniel.han",
+                "message": "Logging recurring employee complaints about inconsistent temperatures on HQ 4th floor (east side pods + two conference rooms). Not a control failure, but it\u2019s impacting service levels (call time + meeting relocations). @maria.santos can Facilities confirm root cause + what action was taken so we can close the issue entry with remediation details?",
+                "create_at": 1775718900000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "ops-risk-compliance",
+                "channel": "controls-issues-log",
+                "user": "maria.santos",
+                "message": "Yes \u2014 this was a routine facilities maintenance issue (no compliance/investigation component). We found two thermostats in the 4th-floor HVAC zone intermittently failing/reading high, which was causing the zone to overcorrect. Action taken: Facilities replaced both failing thermostats and we rescheduled the preventive-maintenance cycle for the 4th-floor zone (moved it up to a monthly check for the next quarter). Complaints have dropped since the replacement.",
+                "create_at": 1775719320000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "workplace-services",
+                "channel": "facilities-hq-ops",
+                "user": "kevin.lee",
+                "message": "FYI for visibility: HVAC temp complaints (HQ 4th floor) - vendor confirmed Thermostat #4F-17 and #4F-19 were failing intermittently. Both units replaced this morning; calibrated and tested across the zone. We also adjusted PM schedule for the 4th-floor zone per Maria\u2019s direction (monthly spot-checks through end of quarter, then revert to standard cycle if stable).",
+                "create_at": 1775720100000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "workplace-services",
+                "channel": "facilities-hq-ops",
+                "user": "maria.santos",
+                "message": "Thanks Kevin. Please keep the work order notes + vendor service report attached in the ticket; if anyone asks, the remediation is simply thermostat replacements + accelerated PM cycle for that specific 4th-floor HVAC zone. Nothing regulatory here\u2014just building ops stabilization.",
+                "create_at": 1775720460000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "ops-risk-compliance",
+                "channel": "controls-issues-log",
+                "user": "daniel.han",
+                "message": "Perfect\u2014closing the issue log entry with: replaced two failing thermostats and rescheduled the preventive-maintenance cycle for the 4th-floor HVAC zone. Appreciate the quick turnaround.",
+                "create_at": 1775720940000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "ops-risk-compliance",
+                "channel": "controls-issues-log",
+                "user": "daniel.han",
+                "message": "Reminder: Q2 RCSA refresh is due next Friday. If you have any open control owner attestations, please update the status and attach supporting evidence (screen grabs or ticket IDs) so we\u2019re audit-ready.",
+                "create_at": 1712649600000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "ops-risk-compliance",
+                "channel": "controls-issues-log",
+                "user": "maria.santos",
+                "message": "Workplace Services note for the issues log: we completed the annual fire extinguisher inspection across HQ. Certificates are in the vendor portal; if you need a copy for the exam binder, I can upload PDFs to the shared evidence folder.",
+                "create_at": 1712649900000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "workplace-services",
+                "channel": "facilities-hq-ops",
+                "user": "kevin.lee",
+                "message": "Heads up: the lobby flooring contractor is proposing the weekend of 4/20 for the polish/seal work. Minimal access impact, but we\u2019ll need to rope off the east entrance for ~6 hours. Maria\u2014OK to proceed if Procurement clears the COI?",
+                "create_at": 1712650200000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "workplace-services",
+                "channel": "facilities-hq-ops",
+                "user": "maria.santos",
+                "message": "Yes, proceed once COI + W-9 are on file and the SOW includes after-hours cleanup. Kevin, please also confirm they\u2019ll follow our vendor badge process (check-in at Security, no tailgating).",
+                "create_at": 1712650500000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "ops-risk-compliance",
+                "channel": "controls-issues-log",
+                "user": "daniel.han",
+                "message": "Separate item: we had 2 instances this week of locked-file shred bins being overfilled in the branch ops area. Not a breach, but it\u2019s a process gap. Maria/Kevin\u2014can Workplace Services coordinate with the shredding vendor on pickup frequency?",
+                "create_at": 1712650800000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "workplace-services",
+                "channel": "facilities-hq-ops",
+                "user": "kevin.lee",
+                "message": "I\u2019ll reach out to IronClad Shred today to move us from biweekly to weekly pickups for the next 60 days, then we can reassess. Daniel\u2014do you want a quick comms note to staff about not forcing materials into full bins?",
+                "create_at": 1712651100000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "ops-risk-compliance",
+                "channel": "controls-issues-log",
+                "user": "maria.santos",
+                "message": "On the upcoming regulatory exam logistics: we can reserve the large conference room for the examiner workroom and ensure guest Wi-Fi instructions are printed. Daniel, send me the date range and expected headcount so we can set up access badges in advance.",
+                "create_at": 1712651400000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "workplace-services",
+                "channel": "facilities-hq-ops",
+                "user": "daniel.han",
+                "message": "Thanks\u2014dates are 5/6 through 5/17, likely 4 examiners onsite. I\u2019ll share the examiner list once Compliance finalizes. Also, please confirm the after-hours cleaning schedule for that room so we can include it in the exam readiness checklist.",
+                "create_at": 1712651700000
+            },
+            "tag": "distractor"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_chat_document.jsonl",
+    "qa_type": "distractor",
+    "timestamp": "2026-04-09 10:18",
+    "app": "file_system"
+}

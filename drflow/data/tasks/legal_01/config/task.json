@@ -1,0 +1,41 @@
+{
+    "name": "legal_01",
+    "task_id": "legal_01",
+    "level": "",
+    "company_info": {
+        "name": "HarborPoint Community Bank",
+        "industry": "Banking",
+        "description": "HarborPoint provides lending and treasury services to local small and mid-sized businesses.",
+        "size": "Large",
+        "employee_count": "1000-3000",
+        "annual_revenue": "$500M-$900M",
+        "founded_year": 2000,
+        "headquarters": "Unknown",
+        "key_products_services": [],
+        "market_position": "",
+        "target_markets": []
+    },
+    "dr_question": "What exact steps should we take to investigate a potential internal compliance violation?",
+    "date": "2026-02-01",
+    "persona": {
+        "name": "Daniel Han",
+        "first_name": "Daniel",
+        "last_name": "Han",
+        "role": "Operations Manager",
+        "department": "Department",
+        "email": "daniel.han@harborpoint.com",
+        "password": "my_drbench_pwd",
+        "seniority": "Mid",
+        "responsibilities": "He manages regulatory obligations, internal controls, and policy implementation across multiple business units.",
+        "id": "legal_01",
+        "domain": "crm",
+        "justification": "",
+        "username": "daniel.han"
+    },
+    "citation_format": {
+        "urls": [],
+        "file_names": [],
+        "mattermost_chats": [],
+        "email_messages": []
+    }
+}

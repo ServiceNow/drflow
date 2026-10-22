@@ -1,0 +1,423 @@
+{
+    "file_name": "mattermost_chat_20260408_201527",
+    "content": "{\"type\": \"version\", \"version\": 1}\n{\"type\": \"team\", \"team\": {\"name\": \"campus-operations\", \"display_name\": \"Campus Operations\", \"type\": \"O\", \"header\": \"Operational coordination for campus services, facilities, and building impacts.\", \"purpose\": \"Share planned maintenance, outages, and operational updates that may affect campus operations.\"}}\n{\"type\": \"team\", \"team\": {\"name\": \"faculty-onboarding\", \"display_name\": \"Faculty Onboarding & Compliance\", \"type\": \"O\", \"header\": \"Coordination hub for new faculty orientation, document collection, and compliance communications.\", \"purpose\": \"Coordinate communications and logistics for newly hired research-track faculty across colleges.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"campus-operations\", \"name\": \"facilities-notices\", \"display_name\": \"Facilities Notices\", \"type\": \"O\", \"header\": \"Planned maintenance, service interruptions, and building notices.\", \"purpose\": \"Post and confirm facilities-related notifications that impact occupants (water, HVAC, electrical, access).\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"campus-operations\", \"name\": \"admin-building-ops\", \"display_name\": \"Admin Building Ops\", \"type\": \"O\", \"header\": \"Day-to-day coordination for non-research administrative buildings.\", \"purpose\": \"Coordinate building-level impacts, signage, alternate services, and occupant communication timing.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"faculty-onboarding\", \"name\": \"new-faculty-comms\", \"display_name\": \"New Faculty Comms\", \"type\": \"O\", \"header\": \"Announcements and updates to support onboarding communications.\", \"purpose\": \"Align messaging that may affect new faculty arrivals, orientation schedules, and required notifications.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"faculty-onboarding\", \"name\": \"orientation-coordination\", \"display_name\": \"Orientation Coordination\", \"type\": \"O\", \"header\": \"Operational planning for orientation sessions, rooms, and day-of logistics.\", \"purpose\": \"Coordinate orientation logistics and contingency plans when campus operations could affect sessions.\"}}\n{\"type\": \"user\", \"user\": {\"username\": \"aisha.rahman\", \"email\": \"aisha.rahman@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Aisha\", \"first_name\": \"Aisha\", \"last_name\": \"Rahman\", \"position\": \"University Graduate Program Coordinator\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"campus-operations\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"facilities-notices\", \"roles\": \"channel_user\"}, {\"name\": \"admin-building-ops\", \"roles\": \"channel_user\"}]}, {\"name\": \"faculty-onboarding\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"new-faculty-comms\", \"roles\": \"channel_user\"}, {\"name\": \"orientation-coordination\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"michael.hsu\", \"email\": \"michael.hsu@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Mike H.\", \"first_name\": \"Michael\", \"last_name\": \"Hsu\", \"position\": \"Facilities Operations Manager\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"campus-operations\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"facilities-notices\", \"roles\": \"channel_user\"}, {\"name\": \"admin-building-ops\", \"roles\": \"channel_user\"}]}, {\"name\": \"faculty-onboarding\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"new-faculty-comms\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"linda.gomez\", \"email\": \"linda.gomez@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Linda\", \"first_name\": \"Linda\", \"last_name\": \"Gomez\", \"position\": \"Administrative Building Manager\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"campus-operations\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"admin-building-ops\", \"roles\": \"channel_user\"}, {\"name\": \"facilities-notices\", \"roles\": \"channel_user\"}]}, {\"name\": \"faculty-onboarding\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"orientation-coordination\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"ryan.patel\", \"email\": \"ryan.patel@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Ryan\", \"first_name\": \"Ryan\", \"last_name\": \"Patel\", \"position\": \"University Communications Specialist\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"campus-operations\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"facilities-notices\", \"roles\": \"channel_user\"}]}, {\"name\": \"faculty-onboarding\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"new-faculty-comms\", \"roles\": \"channel_user\"}, {\"name\": \"orientation-coordination\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"facilities-notices\", \"user\": \"ryan.patel\", \"message\": \"Quick comms process check: can Facilities Notices standardize the subject line format for campus-wide posts? I\\u2019m proposing: \\\"[Facilities Notice] Building \\u2013 Topic \\u2013 Date\\\" so the digest and SMS preview are consistent. If folks agree, I\\u2019ll update the template and share the guidance doc link here.\", \"create_at\": 1775693100000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"facilities-notices\", \"user\": \"michael.hsu\", \"message\": \"Works for me. Also recommending we add a short \\\"Who to contact\\\" line at the bottom (service desk + after-hours number) and keep the first paragraph under 300 characters for mobile. Ryan, send me the draft template and I\\u2019ll get it into our SOP binder.\", \"create_at\": 1775694000000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"admin-building-ops\", \"user\": \"linda.gomez\", \"message\": \"Admin Building note: we\\u2019re doing our quarterly conference room inventory next week (chairs, adapters, whiteboard markers). If any departments have \\u201cmissing items\\u201d complaints, please DM me the room number + what\\u2019s missing so we can reconcile before the inventory sheet goes to Procurement.\", \"create_at\": 1775695200000}}\n{\"type\": \"post\", \"post\": {\"team\": \"faculty-onboarding\", \"channel\": \"new-faculty-comms\", \"user\": \"aisha.rahman\", \"message\": \"For the new research-track faculty email series: can we add a short reminder about completing COI disclosure + export controls attestation before they request any sponsored project accounts? I\\u2019ve had a few late submissions that slow down account setup. Ryan, I can draft copy if you want it in a consistent tone.\", \"create_at\": 1775696400000}}\n{\"type\": \"post\", \"post\": {\"team\": \"faculty-onboarding\", \"channel\": \"new-faculty-comms\", \"user\": \"ryan.patel\", \"message\": \"Yes please\\u2014send 2\\u20133 sentences + a link target and I\\u2019ll slot it into Email #2 (\\\"Before Your First Week\\\"). Also: do we want to mention the optional lab safety overview webinar, or keep that in the department-level onboarding packets only?\", \"create_at\": 1775697600000}}\n{\"type\": \"post\", \"post\": {\"team\": \"faculty-onboarding\", \"channel\": \"orientation-coordination\", \"user\": \"linda.gomez\", \"message\": \"Orientation logistics: catering needs final headcount by EOD tomorrow. Current RSVP list shows 38 (including 6 spouses/partners). Aisha\\u2014can you confirm if we should order 10 extra as buffer? Also, any dietary notes beyond vegetarian/gluten-free that I should flag to the vendor?\", \"create_at\": 1775698800000}}\n{\"type\": \"post\", \"post\": {\"team\": \"faculty-onboarding\", \"channel\": \"orientation-coordination\", \"user\": \"aisha.rahman\", \"message\": \"Confirming: order +10 buffer. Dietary notes: 2 halal, 1 dairy-free, 1 nut allergy (severe\\u2014avoid cross-contact). I\\u2019ll update the RSVP sheet and share the final list in this channel once it\\u2019s locked.\", \"create_at\": 1775700000000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"facilities-notices\", \"user\": \"michael.hsu\", \"message\": \"Planned maintenance this week that may affect operations: **scheduled domestic water shutdown** in the **Admin Services Building (non-research)** on **Thu 6:00\\u201310:00 AM**. Scope is **replacement of several aging isolation valves** on the 2nd-floor riser.\\n\\nImpacts: no cold/hot water to restrooms, breakrooms, or kitchenette sinks during the window. Elevators and HVAC unaffected. We\\u2019ll post **temporary restroom + water service notices** at all entrances and on each floor; custodial will stage signage and direct occupants to nearby open restrooms (Library lobby level).\\n\\nThis is a general facilities ops item (not related to research spaces/lab access).\", \"create_at\": 1775563200000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"admin-building-ops\", \"user\": \"linda.gomez\", \"message\": \"Thanks Mike. Confirming the Admin Services Building tenant list: HR, Finance, Procurement, and Graduate Programs are the main occupants. I\\u2019ll coordinate with floor reps to minimize meetings in the building during 6\\u201310 AM and make sure reception knows to route visitors.\", \"create_at\": 1775564100000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"admin-building-ops\", \"user\": \"aisha.rahman\", \"message\": \"Appreciate the heads-up. Graduate Programs has advising appointments starting at 9:00 AM Thu\\u2014if water won\\u2019t be back by then, we\\u2019ll shift those to Zoom or relocate to the Library. Do we expect full restoration by 10:00?\", \"create_at\": 1775564700000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"admin-building-ops\", \"user\": \"michael.hsu\", \"message\": \"Yes\\u2014target is fully restored by **10:00 AM**. The work is straightforward valve swap-out, but we\\u2019re building in time for repressurization + leak checks. If anything slips, I\\u2019ll post an update here by **9:15 AM** with a revised ETA.\", \"create_at\": 1775565300000}}\n{\"type\": \"post\", \"post\": {\"team\": \"faculty-onboarding\", \"channel\": \"orientation-coordination\", \"user\": \"ryan.patel\", \"message\": \"Quick check for this week\\u2019s campus impacts: anything facilities-related that could affect orientation attendees moving around campus?\", \"create_at\": 1775566200000}}\n{\"type\": \"post\", \"post\": {\"team\": \"faculty-onboarding\", \"channel\": \"orientation-coordination\", \"user\": \"michael.hsu\", \"message\": \"Only notable item: **Admin Services Building water shutdown Thu 6\\u201310 AM** to replace aging valves (non-research admin building). We\\u2019ll have posted notices and alternate restroom directions. No building access restrictions, and it doesn\\u2019t touch any research buildings/labs.\", \"create_at\": 1775566800000}}\n{\"type\": \"post\", \"post\": {\"team\": \"faculty-onboarding\", \"channel\": \"new-faculty-comms\", \"user\": \"aisha.rahman\", \"message\": \"Ryan\\u2014if you\\u2019re sending a weekly onboarding note, please include: Admin Services Building will have no water/restrooms Thu 6\\u201310 AM due to valve replacement; occupants can use Library lobby restrooms. This is unrelated to lab/research spaces.\", \"create_at\": 1775567400000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"facilities-notices\", \"user\": \"ryan.patel\", \"message\": \"Drafting comms now. Mike\\u2014confirm wording is okay:\\n\\n\\u201cThu 6\\u201310 AM: Admin Services Building domestic water shutdown to replace aging valves. Restrooms, sinks, and drinking fountains unavailable during this time. Temporary notices will be posted; occupants may use Library lobby restrooms.\\u201d\", \"create_at\": 1775568000000}}\n{\"type\": \"post\", \"post\": {\"team\": \"campus-operations\", \"channel\": \"facilities-notices\", \"user\": \"michael.hsu\", \"message\": \"Looks good. Please add \\u201cbreakroom/kitchenette sinks affected\\u201d and \\u201cwater service will return as soon as work and leak checks are complete (target 10 AM).\\u201d\", \"create_at\": 1775568300000}}",
+    "chat_setup": {
+        "teams": [
+            {
+                "type": "team",
+                "team": {
+                    "name": "campus-operations",
+                    "display_name": "Campus Operations",
+                    "type": "O",
+                    "header": "Operational coordination for campus services, facilities, and building impacts.",
+                    "purpose": "Share planned maintenance, outages, and operational updates that may affect campus operations."
+                }
+            },
+            {
+                "type": "team",
+                "team": {
+                    "name": "faculty-onboarding",
+                    "display_name": "Faculty Onboarding & Compliance",
+                    "type": "O",
+                    "header": "Coordination hub for new faculty orientation, document collection, and compliance communications.",
+                    "purpose": "Coordinate communications and logistics for newly hired research-track faculty across colleges."
+                }
+            }
+        ],
+        "channels": [
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "campus-operations",
+                    "name": "facilities-notices",
+                    "display_name": "Facilities Notices",
+                    "type": "O",
+                    "header": "Planned maintenance, service interruptions, and building notices.",
+                    "purpose": "Post and confirm facilities-related notifications that impact occupants (water, HVAC, electrical, access)."
+                }
+            },
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "campus-operations",
+                    "name": "admin-building-ops",
+                    "display_name": "Admin Building Ops",
+                    "type": "O",
+                    "header": "Day-to-day coordination for non-research administrative buildings.",
+                    "purpose": "Coordinate building-level impacts, signage, alternate services, and occupant communication timing."
+                }
+            },
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "faculty-onboarding",
+                    "name": "new-faculty-comms",
+                    "display_name": "New Faculty Comms",
+                    "type": "O",
+                    "header": "Announcements and updates to support onboarding communications.",
+                    "purpose": "Align messaging that may affect new faculty arrivals, orientation schedules, and required notifications."
+                }
+            },
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "faculty-onboarding",
+                    "name": "orientation-coordination",
+                    "display_name": "Orientation Coordination",
+                    "type": "O",
+                    "header": "Operational planning for orientation sessions, rooms, and day-of logistics.",
+                    "purpose": "Coordinate orientation logistics and contingency plans when campus operations could affect sessions."
+                }
+            }
+        ],
+        "users": [
+            {
+                "type": "user",
+                "user": {
+                    "username": "aisha.rahman",
+                    "email": "aisha.rahman@eastportuniversity.edu",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Aisha",
+                    "first_name": "Aisha",
+                    "last_name": "Rahman",
+                    "position": "University Graduate Program Coordinator",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "campus-operations",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "facilities-notices",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "admin-building-ops",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "faculty-onboarding",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "new-faculty-comms",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "orientation-coordination",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "michael.hsu",
+                    "email": "michael.hsu@eastportuniversity.edu",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Mike H.",
+                    "first_name": "Michael",
+                    "last_name": "Hsu",
+                    "position": "Facilities Operations Manager",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "campus-operations",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "facilities-notices",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "admin-building-ops",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "faculty-onboarding",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "new-faculty-comms",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "linda.gomez",
+                    "email": "linda.gomez@eastportuniversity.edu",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Linda",
+                    "first_name": "Linda",
+                    "last_name": "Gomez",
+                    "position": "Administrative Building Manager",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "campus-operations",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "admin-building-ops",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "facilities-notices",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "faculty-onboarding",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "orientation-coordination",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "ryan.patel",
+                    "email": "ryan.patel@eastportuniversity.edu",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Ryan",
+                    "first_name": "Ryan",
+                    "last_name": "Patel",
+                    "position": "University Communications Specialist",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "campus-operations",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "facilities-notices",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "faculty-onboarding",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "new-faculty-comms",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "orientation-coordination",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "chat_messages": [
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "facilities-notices",
+                "user": "michael.hsu",
+                "message": "Planned maintenance this week that may affect operations: **scheduled domestic water shutdown** in the **Admin Services Building (non-research)** on **Thu 6:00\u201310:00 AM**. Scope is **replacement of several aging isolation valves** on the 2nd-floor riser.\n\nImpacts: no cold/hot water to restrooms, breakrooms, or kitchenette sinks during the window. Elevators and HVAC unaffected. We\u2019ll post **temporary restroom + water service notices** at all entrances and on each floor; custodial will stage signage and direct occupants to nearby open restrooms (Library lobby level).\n\nThis is a general facilities ops item (not related to research spaces/lab access).",
+                "create_at": 1775563200000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "admin-building-ops",
+                "user": "linda.gomez",
+                "message": "Thanks Mike. Confirming the Admin Services Building tenant list: HR, Finance, Procurement, and Graduate Programs are the main occupants. I\u2019ll coordinate with floor reps to minimize meetings in the building during 6\u201310 AM and make sure reception knows to route visitors.",
+                "create_at": 1775564100000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "admin-building-ops",
+                "user": "aisha.rahman",
+                "message": "Appreciate the heads-up. Graduate Programs has advising appointments starting at 9:00 AM Thu\u2014if water won\u2019t be back by then, we\u2019ll shift those to Zoom or relocate to the Library. Do we expect full restoration by 10:00?",
+                "create_at": 1775564700000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "admin-building-ops",
+                "user": "michael.hsu",
+                "message": "Yes\u2014target is fully restored by **10:00 AM**. The work is straightforward valve swap-out, but we\u2019re building in time for repressurization + leak checks. If anything slips, I\u2019ll post an update here by **9:15 AM** with a revised ETA.",
+                "create_at": 1775565300000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "faculty-onboarding",
+                "channel": "orientation-coordination",
+                "user": "ryan.patel",
+                "message": "Quick check for this week\u2019s campus impacts: anything facilities-related that could affect orientation attendees moving around campus?",
+                "create_at": 1775566200000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "faculty-onboarding",
+                "channel": "orientation-coordination",
+                "user": "michael.hsu",
+                "message": "Only notable item: **Admin Services Building water shutdown Thu 6\u201310 AM** to replace aging valves (non-research admin building). We\u2019ll have posted notices and alternate restroom directions. No building access restrictions, and it doesn\u2019t touch any research buildings/labs.",
+                "create_at": 1775566800000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "faculty-onboarding",
+                "channel": "new-faculty-comms",
+                "user": "aisha.rahman",
+                "message": "Ryan\u2014if you\u2019re sending a weekly onboarding note, please include: Admin Services Building will have no water/restrooms Thu 6\u201310 AM due to valve replacement; occupants can use Library lobby restrooms. This is unrelated to lab/research spaces.",
+                "create_at": 1775567400000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "facilities-notices",
+                "user": "ryan.patel",
+                "message": "Drafting comms now. Mike\u2014confirm wording is okay:\n\n\u201cThu 6\u201310 AM: Admin Services Building domestic water shutdown to replace aging valves. Restrooms, sinks, and drinking fountains unavailable during this time. Temporary notices will be posted; occupants may use Library lobby restrooms.\u201d",
+                "create_at": 1775568000000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "facilities-notices",
+                "user": "michael.hsu",
+                "message": "Looks good. Please add \u201cbreakroom/kitchenette sinks affected\u201d and \u201cwater service will return as soon as work and leak checks are complete (target 10 AM).\u201d",
+                "create_at": 1775568300000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "facilities-notices",
+                "user": "ryan.patel",
+                "message": "Quick comms process check: can Facilities Notices standardize the subject line format for campus-wide posts? I\u2019m proposing: \"[Facilities Notice] Building \u2013 Topic \u2013 Date\" so the digest and SMS preview are consistent. If folks agree, I\u2019ll update the template and share the guidance doc link here.",
+                "create_at": 1775693100000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "facilities-notices",
+                "user": "michael.hsu",
+                "message": "Works for me. Also recommending we add a short \"Who to contact\" line at the bottom (service desk + after-hours number) and keep the first paragraph under 300 characters for mobile. Ryan, send me the draft template and I\u2019ll get it into our SOP binder.",
+                "create_at": 1775694000000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "campus-operations",
+                "channel": "admin-building-ops",
+                "user": "linda.gomez",
+                "message": "Admin Building note: we\u2019re doing our quarterly conference room inventory next week (chairs, adapters, whiteboard markers). If any departments have \u201cmissing items\u201d complaints, please DM me the room number + what\u2019s missing so we can reconcile before the inventory sheet goes to Procurement.",
+                "create_at": 1775695200000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "faculty-onboarding",
+                "channel": "new-faculty-comms",
+                "user": "aisha.rahman",
+                "message": "For the new research-track faculty email series: can we add a short reminder about completing COI disclosure + export controls attestation before they request any sponsored project accounts? I\u2019ve had a few late submissions that slow down account setup. Ryan, I can draft copy if you want it in a consistent tone.",
+                "create_at": 1775696400000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "faculty-onboarding",
+                "channel": "new-faculty-comms",
+                "user": "ryan.patel",
+                "message": "Yes please\u2014send 2\u20133 sentences + a link target and I\u2019ll slot it into Email #2 (\"Before Your First Week\"). Also: do we want to mention the optional lab safety overview webinar, or keep that in the department-level onboarding packets only?",
+                "create_at": 1775697600000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "faculty-onboarding",
+                "channel": "orientation-coordination",
+                "user": "linda.gomez",
+                "message": "Orientation logistics: catering needs final headcount by EOD tomorrow. Current RSVP list shows 38 (including 6 spouses/partners). Aisha\u2014can you confirm if we should order 10 extra as buffer? Also, any dietary notes beyond vegetarian/gluten-free that I should flag to the vendor?",
+                "create_at": 1775698800000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "faculty-onboarding",
+                "channel": "orientation-coordination",
+                "user": "aisha.rahman",
+                "message": "Confirming: order +10 buffer. Dietary notes: 2 halal, 1 dairy-free, 1 nut allergy (severe\u2014avoid cross-contact). I\u2019ll update the RSVP sheet and share the final list in this channel once it\u2019s locked.",
+                "create_at": 1775700000000
+            },
+            "tag": "distractor"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_chat_document.jsonl",
+    "qa_type": "distractor",
+    "timestamp": "2026-04-08 20:15",
+    "app": "file_system"
+}

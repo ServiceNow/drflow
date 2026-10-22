@@ -1,0 +1,133 @@
+================================================================================
+MATTERMOST CHAT EXPORT
+================================================================================
+
+TEAMS:
+----------------------------------------
+• Graduate Programs Operations (grad-programs-operations)
+  Description: N/A
+  Type: Open
+
+• Provost & HR Appointments (provost-hr-appointments)
+  Description: N/A
+  Type: Open
+
+CHANNELS:
+----------------------------------------
+• #New Faculty Onboarding (new-faculty-onboarding)
+  Team: grad-programs-operations
+  Purpose: Central thread for onboarding coordination and compliance reminders for newly hired research-track faculty.
+  Type: Public
+
+• #Forms & Appointments (forms-and-appointments)
+  Team: grad-programs-operations
+  Purpose: Resolve what departments must submit for each hire (e.g., 9-month vs 12-month, FTE, summer salary eligibility).
+  Type: Public
+
+• #Position Data Form (PDF-7) (position-data-form-pdf7)
+  Team: provost-hr-appointments
+  Purpose: Ensure Position Data Forms are completed accurately (FTE, appointment basis, summer comp eligibility) before HR processing.
+  Type: Public
+
+USERS:
+----------------------------------------
+• @aisha.rahman
+  Name: Aisha Rahman
+  Position: University Graduate Program Coordinator
+  Email: aisha.rahman@eastportuniversity.edu
+
+• @melissa.chen
+  Name: Melissa Chen
+  Position: HR Academic Appointments Specialist
+  Email: melissa.chen@eastportuniversity.edu
+
+• @david.morales
+  Name: David Morales
+  Position: Department Administrator (Biological Sciences)
+  Email: david.morales@eastportuniversity.edu
+
+• @sarah.kim
+  Name: Sarah Kim
+  Position: Faculty Affairs Coordinator (Office of the Provost)
+  Email: sarah.kim@eastportuniversity.edu
+
+MESSAGES:
+================================================================================
+[2025-11-09 06:10:00] #grad-programs-operations:new-faculty-onboarding
+@aisha.rahman:
+Kicking off onboarding checklist for our new TT hire (Bio Sci) starting 8/16. David—once appointment terms are confirmed, I’ll send the faculty welcome packet + orientation schedule. Melissa/Sarah: let us know what you need from the department to get the appointment created in the system so we can trigger NetID, email, and payroll setup.
+------------------------------------------------------------
+
+[2025-11-09 06:15:00] #grad-programs-operations:forms-and-appointments
+@david.morales:
+Quick clarification for the new TT assistant prof offer (Bio Sci): appointment is academic year but PI wants option for summer salary on grants. What exactly do we need to submit for HR/Provost routing (forms + the key fields)?
+------------------------------------------------------------
+
+[2025-11-09 06:20:00] #provost-hr-appointments:position-data-form-pdf7
+@sarah.kim:
+For tenure-track faculty, the department’s starting point is the Position Data Form (PDF-7). The terms in the offer drive how the position is built (appointment basis, FTE, and whether the person can be paid additional summer comp). If those fields are wrong, it causes payroll delays and sometimes we have to unwind access provisioning tied to the job record.
+------------------------------------------------------------
+
+[2025-11-09 06:25:00] #provost-hr-appointments:position-data-form-pdf7
+@melissa.chen:
+David—based on what you described, this is a standard **9-month academic year appointment** with **summer salary eligible** (paid via grants/approved summer comp, not part of base). On the **Position Data Form (PDF-7)** please set **FTE = 1.0** and make sure **“Summer comp: eligible”** is checked. That lets HR create the position correctly so payroll + downstream access provisioning (NetID, email, effort reporting eligibility) can be triggered off the right job attributes.
+------------------------------------------------------------
+
+[2025-11-09 06:30:00] #grad-programs-operations:forms-and-appointments
+@david.morales:
+Got it. So we submit PDF-7 with 9-month basis, FTE 1.0, and summer comp eligible checked. Anything else you want attached for routing (offer letter, chair memo, etc.)?
+------------------------------------------------------------
+
+[2025-11-09 06:35:00] #provost-hr-appointments:position-data-form-pdf7
+@melissa.chen:
+Yes—attach the signed offer letter (or final draft if signature is pending) and the department approval memo. But the critical piece for building the job is the **PDF-7 fields** (9-month, **FTE 1.0**, **summer comp eligible**). Once we load the position, we can generate the appointment record and HR will release the onboarding tasks (I-9, tax forms) to the faculty member.
+------------------------------------------------------------
+
+[2025-11-09 06:40:00] #grad-programs-operations:new-faculty-onboarding
+@aisha.rahman:
+Thanks—this helps with the onboarding workflow. David: when PDF-7 is submitted and HR confirms the job record is created, please ping here. That’s our cue to send the orientation invite + start the account/access checklist (email, LMS, research compliance training assignments).
+------------------------------------------------------------
+
+[2025-11-09 06:45:00] #grad-programs-operations:forms-and-appointments
+@david.morales:
+Submitting PDF-7 this afternoon with the fields Melissa listed (9-month, FTE 1.0, summer comp eligible) + offer letter and chair memo. I’ll update once it’s routed to Provost/HR.
+------------------------------------------------------------
+
+[2025-12-04 12:00:00] #grad-programs-operations:new-faculty-onboarding
+@aisha.rahman:
+Quick heads-up: I’m moving next week’s operations sync from Tue 10:00–10:30 to Wed 2:00–2:30 due to the Graduate Council agenda deadline. I’ll resend the calendar hold and keep the same Zoom link.
+------------------------------------------------------------
+
+[2025-12-04 12:10:00] #grad-programs-operations:new-faculty-onboarding
+@david.morales:
+Thanks Aisha—Wed 2:00 works for me. Also, the conference room in Life Sciences is booked all afternoon; if we need an in-person option, I can reserve BioSci 310 (seats 12, hybrid setup).
+------------------------------------------------------------
+
+[2025-12-04 12:30:00] #provost-hr-appointments:position-data-form-pdf7
+@melissa.chen:
+IT flagged that some recently uploaded PDF-7s aren’t text-searchable (they look like scanned images). Can we remind admins to export directly from Word/DocuSign as PDF instead of scanning, so accessibility checks pass?
+------------------------------------------------------------
+
+[2025-12-04 12:40:00] #provost-hr-appointments:position-data-form-pdf7
+@sarah.kim:
+Agree. I can add a note to the shared guidance page about accessible PDFs (tags + selectable text) and a one-liner on recommended file naming. Melissa—send me the exact wording IT used and I’ll mirror it.
+------------------------------------------------------------
+
+[2025-12-04 12:55:00] #grad-programs-operations:forms-and-appointments
+@aisha.rahman:
+Separate item: do we have a preferred format for tracking open questions from departments (Excel vs Smartsheet)? My current sheet is getting unwieldy and I’d like something with simple status filters and due-date reminders.
+------------------------------------------------------------
+
+[2025-12-04 13:05:00] #grad-programs-operations:forms-and-appointments
+@melissa.chen:
+Smartsheet has been easiest on our side for due-date nudges and audit trails. If you set it up, add columns for: Requestor, College, Topic, Status, Last Touched, and Next Follow-up Date. Happy to look at a draft view before you roll it out.
+------------------------------------------------------------
+
+[2025-12-04 13:20:00] #provost-hr-appointments:position-data-form-pdf7
+@david.morales:
+FYI for anyone submitting PDFs today: the shared drive was intermittently read-only for me around 9:15am. If you see upload failures, try again later or email the file to yourself and re-upload once the permissions refresh.
+------------------------------------------------------------
+
+================================================================================
+END OF CHAT EXPORT
+================================================================================

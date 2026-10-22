@@ -1,0 +1,13 @@
+# Internal Governance and Operating Standards
+
+## Introduction
+
+This document provides operational guidance to support consistent execution of HarborPoint Community Bank’s internal governance standards. It establishes expectations for documentation quality, decision ownership, and cross-functional coordination across lending and treasury services. The guidance is designed to align day-to-day activities with regulatory obligations and enterprise risk principles. Adherence promotes transparency, accountability, and reliable outcomes in routine and exception-based workflows.
+
+## Regulatory Reporting and Record Retention
+
+For branch cash logistics oversight, HarborPoint will retain 60–90 days of daily cash-in/cash-out records per branch, including vault balance sheets, cash order confirmations, and cash-in-transit (CIT) manifests, in accordance with the Bank’s record retention schedule. Operations Analytics will compare actual cash usage trends to current vault targets and document any approved changes to vault level targets, reorder points, and delivery schedules coordinated with the CIT vendor. Branch managers must update and archive end-of-day balancing procedures to reflect revised reorder points and require dual-control sign-offs on vault counts, overages/shortages, and any cash exceptions. Finance and Risk will track and file monthly metrics showing reductions in excess cash holdings and associated insurance and carrying costs. If a branch shows recurring cash variances, an on-site operations coaching visit and written remediation notes will be retained; otherwise, revised reorder points will be implemented remotely with electronic approvals saved.
+
+## Conclusion
+
+Consistent application of these guidelines strengthens HarborPoint’s control environment and supports safe, compliant operations. Clear standards reduce variability across teams and improve the reliability of management reporting. Following the defined practices helps protect clients, employees, and the bank’s reputation. Ongoing review and reinforcement of these expectations are essential as products, regulations, and operating conditions evolve.

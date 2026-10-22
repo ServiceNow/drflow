@@ -1,0 +1,21 @@
+# Copy to .env and fill in the credentials for your provider.
+# Values in .env override shell environment variables.
+OPENROUTER_API_KEY=
+OPENROUTER_API_URL=https://openrouter.ai/api/v1
+OPENAI_API_KEY=
+
+# Optional internet search and alternative model providers.
+SERPER_API_KEY=
+AZURE_API_KEY=
+AZURE_ENDPOINT=
+AZURE_API_VERSION=
+TOGETHER_API_KEY=
+VLLM_API_URL=
+VLLM_API_KEY=
+VLLM_MODEL=
+PEXELS_API_KEY=
+NGROK_AUTHTOKEN=
+
+# Docker services.
+DRFLOW_DOCKER_IMAGE=drbench-services
+DRFLOW_DOCKER_TAG=latest

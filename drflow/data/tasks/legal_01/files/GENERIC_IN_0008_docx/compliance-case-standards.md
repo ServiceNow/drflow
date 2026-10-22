@@ -1,0 +1,13 @@
+# Internal Compliance Case Handling Standards
+
+## Introduction
+
+This manual establishes HarborPoint Community Bank’s internal standards for handling potential compliance concerns involving employees, vendors, or business units. It aligns expectations across Lending, Treasury Services, Operations, and Corporate Support functions to ensure consistent, timely, and well-documented actions. The guidance is designed to support regulatory obligations while protecting confidentiality, customer information, and employee rights. These standards apply to all locations and lines of business.
+
+## Allegation Intake and Escalation Workflow
+
+After an allegation is logged and triaged, the investigator must first build an investigation plan and attach it to CP-101 in CCP before requesting any evidence capture. Using the plan and intake details, initiate the appropriate upstream workflow to lock down evidence sources and ensure every action is traceable in CCP notes and assigned tasks. For suspected exposure of customer PII or account data (e.g., emailed statements, shared drive leaks, misdirected ACH files), open an Information Security incident ticket using Form IS-3 and proceed under the Bank’s Breach Playbook to preserve impacted records. For matters focused on internal access, approvals, or system activity without a confirmed data leakage component, submit an IT audit-log request using Form IT-4 specifying the case code, in-scope systems, exact date/time range, and the artifacts required (such as access logs, approval histories, and key application or network events). The request must be sufficiently detailed to support defensible preservation and later retrieval, including any known user IDs, accounts, or transaction references tied to the allegation. Completing this step promptly reduces evidence spoliation risk, accelerates cross-functional escalation, and supports HarborPoint’s regulatory obligations for timely, well-documented investigations.
+
+## Conclusion
+
+Consistent adherence to these standards helps HarborPoint identify issues early, reduce regulatory and reputational risk, and maintain a strong culture of integrity. Clear documentation and controlled information handling support defensible outcomes and effective remediation. Coordinated escalation and communication ensure the right stakeholders are engaged without compromising confidentiality. Following this guidance strengthens enterprise-wide compliance governance and operational resilience.

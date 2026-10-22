@@ -1,0 +1,166 @@
+{
+    "supporting_file_paths": [],
+    "dr_report_evaluation_qa": [
+        {
+            "id": "WORKFLOW_STEP_1",
+            "title": "Open CLM Deal Intake and capture deal details",
+            "task": "Confirm the existing CLM Deal Intake is complete for the new multi-site warehousing + outbound freight shipper contract.",
+            "question": "What is the first step?",
+            "answer": "In the CLM, open the already-submitted Deal Intake record for this new B2B shipper agreement covering multi-site warehousing plus outbound freight across the U.S. Verify all required intake fields are populated and accurate: customer legal name (as it must appear in the agreement), scope (warehousing + freight), annualized revenue estimate (~$3.2M), target start date, all facilities/sites impacted, and the requested signature deadline. Update any missing/incorrect fields and save so downstream routing and gating rules run on the correct data.",
+            "justification": "A Sales manager has already submitted a Deal Intake in the CLM, and accurate scope (multi-site warehousing + outbound freight) and revenue (~$3.2M) are necessary for correct routing and approvals later in the process.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/escalation-risk-terms-clm-intake.pdf",
+                "shared/fast-lane-redlines-guardrails-playbook.pdf",
+                "shared/redline-guardrails-triage-routing-playbook-heliofreight.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_2",
+            "title": "Determine paper source and set starting template path",
+            "task": "Tag the deal as Standard Paper and set the baseline template to \u201cMaster Services Agreement \u2013 NA 3PL.\u201d",
+            "question": "What is the next step after 'Open CLM Deal Intake and capture deal details'?",
+            "answer": "In the CLM paper source field(s), select/tag this deal as \u201cStandard Paper\u201d because the agreement is based on HelioFreight\u2019s approved template \u201cMaster Services Agreement \u2013 NA 3PL\u201d and the customer marked up that template (not their own form). Confirm the workflow state reflects Standard Paper and that the baseline document/template selection is set to the approved MSA so all compare/playbook functions reference the correct starting point.",
+            "justification": "User context states the counterparty redlined HelioFreight\u2019s standard \u201cMaster Services Agreement \u2013 NA 3PL\u201d template, which means the Standard Paper path applies and no Legal template-selection hold is needed.",
+            "conditions": "If the deal uses a HelioFreight-approved template, tag the record \u201cStandard Paper\u201d and proceed; if it is not an approved template, tag \u201cCustomer Paper\u201d and submit a request to Legal to select/confirm the correct starting template, and do not begin redline routing until Legal provides the starting template direction.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/heliofreight-contract-risk-triage-governance.docx",
+                "shared/fast-lane-redlines-guardrails-playbook.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_3",
+            "title": "Upload redlined draft and generate delta report",
+            "task": "Confirm the latest customer redlines are uploaded and the CLM delta report is generated against the approved MSA baseline.",
+            "question": "What is the next step after 'Determine paper source and set starting template path'?",
+            "answer": "In the CLM record, verify the most current redlined draft from the customer is attached as the active/most recent version. Run (or confirm completion of) the CLM compare tool using the approved baseline \u201cMaster Services Agreement \u2013 NA 3PL\u201d to generate a clause-by-clause delta report. Store the delta report in the record so Legal/Finance/Ops reviewers can rely on a single authoritative change list for approvals.",
+            "justification": "The redlines were uploaded to the CLM compare tool, and producing/confirming the delta report is required to support fast, accurate approval of the specific changes (liability, indemnity, SLA credits).",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-change-controls-decision-rights.docx",
+                "shared/fast-lane-redlines-guardrails-playbook.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_4",
+            "title": "Map clause deltas to playbook tags and determine review path",
+            "task": "Confirm playbook mapping and route into the Legal Review path due to Red deviations (liability/indemnity).",
+            "question": "What is the next step after 'Upload redlined draft and generate delta report'?",
+            "answer": "Review the CLM delta report and confirm each change is mapped to the correct clause playbook tag(s), with special attention to the modified limitation of liability, indemnity language, and SLA service credit terms. Verify the playbook risk categorization flags the liability and indemnity edits as \u201cRed\u201d deviations. Set/confirm the workflow review path as Legal Review (Legal is the primary reviewer/negotiator for these items) and ensure the CLM record reflects this risk posture for downstream approvals.",
+            "justification": "The clause playbook flags liability/indemnity changes as \u201cRed,\u201d which requires Legal Review rather than a business-only fallback approach.",
+            "conditions": "If any delta maps to a \u201cRed\u201d tag (e.g., liability cap, indemnity scope, audit rights, IP ownership, data security, auto-renewal/termination limits), route into the Legal Review path; if all deltas are only \u201cGreen/Yellow,\u201d use pre-approved fallback language guidance and proceed to business confirmation steps without Legal as the primary negotiator (per policy).",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-review-guide.docx",
+                "shared/fast-lane-redlines-guardrails-playbook.pdf",
+                "shared/heliofreight-redline-guardrails-fast-approval-playbook.pdf",
+                "shared/mattermost_chat_20260405_100325.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_5",
+            "title": "Assign approval tier based on intake criteria",
+            "task": "Keep the standard operations approval tier (director-level) based on ~$3.2M revenue and no new facility/buildout.",
+            "question": "What is the next step after 'Map clause deltas to playbook tags and determine review path'?",
+            "answer": "Using the Deal Intake fields, set the CLM approval tier to the standard operations approval lane (director-level), because the annualized revenue estimate is approximately $3.2M and the scope does not include a dedicated warehouse buildout or a new facility launch. Save the tier assignment so the subsequent routing step includes the correct Operations approver level without adding an unnecessary VP Ops gate.",
+            "justification": "User context confirms ~$3.2M annualized revenue and no dedicated buildout/new facility launch, so the VP Operations approval trigger does not apply and the standard approval path is appropriate for speed.",
+            "conditions": "If annualized revenue is above $5M OR the scope includes a dedicated warehouse buildout/new facility launch, include a VP Operations approval step; otherwise keep the standard director-level operations approval lane.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-risk-tier-approval-standards.docx",
+                "shared/redline-guardrails-triage-routing-playbook-heliofreight.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_6",
+            "title": "Draft fallback language and prepare Redline Summary Sheet (RSS-14)",
+            "task": "Have Legal draft fallback positions for Red items and complete RSS-14 listing deviations (including SLA credits) and deviation owners.",
+            "question": "What is the next step after 'Assign approval tier based on intake criteria'?",
+            "answer": "Coordinate with Legal to draft proposed fallback/acceptable language for each non-standard clause identified in the delta/playbook mapping, prioritizing the Red deviations (limitation of liability and indemnity) and capturing the proposed position for the SLA service credits as well. Complete the RSS-14 Redline Summary Sheet by listing: (1) each non-standard clause/issue, (2) the playbook position/category (noting Red where applicable), (3) proposed fallback wording or negotiating position, and (4) the internal business owner who must accept any residual risk if the final language deviates from standard. Attach RSS-14 to the CLM record alongside the latest draft and delta report.",
+            "justification": "An RSS-14 is being prepared per user context, and because liability/indemnity are Red deviations, Legal must own the fallback language and clearly document deviation owners to accelerate approvals.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-approval-playbook.pdf",
+                "shared/fast-lane-redlines-guardrails-playbook.pdf",
+                "shared/heliofreight-redline-guardrails-fast-approval-playbook.pdf",
+                "shared/mattermost_chat_20260405_100325.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_7",
+            "title": "Run Special Reviews Gate and attach required addenda",
+            "task": "Confirm no Special Reviews are triggered (no higher insurance, no regulated cargo, no InfoSec/Privacy), and proceed with base routing.",
+            "question": "What is the next step after 'Draft fallback language and prepare Redline Summary Sheet (RSS-14)'?",
+            "answer": "Run the CLM \u201cSpecial Reviews Gate\u201d check using the deal\u2019s scope and requirements as documented in the Deal Intake and RSS-14. Confirm the following triggers are not present and therefore do not add additional reviewer lanes or addenda: (a) no above-standard insurance requirements (so do not add Risk Management), (b) no hazmat/temperature-controlled pharma or other special cargo requirements (so no additional Risk/Compliance reviewer), and (c) no customer system/API access and no processing of personal data (so no InfoSec/Privacy reviewers or security/privacy addenda). Save/confirm the base routing remains Legal + Finance + Operations only.",
+            "justification": "User context explicitly states no higher-than-standard insurance, no hazmat/temp-controlled regulated freight, and no system/API access or personal data processing\u2014so adding Risk/InfoSec/Privacy would be unnecessary and would slow approvals.",
+            "conditions": "If the customer requires above-standard insurance limits, add Risk Management; if scope involves hazmat or temperature-controlled regulated freight, add the relevant Risk/Compliance reviewer per policy; if the contract requires customer system/API access or processing personal data, add InfoSec and/or Privacy and attach the required security/privacy addenda; if none of these triggers apply, do not add these reviewers and proceed with the base routing.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-review-playbook.pdf",
+                "shared/heliofreight-redline-guardrails-fast-approval-playbook.pdf",
+                "shared/heliofreight-redline-triage-approval-playbook-v1.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_8",
+            "title": "Finance review of commercial terms against billing policy",
+            "task": "Route the packet to Finance to review payment/commercial terms and SLA credit mechanics for billing policy alignment.",
+            "question": "What is the next step after 'Run Special Reviews Gate and attach required addenda'?",
+            "answer": "Submit the Deal Intake and RSS-14 to Finance via CLM for commercial-terms review. Ensure Finance focuses on payment terms, credits/penalties (including the SLA service credits structure and how credits are applied/invoiced), any price adjustment mechanisms, and taxes/surcharges. Capture Finance\u2019s approval/confirmation in CLM and incorporate any required edits into the draft and/or RSS-14 before moving to formal ordered approvals.",
+            "justification": "The contract includes SLA service credits (a Finance-relevant credit/penalty term), and the plan is to route approvals to Legal + Finance + Operations, making Finance review a required step to avoid downstream billing/policy issues.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-redlines-guide.docx",
+                "shared/heliofreight-redline-guardrails-fast-approval-playbook.pdf",
+                "shared/mattermost_chat_20260405_100325.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_9",
+            "title": "Send approval packet through ordered e-approvals and reroute on rejection",
+            "task": "Initiate the CLM ordered e-approvals for the full packet (Legal \u2192 Finance \u2192 Operations) and manage any rework quickly if rejected.",
+            "question": "What is the next step after 'Finance review of commercial terms against billing policy'?",
+            "answer": "Assemble the complete approval packet in CLM: latest redlined draft, delta report, RSS-14, and any required attachments (none expected beyond the base set given no special reviews). Initiate ordered e-approvals in CLM with the required sequence\u2014Legal first (due to Red liability/indemnity deviations), then Finance, then Operations (standard director-level approver lane). Monitor approval status, capture approver comments in the CLM record, and keep document versions controlled. If any approver rejects, return the deal to the negotiator with the exact required edits, update the draft and RSS-14, regenerate/refresh the delta report if changes affect clause deltas, and reroute through the same approval order until all approvals are obtained.",
+            "justification": "User context states the intended routing is Legal + Finance + Operations, and the presence of Red deviations requires Legal to be first in sequence to prevent wasted downstream cycles and speed overall approval.",
+            "conditions": "If any approver rejects, return the deal to the negotiator with the approver\u2019s required edits, update the draft/RSS-14 as needed, regenerate artifacts if changes affect the delta, and reroute through the same approval order after changes are made.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-review-guidelines.pdf",
+                "shared/heliofreight-redline-guardrails-fast-approval-playbook.pdf",
+                "shared/redline-guardrails-triage-routing-playbook-heliofreight.pdf",
+                "shared/heliofreight-redline-triage-approval-playbook-v1.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_10",
+            "title": "Send for signature, archive executed agreement, and create Obligation Tracker",
+            "task": "Send the final approved MSA for signature, archive the executed version, and log SLA credit/reporting obligations for Ops tracking.",
+            "question": "What is the next step after 'Send approval packet through ordered e-approvals and reroute on rejection'?",
+            "answer": "After all CLM approvals are complete, send the final approved contract package to the customer for signature using the approved signing method. Once fully executed, upload/archive the signed agreement in the CLM repository with correct metadata (customer legal name, effective date, scope: multi-site warehousing + outbound freight, and version labeling). Create an Obligation Tracker entry capturing ongoing commitments\u2014specifically the SLA service credit terms and any associated reporting timelines/notice requirements\u2014so the operations team can track performance, apply credits correctly, and meet any contractual reporting obligations.",
+            "justification": "The agreement includes SLA service credits, and user context indicates Ops must track credits and reporting timelines post-signature, making obligation logging necessary immediately after execution.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/contract-intake-triage-approval-playbook.pdf",
+                "shared/fast-lane-redlines-guardrails-playbook.pdf",
+                "shared/mattermost_chat_20260405_100325.jsonl"
+            ]
+        }
+    ],
+    "dr_report_intermediate_steps": []
+}

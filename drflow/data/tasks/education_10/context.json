@@ -1,0 +1,62 @@
+{
+    "company_info": {
+        "name": "Eastport University",
+        "industry": "Higher Education",
+        "description": "A R1 university hosting a growing newly hired research-track faculties across multiple colleges.",
+        "size": "Large",
+        "employee_count": "2,500-6,000",
+        "annual_revenue": "$600M-$1.2B",
+        "founded_year": 2000,
+        "headquarters": "Unknown",
+        "key_products_services": [],
+        "market_position": "",
+        "target_markets": []
+    },
+    "persona": {
+        "name": "Aisha Rahman",
+        "first_name": "Aisha",
+        "last_name": "Rahman",
+        "role": "University Graduate Program Coordinator",
+        "department": "Department",
+        "email": "aisha.rahman@eastportuniversity.edu",
+        "password": "my_drbench_pwd",
+        "seniority": "Mid",
+        "responsibilities": "Coordinates orientation, document collection, and ongoing compliance communications for new faculties.",
+        "id": "education_10",
+        "domain": "crm",
+        "justification": "",
+        "username": "aisha.rahman"
+    },
+    "url": {
+        "date": "2026-02-01",
+        "domain": "crm",
+        "example_dr_questions": [
+            "What is the workflow to onboard a newly hired tenured-track faculty?"
+        ],
+        "industry": "Higher Education",
+        "insights": [
+            "New hire is an Assistant Professor (tenure-track) in the College of Engineering with a start date of Aug 15; offer has been signed and the chair wants all access ready by first day.",
+            "Appointment is 9-month with summer salary eligible, so the department will submit Eastport\u2019s Position Data Form (PDF-7) with FTE = 1.0 and \u201csummer comp: eligible\u201d checked.",
+            "Faculty is a non-U.S. citizen currently outside the U.S. and will enter in J-1 \u201cProfessor\u201d status; the department will open an ISSS case and provide the required passport bio page + CV + offer letter for the DS-2019 request.\nBackground check is required because the appointment is benefits-eligible; the hire will complete the BGC-2 authorization through EastportWorks when the link is triggered.",
+            "The faculty will be paid via payroll (not stipend), so I-9 will be completed in person during check-in; direct deposit and tax withholding will be completed in the HR portal beforehand.\nThe department prefers to complete benefits enrollment during the first week; the hire will attend the faculty orientation and schedule a one-on-one benefits consult.",
+            "The faculty will be a PI with a $300k startup package and will need purchasing authority; the department expects an index to be created and will route the Startup Fund Authorization (SFA-3) with \u201c>$250k\u201d selected.\nA compliance reminder cadence is needed (visa document tracking + annual COI update) because the faculty will pursue sponsored research in year one.",
+            "The faculty needs access to a wet lab space in the Engineering Research Building, so a Lab Access Request (LAR-5) will be submitted and EH&S trainings will be scheduled before keys are issued.\nThe faculty is scheduled to teach one graduate course in the first semester, so a teaching setup is needed (instructor-of-record entry, LMS course shell, and classroom tech orientation).\nResearch activities in the first 90 days are expected to be non-human-subjects and non-animal, so IRB/IACUC protocols will not be submitted during initial onboarding.\nThe faculty will require building access, email, VPN, and a university laptop; the department will submit the IT Access Request (IT-8) for network groups and door access.",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "url": ""
+    },
+    "timestamp": "2026-02-01 00:00"
+}

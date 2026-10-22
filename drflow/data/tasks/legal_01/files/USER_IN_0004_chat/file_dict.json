@@ -1,0 +1,399 @@
+{
+    "file_name": "mattermost_chat_20260409_101745",
+    "content": "{\"type\": \"version\", \"version\": 1}\n{\"type\": \"team\", \"team\": {\"name\": \"risk-compliance\", \"display_name\": \"Risk & Compliance\", \"type\": \"O\", \"header\": \"HarborPoint Community Bank | Risk, Compliance, AML, Regulatory Operations\", \"purpose\": \"Coordinate regulatory obligations, internal controls, investigations, and documentation/approvals for compliance case files.\"}}\n{\"type\": \"team\", \"team\": {\"name\": \"treasury-services\", \"display_name\": \"Treasury Services\", \"type\": \"O\", \"header\": \"HarborPoint Community Bank | Treasury Services Operations (Wires, Payments, Cash Management)\", \"purpose\": \"Operational coordination for wire processing, approvals, control execution, and remediation actions impacting Treasury Services.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"risk-compliance\", \"name\": \"aml-investigations\", \"display_name\": \"AML Investigations\", \"type\": \"O\", \"header\": \"Use for investigation coordination, findings memos, and SAR decisioning (no customer PII).\", \"purpose\": \"Discuss investigation steps for wire activity and missing/insufficient EDD artifacts; track findings memo inputs and SAR decision record requirements.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"risk-compliance\", \"name\": \"evidence-preservation\", \"display_name\": \"Evidence Preservation\", \"type\": \"O\", \"header\": \"Litigation hold / evidence protection: preserve records, logs, approvals; maintain confidentiality; prevent alteration.\", \"purpose\": \"Coordinate immediate preservation of Wire Platform records (reference IDs), CDD/EDD repository artifacts, approvals (chat/email), and access logs.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"treasury-services\", \"name\": \"wire-platform-ops\", \"display_name\": \"Wire Platform Ops\", \"type\": \"O\", \"header\": \"Wire operations coordination (reference IDs only; avoid sharing customer PII).\", \"purpose\": \"Coordinate wire approvals, retrieval of wire platform evidence, and confirm the specific records/transactions subject to preservation.\"}}\n{\"type\": \"channel\", \"channel\": {\"team\": \"treasury-services\", \"name\": \"treasury-controls-remediation\", \"display_name\": \"Treasury Controls Remediation\", \"type\": \"O\", \"header\": \"Control gaps, remediation tasks, owners, due dates, validation approach.\", \"purpose\": \"Track control-remediation tasks for Treasury Services based on investigation outcomes (EDD checklist storage, approvals workflow, access logging/monitoring).\"}}\n{\"type\": \"user\", \"user\": {\"username\": \"daniel.han\", \"email\": \"daniel.han@harborpoint.com\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Daniel\", \"first_name\": \"Daniel\", \"last_name\": \"Han\", \"position\": \"Operations Manager\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"risk-compliance\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"aml-investigations\", \"roles\": \"channel_user\"}, {\"name\": \"evidence-preservation\", \"roles\": \"channel_user\"}]}, {\"name\": \"treasury-services\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"wire-platform-ops\", \"roles\": \"channel_user\"}, {\"name\": \"treasury-controls-remediation\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"sarah.kim\", \"email\": \"sarah.kim@harborpoint.com\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Sarah\", \"first_name\": \"Sarah\", \"last_name\": \"Kim\", \"position\": \"BSA/AML Compliance Officer\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"risk-compliance\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"aml-investigations\", \"roles\": \"channel_user\"}, {\"name\": \"evidence-preservation\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"michael.ortiz\", \"email\": \"michael.ortiz@harborpoint.com\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Mike\", \"first_name\": \"Michael\", \"last_name\": \"Ortiz\", \"position\": \"Treasury Services Operations Lead\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"treasury-services\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"wire-platform-ops\", \"roles\": \"channel_user\"}, {\"name\": \"treasury-controls-remediation\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"user\", \"user\": {\"username\": \"linda.patel\", \"email\": \"linda.patel@harborpoint.com\", \"password\": \"my_drbench_pwd\", \"nickname\": \"Linda\", \"first_name\": \"Linda\", \"last_name\": \"Patel\", \"position\": \"Information Security & eDiscovery Manager\", \"roles\": \"system_user\", \"locale\": \"en\", \"teams\": [{\"name\": \"risk-compliance\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"evidence-preservation\", \"roles\": \"channel_user\"}]}, {\"name\": \"treasury-services\", \"roles\": \"team_user\", \"channels\": [{\"name\": \"wire-platform-ops\", \"roles\": \"channel_user\"}]}]}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"aml-investigations\", \"user\": \"sarah.kim\", \"message\": \"For next Tuesday\\u2019s AML Investigations huddle, I\\u2019m proposing a 30-min agenda: (1) Q1 wire-alert volume trends (high-level only), (2) staffing coverage for month-end, (3) quick refresh on what to include in weekly metrics. If you have items to add, drop them here by EOD Friday.\", \"create_at\": 1775726100000}}\n{\"type\": \"post\", \"post\": {\"team\": \"treasury-services\", \"channel\": \"wire-platform-ops\", \"user\": \"michael.ortiz\", \"message\": \"Heads up: the Wire Platform vendor scheduled a maintenance window this Thursday 8:00\\u20139:30 PM ET. Expect intermittent login issues and delayed status updates. Please route any urgent wires earlier in the day and remind the teams to use reference IDs (no customer details) if they need to flag an issue.\", \"create_at\": 1775728920000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"evidence-preservation\", \"user\": \"linda.patel\", \"message\": \"IT note: we\\u2019re migrating the archival storage tier this weekend to improve search performance and reduce mailbox storage costs. No action needed from most users, but if you have any legacy project folders labeled \\u201cTEST\\u201d from last year, please delete them by Friday so they don\\u2019t get carried into the new archive.\", \"create_at\": 1775732580000}}\n{\"type\": \"post\", \"post\": {\"team\": \"treasury-services\", \"channel\": \"treasury-controls-remediation\", \"user\": \"daniel.han\", \"message\": \"I updated the remediation tracker with owners for the SOP refresh (wire callbacks, dual-approval routing, and cash management onboarding checklist). Please confirm your task due dates by tomorrow so I can roll the consolidated timeline up to Ops leadership for the April status pack.\", \"create_at\": 1775735940000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"aml-investigations\", \"user\": \"daniel.han\", \"message\": \"Budget question for Q2: do we have room to renew the transaction monitoring training licenses for the new analyst cohort, or should we consolidate into fewer seats? Finance is asking for final counts by Monday, and I want to avoid a last-minute procurement scramble.\", \"create_at\": 1775738760000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"aml-investigations\", \"user\": \"sarah.kim\", \"message\": \"Flagging a potential internal compliance violation tied to recent wire activity + missing/insufficient EDD artifacts. Before we interview anyone, we need to confirm (1) which systems/records must be preserved and (2) what the investigation deliverables are for the case file and any SAR decisioning. Please keep this channel free of customer PII\\u2014reference IDs only.\", \"create_at\": 1764877200000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"aml-investigations\", \"user\": \"daniel.han\", \"message\": \"Agree. From an operations standpoint, the primary evidence will come from two places:\\n1) Wire Platform records (by wire reference ID) including initiation, edits, approvals/overrides, and any hold/release actions.\\n2) The CDD/EDD repository where the EDD checklist/supporting docs are supposed to be stored (plus metadata showing when/if it was uploaded).\\n\\nReason: if the issue is \\u201cwire processed without complete EDD,\\u201d we need both the transaction audit trail and the due diligence artifact trail to determine what was known/approved at the time and whether controls were bypassed.\", \"create_at\": 1764877440000}}\n{\"type\": \"post\", \"post\": {\"team\": \"treasury-services\", \"channel\": \"wire-platform-ops\", \"user\": \"michael.ortiz\", \"message\": \"For preservation scope, the wires in question (reference IDs only) are:\\n- WP-9842231\\n- WP-9842299\\n- WP-9842450\\nAll within the last 10 business days. Each has at least one manual approval step in the Wire Platform. We can export the wire audit trail and approvals history, but we should do it under evidence hold so timestamps and logs are defensible.\", \"create_at\": 1764877680000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"evidence-preservation\", \"user\": \"linda.patel\", \"message\": \"Setting immediate evidence-protection steps now. For defensibility/spoliation risk, we need to preserve and prevent alteration of:\\n- Wire Platform: the full transaction records for WP-9842231 / WP-9842299 / WP-9842450 (incl. audit logs, approval/override history, user actions, and any exception/hold notes).\\n- CDD/EDD repository: the EDD checklist files and attachments (or proof of absence), plus upload/edit history (timestamps, user IDs).\\n- Approval communications: any chat/email approvals or exceptions related to the above reference IDs (preserve in place and export to the case folder).\\n- Access logs: Wire Platform and EDD repository access logs for relevant users/time window.\\n\\nImmediate need: litigation-style hold (confidential) + restrict changes (no deletions/edits), preserve exports with hash values, and limit distribution to need-to-know. I\\u2019ll coordinate with Wire Ops for system snapshots and with Compliance for the case file structure.\", \"create_at\": 1764877980000}}\n{\"type\": \"post\", \"post\": {\"team\": \"treasury-services\", \"channel\": \"wire-platform-ops\", \"user\": \"michael.ortiz\", \"message\": \"Understood. We\\u2019ll pause any non-essential maintenance that could rotate Wire Platform logs for that window. I can provide:\\n- PDF export of each wire detail screen (no customer PII in the export if you prefer\\u2014just internal reference + workflow history)\\n- System audit export (CSV) showing event types (create/edit/approve/release), actor IDs, timestamps\\n\\nLinda\\u2014tell me if you want a point-in-time snapshot of the approvals queue history as well.\", \"create_at\": 1764878160000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"evidence-preservation\", \"user\": \"linda.patel\", \"message\": \"Yes\\u2014include the approvals queue history snapshot. Also preserving Teams/Email: please do not forward threads or \\u201cclean up\\u201d chats. We\\u2019ll collect via eDiscovery so metadata remains intact.\\n\\nFor everyone: keep this confidential. If we need interviews later, Compliance will handle sequencing after preservation is complete.\", \"create_at\": 1764878400000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"aml-investigations\", \"user\": \"sarah.kim\", \"message\": \"Thank you. To align on endpoints: the investigation must produce (a) a documented findings memo, (b) a SAR decision record (filed/not filed) with rationale + required approvals captured, and (c) any Treasury Services control-remediation tasks if there\\u2019s a control gap.\\n\\nThe findings memo needs to clearly tie evidence back to: what policy/control requirement applied, what happened, who approved/overrode, whether EDD was present at the time, and whether this is a one-off vs. systemic.\", \"create_at\": 1764878640000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"aml-investigations\", \"user\": \"daniel.han\", \"message\": \"Adding: the deliverables should be packaged into the compliance case file as an auditable record:\\n- Evidence index (what we preserved, from which system, date/time, hash/chain-of-custody)\\n- Findings memo (facts + analysis + conclusion)\\n- SAR decisioning record with approvals (Compliance Officer + any required committee sign-off)\\n- Remediation plan (if applicable): owner, due dates, validation approach\\n\\nThis structure helps if regulators ask how we prevented alteration, where we sourced primary evidence (wire records + EDD artifacts), and how we reached the SAR decision.\", \"create_at\": 1764878880000}}\n{\"type\": \"post\", \"post\": {\"team\": \"treasury-services\", \"channel\": \"treasury-controls-remediation\", \"user\": \"michael.ortiz\", \"message\": \"If the evidence shows EDD checklist storage/attachment is the failure point, likely remediation items on Treasury side could include:\\n- Hard-stop in the wire workflow when EDD flag is incomplete (or enforced exception workflow)\\n- Standardized location/linking of EDD checklist in the CDD/EDD repository (no local copies)\\n- Stronger approvals workflow documentation (so approvals can\\u2019t happen solely via informal chat)\\n- Ongoing monitoring of access logs/override frequency\\n\\nOnce Compliance confirms findings, I\\u2019ll assign owners/dates here so it\\u2019s trackable.\", \"create_at\": 1764879120000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"evidence-preservation\", \"user\": \"linda.patel\", \"message\": \"Evidence hold is active for:\\n- Wire Platform (transactions + audit/approval logs) for WP-9842231 / WP-9842299 / WP-9842450\\n- CDD/EDD repository (EDD checklist + attachments + version history)\\n- Access logs for both systems\\n- Related approval communications (Teams/email) collected via eDiscovery\\n\\nNext step is controlled export into the case workspace with chain-of-custody notes. This ensures we can demonstrate records were preserved immediately and kept confidential, and it prevents accidental edits/deletions while the investigation runs.\", \"create_at\": 1764879360000}}\n{\"type\": \"post\", \"post\": {\"team\": \"risk-compliance\", \"channel\": \"aml-investigations\", \"user\": \"sarah.kim\", \"message\": \"Perfect. Once Linda confirms exports are complete, we\\u2019ll proceed with analysis against policy requirements and draft the findings memo + SAR decision record. Mike\\u2014hold off on any coaching discussions with staff until we\\u2019ve documented the facts and secured evidence. We\\u2019ll route remediation tasks through Treasury Controls Remediation after findings are finalized and approvals are captured in the case file.\", \"create_at\": 1764879600000}}",
+    "chat_setup": {
+        "teams": [
+            {
+                "type": "team",
+                "team": {
+                    "name": "risk-compliance",
+                    "display_name": "Risk & Compliance",
+                    "type": "O",
+                    "header": "HarborPoint Community Bank | Risk, Compliance, AML, Regulatory Operations",
+                    "purpose": "Coordinate regulatory obligations, internal controls, investigations, and documentation/approvals for compliance case files."
+                }
+            },
+            {
+                "type": "team",
+                "team": {
+                    "name": "treasury-services",
+                    "display_name": "Treasury Services",
+                    "type": "O",
+                    "header": "HarborPoint Community Bank | Treasury Services Operations (Wires, Payments, Cash Management)",
+                    "purpose": "Operational coordination for wire processing, approvals, control execution, and remediation actions impacting Treasury Services."
+                }
+            }
+        ],
+        "channels": [
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "risk-compliance",
+                    "name": "aml-investigations",
+                    "display_name": "AML Investigations",
+                    "type": "O",
+                    "header": "Use for investigation coordination, findings memos, and SAR decisioning (no customer PII).",
+                    "purpose": "Discuss investigation steps for wire activity and missing/insufficient EDD artifacts; track findings memo inputs and SAR decision record requirements."
+                }
+            },
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "risk-compliance",
+                    "name": "evidence-preservation",
+                    "display_name": "Evidence Preservation",
+                    "type": "O",
+                    "header": "Litigation hold / evidence protection: preserve records, logs, approvals; maintain confidentiality; prevent alteration.",
+                    "purpose": "Coordinate immediate preservation of Wire Platform records (reference IDs), CDD/EDD repository artifacts, approvals (chat/email), and access logs."
+                }
+            },
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "treasury-services",
+                    "name": "wire-platform-ops",
+                    "display_name": "Wire Platform Ops",
+                    "type": "O",
+                    "header": "Wire operations coordination (reference IDs only; avoid sharing customer PII).",
+                    "purpose": "Coordinate wire approvals, retrieval of wire platform evidence, and confirm the specific records/transactions subject to preservation."
+                }
+            },
+            {
+                "type": "channel",
+                "channel": {
+                    "team": "treasury-services",
+                    "name": "treasury-controls-remediation",
+                    "display_name": "Treasury Controls Remediation",
+                    "type": "O",
+                    "header": "Control gaps, remediation tasks, owners, due dates, validation approach.",
+                    "purpose": "Track control-remediation tasks for Treasury Services based on investigation outcomes (EDD checklist storage, approvals workflow, access logging/monitoring)."
+                }
+            }
+        ],
+        "users": [
+            {
+                "type": "user",
+                "user": {
+                    "username": "daniel.han",
+                    "email": "daniel.han@harborpoint.com",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Daniel",
+                    "first_name": "Daniel",
+                    "last_name": "Han",
+                    "position": "Operations Manager",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "risk-compliance",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "aml-investigations",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "evidence-preservation",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "treasury-services",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "wire-platform-ops",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "treasury-controls-remediation",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "sarah.kim",
+                    "email": "sarah.kim@harborpoint.com",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Sarah",
+                    "first_name": "Sarah",
+                    "last_name": "Kim",
+                    "position": "BSA/AML Compliance Officer",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "risk-compliance",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "aml-investigations",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "evidence-preservation",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "michael.ortiz",
+                    "email": "michael.ortiz@harborpoint.com",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Mike",
+                    "first_name": "Michael",
+                    "last_name": "Ortiz",
+                    "position": "Treasury Services Operations Lead",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "treasury-services",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "wire-platform-ops",
+                                    "roles": "channel_user"
+                                },
+                                {
+                                    "name": "treasury-controls-remediation",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "user",
+                "user": {
+                    "username": "linda.patel",
+                    "email": "linda.patel@harborpoint.com",
+                    "password": "my_drbench_pwd",
+                    "nickname": "Linda",
+                    "first_name": "Linda",
+                    "last_name": "Patel",
+                    "position": "Information Security & eDiscovery Manager",
+                    "roles": "system_user",
+                    "locale": "en",
+                    "teams": [
+                        {
+                            "name": "risk-compliance",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "evidence-preservation",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "treasury-services",
+                            "roles": "team_user",
+                            "channels": [
+                                {
+                                    "name": "wire-platform-ops",
+                                    "roles": "channel_user"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "chat_messages": [
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "aml-investigations",
+                "user": "sarah.kim",
+                "message": "Flagging a potential internal compliance violation tied to recent wire activity + missing/insufficient EDD artifacts. Before we interview anyone, we need to confirm (1) which systems/records must be preserved and (2) what the investigation deliverables are for the case file and any SAR decisioning. Please keep this channel free of customer PII\u2014reference IDs only.",
+                "create_at": 1764877200000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "aml-investigations",
+                "user": "daniel.han",
+                "message": "Agree. From an operations standpoint, the primary evidence will come from two places:\n1) Wire Platform records (by wire reference ID) including initiation, edits, approvals/overrides, and any hold/release actions.\n2) The CDD/EDD repository where the EDD checklist/supporting docs are supposed to be stored (plus metadata showing when/if it was uploaded).\n\nReason: if the issue is \u201cwire processed without complete EDD,\u201d we need both the transaction audit trail and the due diligence artifact trail to determine what was known/approved at the time and whether controls were bypassed.",
+                "create_at": 1764877440000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "treasury-services",
+                "channel": "wire-platform-ops",
+                "user": "michael.ortiz",
+                "message": "For preservation scope, the wires in question (reference IDs only) are:\n- WP-9842231\n- WP-9842299\n- WP-9842450\nAll within the last 10 business days. Each has at least one manual approval step in the Wire Platform. We can export the wire audit trail and approvals history, but we should do it under evidence hold so timestamps and logs are defensible.",
+                "create_at": 1764877680000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "evidence-preservation",
+                "user": "linda.patel",
+                "message": "Setting immediate evidence-protection steps now. For defensibility/spoliation risk, we need to preserve and prevent alteration of:\n- Wire Platform: the full transaction records for WP-9842231 / WP-9842299 / WP-9842450 (incl. audit logs, approval/override history, user actions, and any exception/hold notes).\n- CDD/EDD repository: the EDD checklist files and attachments (or proof of absence), plus upload/edit history (timestamps, user IDs).\n- Approval communications: any chat/email approvals or exceptions related to the above reference IDs (preserve in place and export to the case folder).\n- Access logs: Wire Platform and EDD repository access logs for relevant users/time window.\n\nImmediate need: litigation-style hold (confidential) + restrict changes (no deletions/edits), preserve exports with hash values, and limit distribution to need-to-know. I\u2019ll coordinate with Wire Ops for system snapshots and with Compliance for the case file structure.",
+                "create_at": 1764877980000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "treasury-services",
+                "channel": "wire-platform-ops",
+                "user": "michael.ortiz",
+                "message": "Understood. We\u2019ll pause any non-essential maintenance that could rotate Wire Platform logs for that window. I can provide:\n- PDF export of each wire detail screen (no customer PII in the export if you prefer\u2014just internal reference + workflow history)\n- System audit export (CSV) showing event types (create/edit/approve/release), actor IDs, timestamps\n\nLinda\u2014tell me if you want a point-in-time snapshot of the approvals queue history as well.",
+                "create_at": 1764878160000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "evidence-preservation",
+                "user": "linda.patel",
+                "message": "Yes\u2014include the approvals queue history snapshot. Also preserving Teams/Email: please do not forward threads or \u201cclean up\u201d chats. We\u2019ll collect via eDiscovery so metadata remains intact.\n\nFor everyone: keep this confidential. If we need interviews later, Compliance will handle sequencing after preservation is complete.",
+                "create_at": 1764878400000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "aml-investigations",
+                "user": "sarah.kim",
+                "message": "Thank you. To align on endpoints: the investigation must produce (a) a documented findings memo, (b) a SAR decision record (filed/not filed) with rationale + required approvals captured, and (c) any Treasury Services control-remediation tasks if there\u2019s a control gap.\n\nThe findings memo needs to clearly tie evidence back to: what policy/control requirement applied, what happened, who approved/overrode, whether EDD was present at the time, and whether this is a one-off vs. systemic.",
+                "create_at": 1764878640000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "aml-investigations",
+                "user": "daniel.han",
+                "message": "Adding: the deliverables should be packaged into the compliance case file as an auditable record:\n- Evidence index (what we preserved, from which system, date/time, hash/chain-of-custody)\n- Findings memo (facts + analysis + conclusion)\n- SAR decisioning record with approvals (Compliance Officer + any required committee sign-off)\n- Remediation plan (if applicable): owner, due dates, validation approach\n\nThis structure helps if regulators ask how we prevented alteration, where we sourced primary evidence (wire records + EDD artifacts), and how we reached the SAR decision.",
+                "create_at": 1764878880000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "treasury-services",
+                "channel": "treasury-controls-remediation",
+                "user": "michael.ortiz",
+                "message": "If the evidence shows EDD checklist storage/attachment is the failure point, likely remediation items on Treasury side could include:\n- Hard-stop in the wire workflow when EDD flag is incomplete (or enforced exception workflow)\n- Standardized location/linking of EDD checklist in the CDD/EDD repository (no local copies)\n- Stronger approvals workflow documentation (so approvals can\u2019t happen solely via informal chat)\n- Ongoing monitoring of access logs/override frequency\n\nOnce Compliance confirms findings, I\u2019ll assign owners/dates here so it\u2019s trackable.",
+                "create_at": 1764879120000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "evidence-preservation",
+                "user": "linda.patel",
+                "message": "Evidence hold is active for:\n- Wire Platform (transactions + audit/approval logs) for WP-9842231 / WP-9842299 / WP-9842450\n- CDD/EDD repository (EDD checklist + attachments + version history)\n- Access logs for both systems\n- Related approval communications (Teams/email) collected via eDiscovery\n\nNext step is controlled export into the case workspace with chain-of-custody notes. This ensures we can demonstrate records were preserved immediately and kept confidential, and it prevents accidental edits/deletions while the investigation runs.",
+                "create_at": 1764879360000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "aml-investigations",
+                "user": "sarah.kim",
+                "message": "Perfect. Once Linda confirms exports are complete, we\u2019ll proceed with analysis against policy requirements and draft the findings memo + SAR decision record. Mike\u2014hold off on any coaching discussions with staff until we\u2019ve documented the facts and secured evidence. We\u2019ll route remediation tasks through Treasury Controls Remediation after findings are finalized and approvals are captured in the case file.",
+                "create_at": 1764879600000
+            },
+            "tag": "insight"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "aml-investigations",
+                "user": "sarah.kim",
+                "message": "For next Tuesday\u2019s AML Investigations huddle, I\u2019m proposing a 30-min agenda: (1) Q1 wire-alert volume trends (high-level only), (2) staffing coverage for month-end, (3) quick refresh on what to include in weekly metrics. If you have items to add, drop them here by EOD Friday.",
+                "create_at": 1775726100000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "treasury-services",
+                "channel": "wire-platform-ops",
+                "user": "michael.ortiz",
+                "message": "Heads up: the Wire Platform vendor scheduled a maintenance window this Thursday 8:00\u20139:30 PM ET. Expect intermittent login issues and delayed status updates. Please route any urgent wires earlier in the day and remind the teams to use reference IDs (no customer details) if they need to flag an issue.",
+                "create_at": 1775728920000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "evidence-preservation",
+                "user": "linda.patel",
+                "message": "IT note: we\u2019re migrating the archival storage tier this weekend to improve search performance and reduce mailbox storage costs. No action needed from most users, but if you have any legacy project folders labeled \u201cTEST\u201d from last year, please delete them by Friday so they don\u2019t get carried into the new archive.",
+                "create_at": 1775732580000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "treasury-services",
+                "channel": "treasury-controls-remediation",
+                "user": "daniel.han",
+                "message": "I updated the remediation tracker with owners for the SOP refresh (wire callbacks, dual-approval routing, and cash management onboarding checklist). Please confirm your task due dates by tomorrow so I can roll the consolidated timeline up to Ops leadership for the April status pack.",
+                "create_at": 1775735940000
+            },
+            "tag": "distractor"
+        },
+        {
+            "type": "post",
+            "post": {
+                "team": "risk-compliance",
+                "channel": "aml-investigations",
+                "user": "daniel.han",
+                "message": "Budget question for Q2: do we have room to renew the transaction monitoring training licenses for the new analyst cohort, or should we consolidate into fewer seats? Finance is asking for final counts by Monday, and I want to avoid a last-minute procurement scramble.",
+                "create_at": 1775738760000
+            },
+            "tag": "distractor"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_chat_document.jsonl",
+    "qa_type": "insight",
+    "timestamp": "2026-04-09 10:17",
+    "app": "file_system"
+}

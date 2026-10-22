@@ -1,0 +1,203 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• monica.reyes
+  Name: Monica Reyes
+  Email: monica.reyes@harborpointbank.com
+
+• david.chen
+  Name: David Chen
+  Email: david.chen@harborpointbank.com
+
+• erin.kline
+  Name: Erin Kline
+  Email: erin.kline@harborpointbank.com
+
+• mark.walters
+  Name: Mark Walters
+  Email: mark.walters@harborpointbank.com
+
+• sophia.patel
+  Name: Sophia Patel
+  Email: sophia.patel@harborpointbank.com
+
+• daniel.han
+  Name: Daniel Han
+  Email: daniel.han@harborpoint.com
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-03-30 09:12:44
+From: Monica Reyes <monica.reyes@harborpointbank.com>
+To: erin.kline@harborpointbank.com, david.chen@harborpointbank.com
+CC: mark.walters@harborpointbank.com
+Subject: Exec QBR KPI Dashboard – confirm updates for this quarter
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi Erin/David,
+
+Ahead of Friday’s exec QBR packet, can you confirm what changed on the quarterly KPI dashboard versus last quarter? Mark asked specifically whether we’re still sending separate slides for branch experience, contact center, and digital, or if those are now combined.
+
+Also—please confirm refresh cadence so we can set expectations with the ELT (last quarter we had a few “as of” questions).
+
+Thanks,
+Monica
+
+Monica Reyes
+Director, Executive Reporting
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_002
+Date: 2026-03-30 10:03:19
+From: David Chen <david.chen@harborpointbank.com>
+To: monica.reyes@harborpointbank.com, erin.kline@harborpointbank.com
+CC: mark.walters@harborpointbank.com
+Subject: RE: Exec QBR KPI Dashboard – confirm updates for this quarter
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Monica,
+
+Confirmed—this quarter the analytics team changed the exec-facing quarterly KPI dashboard to add a consolidated “Client Experience & Adoption” view. It rolls up three items that used to be shown separately:
+
+- Branch NPS
+- Call-center abandon rate
+- Digital adoption
+
+We also set the dashboard to auto-refresh every Monday morning so the QBR deck reflects a consistent weekly cut (no more manual refresh before publishing).
+
+This is standard KPI reporting/ops work only—nothing compliance-related and it doesn’t change how we’d investigate any internal issue; it’s strictly about making the ELT view cleaner and more consistent.
+
+Erin—please chime in if you want any of the legacy tiles kept as appendix views.
+
+Thanks,
+David
+
+David Chen
+VP, Analytics & Insights
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_003
+Date: 2026-03-30 10:27:06
+From: Erin Kline <erin.kline@harborpointbank.com>
+To: monica.reyes@harborpointbank.com, david.chen@harborpointbank.com
+CC: mark.walters@harborpointbank.com
+Subject: RE: Exec QBR KPI Dashboard – confirm updates for this quarter
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Adding to David’s note:
+
+Yes, we replaced the three separate widgets with the consolidated view for exec reporting, and the Monday AM automated refresh is now the standard cadence. We’ll keep drill-downs available in the dashboard (branch/call center/digital tabs) but they won’t be in the default ELT view unless requested.
+
+Monica—good to message the ELT that the “as of” timestamp will always be Monday AM, which should reduce last-minute questions.
+
+Erin
+
+Erin Kline
+Director, Data Products & BI
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_001
+Date: 2026-04-14 09:12:44
+From: Monica Reyes <monica.reyes@harborpointbank.com>
+To: erin.kline@harborpointbank.com, david.chen@harborpointbank.com, daniel.han@harborpoint.com
+CC: sophia.patel@harborpointbank.com
+Subject: Q3 Treasury Client Webinar — agenda + speaker slots
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi Erin and David,
+
+We’re finalizing the Treasury Services client webinar for late May (target audience: small/mid-sized commercial clients; focus on ACH fraud prevention and liquidity tools). Can you confirm:
+
+1) Your availability for a 30-min dry run next week (Tue or Thu, 2:00–3:30pm)?
+2) Who will cover which segments:
+   - Product overview (Positive Pay, ACH blocks/filters)
+   - Client onboarding workflow + timeline
+   - Q&A moderation and follow-ups
+
+Sophia—can you share any recent client survey themes we should address (e.g., training gaps, portal navigation issues) without getting too deep into feature requests?
+
+I’ll circulate a draft agenda once I have speaker assignments.
+
+Thanks,
+Monica
+
+Monica Reyes
+Treasury Services | HarborPoint Community Bank
+(555) 013-8821
+============================================================
+
+Email ID: email_002
+Date: 2026-04-14 10:03:18
+From: Erin Kline <erin.kline@harborpointbank.com>
+To: monica.reyes@harborpointbank.com, david.chen@harborpointbank.com
+CC: sophia.patel@harborpointbank.com
+Subject: RE: Q3 Treasury Client Webinar — agenda + speaker slots
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Monica,
+
+Happy to support. Thu next week works best for me—2:30–3:30pm is ideal.
+
+For segments, I can cover:
+- Client onboarding workflow + timeline (including what clients need to provide for ACH and wires)
+- A quick slide on common implementation pitfalls (e.g., signer changes, token delivery timing)
+
+David—if you can take product overview, I can coordinate with Marketing on a simple “prep checklist” handout for attendees.
+
+Sophia—any top 3 client pain points from the last survey would help us tune the examples.
+
+Regards,
+Erin
+
+Erin Kline
+Client Enablement, Treasury Management | HarborPoint Community Bank
+============================================================
+
+Email ID: email_003
+Date: 2026-04-18 15:27:06
+From: Mark Walters <mark.walters@harborpointbank.com>
+To: sophia.patel@harborpointbank.com, monica.reyes@harborpointbank.com
+CC: david.chen@harborpointbank.com
+Subject: Branch staffing coverage — May PTO requests and lobby hours
+Folder: inbox | Status: Unread 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Sophia and Monica,
+
+Flagging a scheduling item: we have higher-than-usual PTO requests in the first two weeks of May at the North Harbor branch, and we need to confirm whether we can maintain normal lobby hours.
+
+Sophia—can you review the PTO calendar and let me know by Monday EOD if you’re able to shift one teller from the South Cove branch for coverage (3 days total)? If not, we’ll need to adjust appointment availability and put signage/email notices in place.
+
+Monica—if lobby hours change, Treasury may see an uptick in client calls about cashier’s checks and wire cutoffs. Can your team share a short script we can give to frontline staff (1 page) that clarifies same-day wire deadlines and who to route urgent items to?
+
+David—cc’ing you in case Retail Ops needs your input on comms to commercial clients who typically drop off documentation in person.
+
+Thanks,
+Mark
+
+Mark Walters
+Regional Branch Operations Manager | HarborPoint Community Bank
+(555) 014-2209
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

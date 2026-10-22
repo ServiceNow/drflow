@@ -1,0 +1,261 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• daniel.han
+  Name: Daniel Han
+  Email: daniel.han@harborpoint.com
+
+• monica.reyes
+  Name: Monica Reyes
+  Email: monica.reyes@harborpoint.com
+
+• james.whitaker
+  Name: James Whitaker
+  Email: james.whitaker@harborpoint.com
+
+• priya.natarajan
+  Name: Priya Natarajan
+  Email: priya.natarajan@harborpoint.com
+
+• laura.kim
+  Name: Laura Kim
+  Email: laura.kim@harborpoint.com
+
+• michael.owens
+  Name: Michael Owens
+  Email: michael.owens@harborpoint.com
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-04-02 09:14:22
+From: Priya Natarajan <priya.natarajan@harborpoint.com>
+To: daniel.han@harborpoint.com, monica.reyes@harborpoint.com
+CC: james.whitaker@harborpoint.com
+Subject: Q2 Treasury Services Metrics — Data Cut and Dashboard Refresh
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Daniel and Monica,
+
+I’m pulling together the Q2 Treasury Services operating metrics for the leadership dashboard refresh. Can you confirm the agreed data cut for:
+
+• ACH returns and exception items (Ops)
+• Wire volume and average processing time (Ops)
+• Client onboarding cycle time (Treasury)
+
+If we’re aligned on using end-of-day Fridays, I’ll set the PowerBI extract to refresh early Monday mornings.
+
+Also, are we still excluding the small-business pilot portfolio from the baseline metrics (so it’s reported separately)?
+
+Thanks,
+Priya
+============================================================
+
+Email ID: email_002
+Date: 2026-04-02 10:03:47
+From: Daniel Han <daniel.han@harborpoint.com>
+To: priya.natarajan@harborpoint.com, monica.reyes@harborpoint.com
+CC: james.whitaker@harborpoint.com
+Subject: Re: Q2 Treasury Services Metrics — Data Cut and Dashboard Refresh
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Priya,
+
+Yes—end-of-day Friday is what we’ve been using for the Ops feeds.
+
+For Q2, let’s keep the small-business pilot portfolio excluded from the baseline and show it as a separate tile. That’s been helpful for leadership context.
+
+Monica—can you confirm Treasury onboarding cycle time is still measured from “application complete” to “first successful funding/transaction,” not contract signature?
+
+Thanks,
+Daniel
+Operations Manager | HarborPoint Community Bank
+============================================================
+
+Email ID: email_003
+Date: 2026-04-03 14:26:09
+From: Monica Reyes <monica.reyes@harborpoint.com>
+To: daniel.han@harborpoint.com, michael.owens@harborpoint.com, laura.kim@harborpoint.com
+Subject: April Ops Huddle — Agenda Items and Time Confirmation
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Daniel, Michael, Laura,
+
+Can we confirm the April Ops Huddle for Tuesday, 4/8 from 11:00–11:45 AM?
+
+Proposed agenda:
+1) Treasury onboarding queue: staffing coverage and SLAs (Michael)
+2) Lending booking backlog: end-of-month spike mitigation (Laura)
+3) Policy acknowledgment tracking: current completion rate by unit (Daniel)
+4) Customer feedback highlights from branch referrals into treasury products (Monica)
+
+If anyone has additional topics, please send by EOD Monday so I can finalize the deck.
+
+Thanks,
+Monica
+============================================================
+
+Email ID: email_004
+Date: 2026-04-04 08:41:55
+From: Michael Owens <michael.owens@harborpoint.com>
+To: daniel.han@harborpoint.com, laura.kim@harborpoint.com
+CC: monica.reyes@harborpoint.com
+Subject: Vendor Training Slots — Fraud Analytics Tool (April/May)
+Folder: inbox | Status: Unread
+
+Message Body:
+----------------------------------------
+Daniel and Laura,
+
+The vendor confirmed additional training slots for the fraud analytics tool rollout. Options are:
+
+• Wed 4/16, 2:00–3:30 PM (virtual)
+• Fri 4/25, 10:00–11:30 AM (virtual)
+• Tue 5/6, 1:00–2:30 PM (in-person, HQ Conf B)
+
+Recommendation: we prioritize teams supporting wire callbacks and ACH exceptions, then open the remaining seats to branch ops and lending ops.
+
+Daniel—can you let me know which slot works best for your cross-unit policy and controls leads? I’d like to finalize the attendee list by next Wednesday.
+
+Thanks,
+Michael
+============================================================
+
+Email ID: email_005
+Date: 2026-04-07 16:18:30
+From: James Whitaker <james.whitaker@harborpoint.com>
+To: daniel.han@harborpoint.com
+CC: priya.natarajan@harborpoint.com
+Subject: Q3 Budget Inputs — Ops Controls Testing Hours and Overtime Assumptions
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Daniel,
+
+As we lock Q3 budget inputs, I need your estimates for:
+
+1) Controls testing hours (by month) for the multi-unit review calendar
+2) Any expected overtime in Ops tied to month-end volume (wires/ACH) and lending booking
+3) Travel/training expenses for the policy implementation workshops
+
+If helpful, you can provide ranges (low/likely/high). Priya is consolidating the broader Ops numbers, so I copied her here.
+
+Please send your inputs by Thursday noon so Finance can finalize the draft.
+
+Thanks,
+James
+FP&A | HarborPoint Community Bank
+============================================================
+
+Email ID: email_001
+Date: 2026-04-08 09:12:44
+From: Daniel Han <daniel.han@harborpoint.com>
+To: monica.reyes@harborpoint.com
+CC: laura.kim@harborpoint.com, priya.natarajan@harborpoint.com
+Subject: Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Monica,
+
+We received a report via manager escalation that a Relationship Manager may have advised a business client to split outgoing wires into smaller amounts after the client asked about “review thresholds.” There’s also a question of whether the RM bypassed the normal approval path for the second and third wires by using a different template.
+
+I need your guidance on the exact steps we should take to investigate this as a potential internal compliance violation (initial triage through fact-finding). Specifically:
+- Who needs to be looped in immediately (AML/BSA vs. Privacy vs. IT Security vs. Audit)?
+- What evidence should we preserve first (wire system logs, emails/IMs, case notes)?
+- At what point do we decide whether we’re on a SAR decision track?
+
+So far, the report references wire activity and internal process circumvention, but does not mention any customer information being sent externally.
+
+Thanks,
+Daniel Han
+Operations Manager
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_002
+Date: 2026-04-08 10:01:18
+From: Monica Reyes <monica.reyes@harborpoint.com>
+To: daniel.han@harborpoint.com
+CC: laura.kim@harborpoint.com, priya.natarajan@harborpoint.com
+Subject: RE: Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Daniel,
+
+Agree this should be handled as a compliance investigation with early AML/BSA involvement.
+
+1) Immediate escalation / who to loop in
+- Loop in the BSA Officer (my team) now. Because the report touches wire activity + potential structuring/avoidance behavior (splitting wires after asking about thresholds), we need to assess quickly whether this belongs on a SAR decision track. Early BSA involvement helps ensure we preserve the right facts for SAR decisioning and avoid delays if the activity is determined to be suspicious.
+- Keep Internal Audit (Laura) in the loop for controls/process questions, but we should not turn this into an audit review yet—treat it as a case with documented investigative steps.
+- Do NOT treat this as a privacy/data-breach response at this time. There are currently no indicators of customer PII exposure (no mention of emails sent to the wrong recipients, stolen devices, unauthorized database downloads/exfiltration, or external sharing of customer lists). Priya can remain CC’d for awareness, but this does not look like a privacy incident.
+- Bring IT Security (Michael) only if we identify signs of data access abuse (mass downloads, unusual access patterns) or if we need to preserve endpoint evidence beyond normal retention.
+
+2) First evidence to preserve (today)
+- Wire transfer records for the customer and any related entities: dates/times, amounts, beneficiaries, templates used, approver trail, overrides.
+- System logs: who initiated/edited/approved each wire; any template changes; any use of “alternate” workflow.
+- RM communications and notes: CRM notes, call logs (if recorded), internal emails/Teams/IMs referencing thresholds, split transactions, or approvals.
+- Policy/procedure references: current wire approval and exception policy; any approvals granted outside procedure.
+
+3) Suggested investigation steps (next 3–5 business days)
+- Open a formal case file with a single case owner; document allegation, scope, time period, and initial risk rating.
+- Implement “need-to-know” restrictions; avoid tipping off the RM until we have preserved communications.
+- Build a timeline: client inquiry → RM response → wire instructions → approvals/overrides → any follow-on activity.
+- Conduct interviews in this order: (a) operations/wire processing staff who executed the wires; (b) approver(s); (c) RM last.
+- Determine whether the behavior indicates: (i) customer-initiated structuring/avoidance, (ii) employee facilitation, or (iii) control bypass without customer intent.
+
+4) SAR-related escalation / decision track
+- Given the structuring/avoidance cues, we should treat this as “SAR evaluation required” until we can rule it out. That means: document key facts, collect supporting records, and route to BSA Officer review early rather than waiting for a full HR/controls conclusion.
+- If facts support suspicion, we’ll follow our standard SAR decisioning workflow (case narrative, supporting docs, decision committee as applicable, filing timeline tracking).
+
+If you want, I can join a 20-minute triage call today to align on scope and assign a case owner.
+
+Monica Reyes
+Director, BSA/AML Compliance
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_003
+Date: 2026-04-08 10:24:37
+From: Daniel Han <daniel.han@harborpoint.com>
+To: monica.reyes@harborpoint.com
+CC: laura.kim@harborpoint.com, priya.natarajan@harborpoint.com
+Subject: RE: Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern) — Next Steps
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Monica,
+
+This is helpful—thank you.
+
+We’ll proceed as follows:
+- Open a formal investigation case file today (I’ll assign case owner from Ops Controls) and document allegation/scope/time window.
+- Preserve wire records + system logs (initiator/editor/approver trails, template history, any overrides) and place a hold on relevant CRM notes and internal comms for the RM and wire ops team.
+- Keep distribution tight until evidence is preserved; we will not interview the RM until after we complete the initial data capture.
+- Treat as “SAR evaluation required” and engage the BSA Officer early per your guidance, given the potential structuring/avoidance element.
+- No privacy/incident-response activation at this point since we have no indicators of customer PII exposure (no misdirected communications, stolen device, or unauthorized downloads). Priya, we’ll update you if any evidence suggests data exposure.
+
+Let’s do the 20-minute triage call at 2:00 PM today. I’ll send the invite.
+
+Daniel Han
+Operations Manager
+HarborPoint Community Bank
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

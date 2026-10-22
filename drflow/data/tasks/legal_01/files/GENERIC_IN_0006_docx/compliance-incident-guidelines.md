@@ -1,0 +1,13 @@
+# Compliance Incident Management Guidelines
+
+## Introduction
+
+This document provides HarborPoint Community Bank with standardized guidance for managing potential compliance incidents within lending and treasury operations. It establishes consistent roles, documentation expectations, and control points to support regulatory readiness and internal accountability. The guidance applies to all employees, contractors, and business units when concerns arise regarding policy, legal, or ethical adherence. These standards are designed to protect customers, the Bank, and its employees through timely and well-governed actions.
+
+## Issue Intake and Triage Workflow
+
+During intake and triage, the Case Manager logs the allegation in CCP and immediately reviews all named individuals for potential independence conflicts; when conflicts are identified, the matter is escalated in accordance with CP-102 before any preservation decisions are finalized. Once independence is confirmed or the escalation outcome is documented, the team assesses whether the fact pattern suggests intentional misconduct, a credible litigation threat, or a pending/active regulator inquiry, as these conditions trigger heightened preservation requirements. If preservation is warranted, Legal Hold Notice LH-7 is prepared and issued to the custodians identified in CP-101, and the issuance date, recipient list, and any acknowledgments or follow-ups are recorded in CCP for auditability. If the threshold for a hold is not met, CCP must reflect a documented “no hold” determination, including the rationale and a specific review date to reassess as additional facts emerge. This decision-and-review discipline ensures HarborPoint preserves relevant records when required while avoiding unnecessary operational disruption to lending and treasury teams.
+
+## Conclusion
+
+Consistent handling of potential compliance incidents helps ensure fair, defensible outcomes and reduces regulatory and reputational risk. Adhering to defined governance, escalation, and documentation practices supports auditability and effective oversight. When applied uniformly across business lines, these guidelines reinforce a strong culture of integrity and accountability. Leaders are responsible for ensuring teams understand and follow these standards whenever concerns are identified.

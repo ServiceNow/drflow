@@ -1,0 +1,13 @@
+# Faculty Appointment Administrative Operations Manual
+
+## Introduction
+
+This manual establishes standardized administrative practices that support Eastport University’s academic mission across colleges and central offices. It provides governance-aligned guidance for stakeholders who manage faculty-related operations in a high-compliance research environment. The document is designed to promote consistency, reduce operational risk, and improve service quality for academic units. Procedures herein are intended for use alongside applicable university policies and collective governance requirements.
+
+## Research Compliance and Export Controls
+
+To mitigate compliance risk associated with restricted-party screening holds and other export-control-related flags that can affect student funding timelines, Eastport University’s Financial Aid Office processes awards using a controlled workflow each admission cycle and term. Staff import FAFSA/ISIR files, verify eligibility, run Satisfactory Academic Progress (SAP) checks, and generate award letters, while resolving verification flags and updating Cost of Attendance budgets before posting awards to the student information system. If verification is required, required documents are requested and awards are paused until completion; if SAP is not met, an appeal workflow is triggered and decision outcomes are applied to continued eligibility. For term disbursements, Financial Aid coordinates with Student Accounts to release funds, manage refunds, and correct overawards in accordance with federal, state, and institutional rules.
+
+## Conclusion
+
+Consistent execution of these guidelines strengthens operational reliability across colleges and central service units. Adherence reduces compliance exposure, supports accurate financial reporting, and improves audit readiness in a research-intensive environment. Clear governance and standardized controls also shorten resolution times for cross-functional issues. Units should review and update local practices regularly to remain aligned with university standards.

@@ -1,0 +1,248 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• aisha.rahman
+  Name: Aisha Rahman
+  Email: aisha.rahman@eastportuniversity.edu
+
+• monica.hayes
+  Name: Monica Hayes
+  Email: monica.hayes@eastportuniversity.edu
+
+• david.chen
+  Name: David Chen
+  Email: david.chen@eastportuniversity.edu
+
+• sarah.kline
+  Name: Sarah Kline
+  Email: sarah.kline@eastportuniversity.edu
+
+• james.okafor
+  Name: James Okafor
+  Email: james.okafor@eastportuniversity.edu
+
+• lena.martinez
+  Name: Lena Martinez
+  Email: lena.martinez@eastportuniversity.edu
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-03-18 09:12:44
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: monica.hayes@eastportuniversity.edu, david.chen@eastportuniversity.edu
+CC: lena.martinez@eastportuniversity.edu
+Subject: Spring Graduate Orientation: Room Hold + AV Request Deadline
+Folder: sent | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Monica and David,
+
+Quick heads-up for Spring Graduate Orientation planning: Event Services asked that we finalize room holds and AV needs by next Wednesday (3/26) to avoid losing the tentative reservations.
+
+Current plan:
+- Main session: Harbor Hall Auditorium (9:00–10:30)
+- Resource fair: Harbor Hall Lobby (10:45–12:15)
+- Breakouts: 3 nearby classrooms (12:30–1:30)
+
+If you have any must-have AV items (extra mics, confidence monitor, recording, Zoom hybrid setup, etc.), please reply with specifics by Friday so I can submit a single consolidated request.
+
+Also, if either of you wants a table at the resource fair, please confirm whether you need power and how many seats.
+
+Thanks,
+Aisha
+
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+============================================================
+
+Email ID: email_001
+Date: 2026-03-18 09:14:22
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: david.chen@eastportuniversity.edu, monica.hayes@eastportuniversity.edu
+CC: sarah.kline@eastportuniversity.edu
+Subject: Tenure-Track Faculty Onboarding – Payroll/Benefits Steps to Include in Welcome Packet
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi David and Monica,
+
+I’m updating the onboarding workflow and welcome packet for newly hired tenure-track faculty (starting this summer). Can you confirm the required payroll/HR actions we need to communicate so the faculty member can be paid on time and enroll in benefits without delays?
+
+Specifically:
+1) Are new TT faculty paid through payroll (vs. stipend), and what are the must-do items before their start date?
+2) What items must be completed in person vs. in the HR portal?
+3) When do you recommend benefits enrollment occur, and what support is available (orientation/1:1 consult)?
+
+Thanks—trying to keep our steps consistent across colleges.
+
+Best,
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+============================================================
+
+Email ID: email_002
+Date: 2026-03-18 10:03:19
+From: Monica Hayes <monica.hayes@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu
+CC: david.chen@eastportuniversity.edu, lena.martinez@eastportuniversity.edu
+Subject: Re: Spring Graduate Orientation: Room Hold + AV Request Deadline
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Thanks for flagging. For the resource fair table, we’d like:
+- 1 table + 2 chairs
+- Power (we’ll run a laptop and small monitor)
+
+For AV in the main session:
+- One additional handheld mic (we’ve had Q&A issues with only one)
+- If available, a simple recording for internal recap (no editing needed)
+
+Also, could you confirm if Harbor Hall Auditorium has a lectern connection for HDMI? If not, we can bring an adapter set.
+
+Best,
+Monica
+
+Monica Hayes
+Program Operations
+============================================================
+
+Email ID: email_002
+Date: 2026-03-18 11:02:47
+From: David Chen <david.chen@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, monica.hayes@eastportuniversity.edu
+CC: sarah.kline@eastportuniversity.edu
+Subject: Re: Tenure-Track Faculty Onboarding – Payroll/Benefits Steps to Include in Welcome Packet
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Confirming for tenure-track faculty:
+
+• Payment method: They are paid via university payroll (not stipend).
+
+• Items to complete in advance (HR Portal):
+  – Direct deposit setup
+  – Federal/state tax withholding elections (W-4 equivalents)
+
+These portal items should be done before the start date so Payroll can issue the first check without manual intervention.
+
+• Item requiring in-person completion: 
+  – Form I-9 must be completed in person during check-in (with original acceptable documents). We do not accept remote verification for standard faculty hires.
+
+Once the I-9 is completed and the portal items are in place, Payroll can pay compliantly and on schedule.
+
+Monica can speak to benefits timing, but from a Payroll perspective the above three are the critical path.
+
+Regards,
+David Chen
+Payroll Manager
+Eastport University
+============================================================
+
+Email ID: email_003
+Date: 2026-03-18 13:26:10
+From: Monica Hayes <monica.hayes@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, david.chen@eastportuniversity.edu
+CC: sarah.kline@eastportuniversity.edu, lena.martinez@eastportuniversity.edu
+Subject: Re: Tenure-Track Faculty Onboarding – Payroll/Benefits Steps to Include in Welcome Packet
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Adding benefits guidance for the welcome packet/onboarding workflow:
+
+• Benefits enrollment timing: Our preference is that new tenure-track faculty complete benefits enrollment during their first week. This aligns with plan eligibility timelines and helps avoid retroactive corrections.
+
+• How they enroll / support available:
+  – They should attend Faculty Orientation (Benefits segment covers medical/dental/vision, retirement, and deadlines).
+  – We strongly recommend they schedule a 1:1 benefits consultation with HR Benefits during that first week (especially if they have dependents or are transferring coverage).
+
+Putting it together, the “must do” HR/payroll actions to avoid pay/coverage delays are:
+1) Complete direct deposit + tax withholding in the HR portal before arrival (so Payroll can run the first payroll cleanly).
+2) Complete the I-9 in person at check-in with original documents (to ensure compliant employment verification).
+3) Enroll in benefits in week one via Orientation + 1:1 consult (to keep coverage effective dates and deductions on schedule).
+
+If you want, I can send the standard language we use in offer/onboarding emails.
+
+Best,
+Monica Hayes
+HR Benefits & Onboarding
+Eastport University
+============================================================
+
+Email ID: email_003
+Date: 2026-03-24 14:27:06
+From: David Chen <david.chen@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, sarah.kline@eastportuniversity.edu
+CC: james.okafor@eastportuniversity.edu
+Subject: Action Needed: New Travel Card Reconciliation Rules (April 1 Effective)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha and Sarah,
+
+Finance is implementing updated travel card reconciliation rules effective April 1. The big changes are:
+
+1) Receipts must be uploaded within 10 business days of the transaction date.
+2) Meal per diems require the itinerary PDF attached (even if the total is under $50).
+3) Conference registration must include an agenda/schedule upload.
+
+I’m coordinating a 30-minute walkthrough for admin staff next week. Would either of you be able to join and/or forward to teams that frequently book travel?
+
+Proposed times:
+- Tue 4/2 11:00–11:30
+- Wed 4/3 2:00–2:30
+
+Reply with your preference and I’ll send the calendar invite plus the updated one-pager.
+
+Thanks,
+David
+
+David Chen
+Business Operations Analyst
+Eastport University
+============================================================
+
+Email ID: email_004
+Date: 2026-03-25 08:41:52
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: david.chen@eastportuniversity.edu
+CC: sarah.kline@eastportuniversity.edu, james.okafor@eastportuniversity.edu
+Subject: Re: Action Needed: New Travel Card Reconciliation Rules (April 1 Effective)
+Folder: sent | Status: Read
+
+Message Body:
+----------------------------------------
+Hi David,
+
+Wednesday 4/3 at 2:00–2:30 works for me.
+
+If you send the one-pager when you have it, I’ll post it in our internal channel and include it in next week’s admin digest. A quick note: several of our coordinators handle group travel for student conference trips, so the 10-business-day receipt rule is the one I’ll highlight.
+
+Thanks for organizing,
+Aisha
+
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

@@ -1,0 +1,57 @@
+{
+    "company_info": {
+        "name": "HelioFreight Logistics",
+        "industry": "Third-Party Logistics (3PL)",
+        "description": "HelioFreight manages warehousing and freight services for B2B shippers across North America.",
+        "size": "Large",
+        "employee_count": "2000-5000",
+        "annual_revenue": "$600M-$1.2B",
+        "founded_year": 2000,
+        "headquarters": "Unknown",
+        "key_products_services": [],
+        "market_position": "",
+        "target_markets": []
+    },
+    "persona": {
+        "name": "Priya Desai",
+        "first_name": "Priya",
+        "last_name": "Desai",
+        "role": "Commercial Counsel",
+        "department": "Department",
+        "email": "priya.desai@heliofreight.com",
+        "password": "my_drbench_pwd",
+        "seniority": "Mid",
+        "responsibilities": "Reviews customer contracts and sets legal guardrails for deal approvals.",
+        "id": "b2b_04",
+        "domain": "crm",
+        "justification": "",
+        "username": "priya.desai"
+    },
+    "url": {
+        "date": "2026-02-01",
+        "domain": "crm",
+        "example_dr_questions": [
+            "What is the step-by-step process to approve contract redlines quickly?"
+        ],
+        "industry": "Third-Party Logistics (3PL)",
+        "insights": [
+            "- A Sales manager submitted a Deal Intake in the CLM for a new B2B shipper contract covering multi-site warehousing plus outbound freight across the U.S.\n- The contract is based on HelioFreight\u2019s standard \u201cMaster Services Agreement \u2013 NA 3PL\u201d template (the counterparty marked up that template rather than sending their own form).\n- The redlines were uploaded to the CLM compare tool and mapped to the clause playbook; the key redlines are to limitation of liability, indemnity language, and service-level credits.",
+            "- The clause playbook flags the liability/indemnity changes as a \u201cRed\u201d deviation (not just a fallback/\u201cYellow\u201d edit), so the Legal review path is required.\n- The plan is to route approvals in CLM to Legal + Finance + Operations; no Risk Management or InfoSec approvers are expected unless new issues appear.",
+            "- The deal is estimated at ~$3.2M annualized revenue and does not include a dedicated warehouse buildout or new facility launch, so it stays on the standard approval path (no VP Ops gate based on value/buildout).",
+            "- The customer is not requesting higher-than-standard insurance limits, and the scope does not include hazmat, temperature-controlled pharma, or other special cargo requirements.\n- The workflow does not include customer system/API access or processing of personal data (only operational shipment status updates and standard billing contacts), so no InfoSec/Privacy addendum path is triggered.",
+            "- A Redline Summary Sheet (RSS-14) is being prepared to list each deviation, the proposed fallback language, and which business owner accepts any residual risk.\n- The contract includes SLA service credits, so once approved and signed, the obligations need to be captured for the operations team to track credits and reporting timelines.",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "url": ""
+    },
+    "timestamp": "2026-02-01 00:00"
+}

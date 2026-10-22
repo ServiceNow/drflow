@@ -1,0 +1,16 @@
+{
+    "file_name": "harborpoint-compliance-governance-incident-workflow",
+    "file_title": "Compliance Governance and Incident Management Guide",
+    "introduction": "This document outlines HarborPoint Community Bank’s governance framework for identifying, reviewing, and managing potential compliance concerns. It is intended for leaders and staff involved in compliance oversight, operational risk, and employee conduct administration. The guidance supports consistent handling of sensitive issues while maintaining confidentiality and regulatory readiness. Procedures herein align with enterprise risk management and applicable banking regulations.",
+    "subsections": [
+        {
+            "subsection_heading": "Compliance Incident Review Workflow",
+            "content": "At the outset of a potential internal compliance violation review, investigators must first classify the case in CCP by tagging it as either Financial Crime or Regulatory/Conduct and selecting the closest applicable policy category to ensure correct routing and reporting. Once categorized, open the CCP triage card and assess the reported facts, impacted accounts, and any indicators of loss or misconduct against HarborPoint’s severity definitions. Assign Severity S1 when there is evidence of immediate customer harm, active fraud activity, or a suspected live compromise of a system or access pathway, as these conditions require rapid escalation and containment. If the matter reflects a significant control failure with plausible regulatory exposure but lacks immediate harm or an ongoing compromise, set the case to Severity S2 to trigger prioritized review and management visibility. For issues that appear limited in scope, present low immediate risk, and are unlikely to result in material regulatory impact, record Severity S3. Save the selected severity in CCP so it displays on the case overview and can drive standardized prioritization, notifications, and resource allocation across Compliance, Risk, and relevant business units.",
+            "justification": "The paragraph describes a concrete early-step workflow for investigating an internal compliance concern by requiring initial case tagging and policy categorization as prerequisites, then detailing how to use the CCP triage card to assign and save an initial S1/S2/S3 severity with clear conditional criteria. It links the severity setting to operational outcomes (prioritization, escalation, notifications, and resourcing), directly supporting the DR question’s need for exact investigative steps while embedding the provided triage insight in SOP-style language."
+        }
+    ],
+    "conclusion": "Consistent application of these guidelines strengthens HarborPoint’s control environment and supports timely resolution of compliance matters. Clear roles, documented actions, and disciplined information handling help protect customers, employees, and the bank’s reputation. Adhering to standardized workflows improves auditability and reinforces regulatory expectations. All personnel involved must follow these standards to ensure fair, defensible outcomes.",
+    "file_format": "pdf",
+    "file_path": "/Users/tawka.islamkhondaker/Documents/Codes/DRBench/drbench/drbench_basic/data/turing/legal_01/GENERIC_IN_0003_pdf/harborpoint-compliance-governance-incident-workflow.pdf",
+    "app": "file_system"
+}

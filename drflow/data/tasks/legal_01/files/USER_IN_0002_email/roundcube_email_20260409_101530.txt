@@ -1,0 +1,252 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• daniel.han
+  Name: Daniel Han
+  Email: daniel.han@harborpoint.com
+
+• maria.velasquez
+  Name: Maria Velasquez
+  Email: maria.velasquez@harborpoint.com
+
+• kevin.bradshaw
+  Name: Kevin Bradshaw
+  Email: kevin.bradshaw@harborpoint.com
+
+• rachel.cho
+  Name: Rachel Cho
+  Email: rachel.cho@harborpoint.com
+
+• jason.patel
+  Name: Jason Patel
+  Email: jason.patel@harborpoint.com
+
+• emily.wu
+  Name: Emily Wu
+  Email: emily.wu@harborpoint.com
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-04-02 09:12:44
+From: Maria Velasquez <maria.velasquez@harborpoint.com>
+To: daniel.han@harborpoint.com, kevin.bradshaw@harborpoint.com, rachel.cho@harborpoint.com
+CC: emily.wu@harborpoint.com
+Subject: Q2 Treasury Portal Upgrade — UAT Schedule + Ops Support Coverage
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Daniel, Kevin, Rachel,
+
+We’re on track for the Treasury Portal upgrade (new wire templates + improved ACH batch screens). To keep the timeline tight, we need to confirm UAT sessions and Ops coverage for the week of 4/14.
+
+Proposed UAT blocks (60–90 min each):
+- Tue 4/14: 10:00–11:30 (ACH batch upload validation)
+- Wed 4/15: 2:00–3:30 (wire template edits + approvals UI)
+- Thu 4/16: 9:30–10:30 (report exports + file naming conventions)
+
+Daniel — can Ops provide two testers each session (one Treasury Operations, one Lending Ops) to confirm workflows and “day-2” tasks (reprints, template reuse, report pulls)?
+
+Rachel — please confirm any customer-facing release notes that need review for clarity (not compliance content, just plain-language changes).
+
+Kevin — we’ll need your team on standby for SSO/password reset edge cases during UAT.
+
+If these times don’t work, please send alternate windows by EOD Friday so I can lock the calendar.
+
+Thanks,
+Maria
+============================================================
+
+Email ID: email_002
+Date: 2026-04-02 10:03:18
+From: Daniel Han <daniel.han@harborpoint.com>
+To: maria.velasquez@harborpoint.com, kevin.bradshaw@harborpoint.com, rachel.cho@harborpoint.com
+CC: emily.wu@harborpoint.com
+Subject: RE: Q2 Treasury Portal Upgrade — UAT Schedule + Ops Support Coverage
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Maria,
+
+Those UAT blocks work on our end.
+
+I can allocate the following Ops coverage:
+- Tue 4/14: Priya S. (Treasury Ops) + Mark T. (Lending Ops)
+- Wed 4/15: Priya S. + Elena R.
+- Thu 4/16: Jordan L. (Treasury Ops) + Mark T.
+
+A couple of notes so we can keep sessions efficient:
+1) Please share the UAT scripts by Monday 4/13 (even if drafts). We’ll pre-walk them so we’re not reading live.
+2) If the upgrade changes any screen labels or export column names, please flag them early—our internal job aids and intranet pages reference those fields.
+
+Kevin — if you can confirm whether the SSO change impacts session timeouts, we’ll coordinate with the call center so they’re ready for any “kicked out” complaints during the first week.
+
+Thanks,
+Daniel
+============================================================
+
+Email ID: email_003
+Date: 2026-04-04 14:27:06
+From: Rachel Cho <rachel.cho@harborpoint.com>
+To: daniel.han@harborpoint.com, maria.velasquez@harborpoint.com
+CC: jason.patel@harborpoint.com
+Subject: Customer Feedback Snapshot — March Treasury Services Survey (Top 3 Themes)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Daniel and Maria,
+
+Sharing a quick snapshot from the March Treasury Services customer survey (n=118). No surprises, but it helps prioritize what we highlight in training and release comms.
+
+Top themes:
+1) “Faster way to find prior approvals” — customers want a clearer audit/approval history view without drilling into multiple tabs.
+2) “Export formatting” — several customers said CSV exports require manual cleanup (date formats, leading zeros on account fields).
+3) “Call center handoffs” — feedback suggests customers get bounced between Treasury Support and Digital Banking for login-related issues.
+
+Suggested actions (non-technical):
+- In the upcoming portal upgrade messaging, call out any improvements in approvals history visibility.
+- Add a 1-page tip sheet for exports (how to select formats, what fields may appear).
+- Align a simple routing guide for the call center: login vs entitlements vs transaction questions.
+
+Daniel — if Ops has a preferred owner for the routing guide, I can coordinate a 20-minute working session next week.
+
+Thanks,
+Rachel
+============================================================
+
+Email ID: email_004
+Date: 2026-04-07 08:41:55
+From: Jason Patel <jason.patel@harborpoint.com>
+To: daniel.han@harborpoint.com, rachel.cho@harborpoint.com, maria.velasquez@harborpoint.com
+CC: kevin.bradshaw@harborpoint.com, emily.wu@harborpoint.com
+Subject: April Training Calendar — Treasury Portal Changes + Call Center Routing Guide Draft
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Daniel, Rachel, Maria,
+
+I mapped the April training calendar to support the Treasury Portal upgrade and reduce call center handoffs.
+
+Proposed sessions (all virtual, recorded):
+- Mon 4/20 (11:00–11:45): “What’s Changing in the Treasury Portal” (frontline + Treasury Support)
+- Tue 4/21 (2:00–2:30): “Export Tips: CSV/Excel formatting and common gotchas” (Treasury Support)
+- Thu 4/23 (10:00–10:30): “Who Owns What” routing refresher (Call Center + Digital Banking)
+
+Daniel — can you nominate one Ops contact to sanity-check the routing guide? I’ll draft it as a one-page decision tree (login reset, enrollment, entitlements, transaction questions). This is meant to improve speed/consistency, not change any formal policies.
+
+Kevin — please advise whether we should mention any planned SSO maintenance windows in the training deck or keep it separate as an IT bulletin.
+
+Maria/Rachel — if there are specific screenshots you want included for the approvals history and export screens, send them by 4/15 and I’ll incorporate.
+
+Thank you,
+Jason
+============================================================
+
+Email ID: email_001
+Date: 2026-04-08 09:14:22
+From: Daniel Han <daniel.han@harborpoint.com>
+To: maria.velasquez@harborpoint.com, rachel.cho@harborpoint.com
+CC: kevin.bradshaw@harborpoint.com
+Subject: Triage Needed: Allegation re SAR escalation controls (classification/severity/stakeholders)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Maria/Rachel,
+
+We received a hotline report late yesterday alleging that a Relationship Manager may have discouraged a client-facing team member from escalating potentially suspicious cash activity (concern raised as “SAR was avoided”).
+
+Before I route this in GRC and kick off an investigation plan, can you confirm:
+1) Whether we should classify this as a Compliance matter (BSA/AML controls) vs. an HR conduct issue, and
+2) Preliminary severity/handling (standard investigation vs. urgent response), and
+3) Whether any senior officer, Audit Committee member, or Compliance personnel are implicated (for independence/governance).
+
+Once we have the triage decision, I’ll document the intake, apply the initial controls hold (records preservation), and set up the initial fact-finding.
+
+Thanks,
+Daniel Han
+Operations Manager
+HarborPoint Community Bank
+
+============================================================
+
+Email ID: email_002
+Date: 2026-04-08 10:02:11
+From: Maria Velasquez <maria.velasquez@harborpoint.com>
+To: daniel.han@harborpoint.com
+CC: rachel.cho@harborpoint.com, kevin.bradshaw@harborpoint.com, jason.patel@harborpoint.com, emily.wu@harborpoint.com
+Subject: RE: Triage Needed: Allegation re SAR escalation controls (classification/severity/stakeholders)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Daniel,
+
+Based on the hotline narrative and the two follow-up notes from Intake, this is best categorized as a Compliance allegation (BSA/AML / suspicious activity escalation controls) rather than an HR conduct case. There are no claims of harassment, violence, discrimination, retaliation, or other workplace conduct issues that would put this primarily in HR’s lane. Kevin can stay looped for employee-process coordination, but Compliance should own the investigation workflow.
+
+Preliminary severity: I’m tagging this as a “material controls breach” but not an immediate safety or systems-outage emergency. In our handling taxonomy, that’s a standard Compliance Investigation (Severity S2). Rationale: the allegation goes to effectiveness of SAR decisioning/escalation controls (potential regulatory exposure) and requires timely evidence preservation and fact-finding, but there’s no indication of ongoing fraud loss, imminent customer harm, or a live operational outage requiring S1/rapid response.
+
+Implicated roles (as currently described):
+- Named/implicated: one non-executive Relationship Manager (front-line business).
+- Not implicated: no senior officer (VP+), no Audit Committee member, and no Compliance staff are named in the allegation.
+
+Why this matters for next steps: classification and severity drive the investigation path (Compliance Investigation S2), required stakeholders, urgency/SLA, and governance/independence. Since neither Compliance nor senior leadership is implicated, we can run this within Compliance with standard independence safeguards; Jason (Internal Audit) should be informed but does not need to lead unless new facts change the implicated population.
+
+Recommended next steps (S2):
+1) Open a Compliance Investigation case in GRC and document intake details verbatim (source, date/time, allegation summary, involved party).
+2) Issue a targeted legal/regulatory hold for relevant records: CRM notes, emails/Teams, call logs, cash activity reports, any SAR committee notes for the client(s) and time window.
+3) Define scope and timeline: impacted client(s), period, related transactions, and the specific control(s) allegedly bypassed (escalation triggers, referral documentation, approvals).
+4) Assign investigator(s) with no reporting-line conflict to the business unit; keep business management out of evidence collection.
+5) Conduct preliminary fact-finding: pull transaction/activity data; compare against expected escalation triggers; identify whether any SAR referrals were delayed/blocked.
+6) Interview sequence: reporter (if known/available) → any witness → implicated RM last (to preserve integrity of evidence).
+7) Determine whether a SAR lookback is required and whether regulatory notification is triggered (Emily to advise if we discover willful suppression or systemic failure).
+8) Conclude with findings, root cause, corrective actions, and control testing/validation; log any policy breaches and training/disciplinary recommendations through HR as appropriate.
+
+If anything surfaces indicating VP+ involvement, Compliance involvement, or a broader systemic breakdown, we’ll reassess severity and governance immediately.
+
+Maria Velasquez
+Director, Compliance Programs
+HarborPoint Community Bank
+
+============================================================
+
+Email ID: email_003
+Date: 2026-04-08 10:27:46
+From: Daniel Han <daniel.han@harborpoint.com>
+To: maria.velasquez@harborpoint.com, rachel.cho@harborpoint.com
+CC: kevin.bradshaw@harborpoint.com, jason.patel@harborpoint.com, emily.wu@harborpoint.com
+Subject: RE: Triage Needed: Allegation re SAR escalation controls (classification/severity/stakeholders)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Maria — understood.
+
+I’ll open this as a Compliance Investigation (S2) in GRC today and document the triage decision: compliance-related BSA/AML control allegation (not HR conduct), material controls breach, non-executive RM implicated; no VP+/Audit Committee/Compliance staff named.
+
+I’ll also:
+- Send the targeted records-preservation notice (CRM, email/Teams, cash activity reports, SAR-related notes) for the specified client(s)/time window.
+- Draft the initial scope statement and proposed interview order for your approval.
+
+Rachel — once the case is created, I’ll coordinate with your team on the trigger/threshold criteria and any required SAR lookback logic.
+
+Kevin — keeping you looped for any employee-process steps after Compliance establishes facts.
+
+I’ll share the case number and initial timeline by EOD.
+
+Daniel Han
+Operations Manager
+HarborPoint Community Bank
+
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

@@ -1,0 +1,212 @@
+{
+    "file_name": "roundcube_email_20260409_101952",
+    "content": "{\"type\": \"user\", \"username\": \"danielle.morgan\", \"first_name\": \"Danielle\", \"last_name\": \"Morgan\", \"email\": \"danielle.morgan@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"matthew.cho\", \"first_name\": \"Matthew\", \"last_name\": \"Cho\", \"email\": \"matthew.cho@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"priya.natarajan\", \"first_name\": \"Priya\", \"last_name\": \"Natarajan\", \"email\": \"priya.natarajan@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"kevin.oleary\", \"first_name\": \"Kevin\", \"last_name\": \"O'Leary\", \"email\": \"kevin.oleary@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"sophia.reed\", \"first_name\": \"Sophia\", \"last_name\": \"Reed\", \"email\": \"sophia.reed@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"jameson.price\", \"first_name\": \"Jameson\", \"last_name\": \"Price\", \"email\": \"jameson.price@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"daniel.han\", \"first_name\": \"Daniel\", \"last_name\": \"Han\", \"email\": \"daniel.han@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Q3 Treasury Services Pipeline Review \\u2013 Inputs Needed by Friday\", \"from\": \"danielle.morgan@harborpointbank.com\", \"from_name\": \"Danielle Morgan\", \"to\": [\"matthew.cho@harborpointbank.com\", \"priya.natarajan@harborpointbank.com\", \"daniel.han@harborpoint.com\"], \"cc\": [\"sophia.reed@harborpointbank.com\"], \"date\": \"2026-04-14 09:12:33\", \"body\": \"Hi Matthew and Priya,\\n\\nI\\u2019m consolidating our Q3 Treasury Services pipeline summary for the ELT readout. Can you send me your updates for:\\n\\n- Top 10 prospects (company name + stage + expected close month)\\n- Any renewals at risk (and mitigation plan)\\n- Notable wins/losses from the last 30 days\\n- Forecast assumptions you changed since last month\\n\\nPlease reply by EOD Friday so I can incorporate and circulate a draft Monday morning.\\n\\nThanks,\\nDanielle\\n\\nDanielle Morgan\\nVP, Treasury Services\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"Re: Q3 Treasury Services Pipeline Review \\u2013 Inputs Needed by Friday\", \"from\": \"matthew.cho@harborpointbank.com\", \"from_name\": \"Matthew Cho\", \"to\": [\"danielle.morgan@harborpointbank.com\", \"priya.natarajan@harborpointbank.com\"], \"cc\": [\"sophia.reed@harborpointbank.com\"], \"date\": \"2026-04-14 11:03:18\", \"body\": \"Danielle,\\n\\nGot it. I\\u2019ll send a clean list by Thursday afternoon.\\n\\nQuick heads-up: we\\u2019re seeing increased questions from manufacturing clients about same-day ACH cutoff times and return processing. I\\u2019m pulling together a short FAQ for Relationship Managers so we\\u2019re consistent in how we explain timelines and fees.\\n\\nAlso flagging one renewal risk: BlueCrest Logistics is shopping pricing on Positive Pay. The product is sticky for them, but Procurement is pushing hard. I\\u2019m proposing a 12-month pricing step-down tied to volume commitments.\\n\\nMore detail to follow in the pipeline notes.\\n\\nThanks,\\nMatthew\\n\\nMatthew Cho\\nDirector, Treasury Product\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"Commercial Lending Policy Refresh \\u2013 Comment Window Closes 4/22\", \"from\": \"priya.natarajan@harborpointbank.com\", \"from_name\": \"Priya Natarajan\", \"to\": [\"kevin.oleary@harborpointbank.com\", \"danielle.morgan@harborpointbank.com\"], \"cc\": [\"jameson.price@harborpointbank.com\"], \"date\": \"2026-04-16 15:27:44\", \"body\": \"Kevin and Danielle,\\n\\nSharing a reminder that the comment window for the Commercial Lending Policy refresh closes Wednesday 4/22.\\n\\nKey items where we still need business input:\\n1) Updated debt service coverage ratio guidance by industry segment\\n2) Exceptions workflow: thresholds for second-line review vs. committee escalation\\n3) Appraisal validity periods and re-valuation triggers for CRE\\n\\nIf you can review Sections 3.2\\u20133.6 and send feedback (even bullet points), Compliance will incorporate before the final redline goes to Legal.\\n\\nThank you,\\nPriya\\n\\nPriya Natarajan\\nSenior Manager, Risk & Controls\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_004\", \"subject\": \"Client Satisfaction Survey \\u2013 Branch + Treasury Follow-Up Assignments\", \"from\": \"sophia.reed@harborpointbank.com\", \"from_name\": \"Sophia Reed\", \"to\": [\"danielle.morgan@harborpointbank.com\", \"matthew.cho@harborpointbank.com\", \"kevin.oleary@harborpointbank.com\"], \"cc\": [\"priya.natarajan@harborpointbank.com\", \"jameson.price@harborpointbank.com\"], \"date\": \"2026-04-21 10:18:09\", \"body\": \"Team,\\n\\nWe closed the March client satisfaction survey and have 18 comments that require follow-up within 10 business days.\\n\\nThemes:\\n- ACH origination onboarding: clients want clearer \\u201cwhat happens next\\u201d timelines\\n- Treasury portal navigation: requests for a simplified payments landing page\\n- Relationship coverage: a few clients unclear on who to contact for service vs. sales\\n\\nAssignments:\\n- Danielle: please take 5 treasury onboarding comments (I\\u2019ll forward details separately) and confirm next-step messaging we want RMs to use.\\n- Matthew: please draft a one-page \\u201cPayments Quick Start\\u201d outline we can pilot with two clients next month.\\n- Kevin: 4 branch/service escalation items need owner confirmation\\u2014can you route to the appropriate Market Leaders?\\n\\nPriya/Jameson: looping you in for tracking and any policy/process considerations.\\n\\nI\\u2019ll host a 20-minute check-in next Tuesday to confirm owners and closure dates.\\n\\nThanks,\\nSophia\\n\\nSophia Reed\\nCustomer Experience Program Lead\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Escalation: Remote meeting audio/video dropouts (client calls)\", \"from\": \"danielle.morgan@harborpointbank.com\", \"from_name\": \"Danielle Morgan\", \"to\": [\"matthew.cho@harborpointbank.com\"], \"cc\": [\"priya.natarajan@harborpointbank.com\"], \"date\": \"2026-03-10 09:14:22\", \"body\": \"Hi Matt,\\n\\nWe\\u2019ve had a noticeable uptick in audio cutting out and frozen video during remote meetings, especially on external client calls. It\\u2019s happening across a few teams (Treasury and Commercial Lending) and it\\u2019s starting to impact client experience.\\n\\nCan IT share what\\u2019s changed recently (if anything) and what we\\u2019re doing to stabilize video conferencing reliability? If there are standard settings or equipment we should be using, please point us to the guidance.\\n\\nThanks,\\nDanielle Morgan\\nSVP, Treasury Management\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Escalation: Remote meeting audio/video dropouts (client calls)\", \"from\": \"matthew.cho@harborpointbank.com\", \"from_name\": \"Matthew Cho\", \"to\": [\"danielle.morgan@harborpointbank.com\"], \"cc\": [\"priya.natarajan@harborpointbank.com\", \"kevin.oleary@harborpointbank.com\"], \"date\": \"2026-03-10 10:02:47\", \"body\": \"Danielle,\\n\\nThanks for flagging. We\\u2019ve been tracking similar reports and have two reliability improvements in flight that should address most of what you\\u2019re seeing:\\n\\n1) Standardized meeting kit: IT is rolling out a bank-standard headset + webcam kit (same models/config across users) to reduce variability from consumer-grade devices/drivers that tend to cause echo, mic dropouts, and camera freezes.\\n\\n2) Increased default bandwidth allocation: We increased the default bandwidth allocation for our video conferencing service on the network side (QoS/policy) so video traffic is less likely to be throttled during peak utilization, particularly for remote users on VPN.\\n\\nNeither of these changes touches security monitoring, evidence retention, AML controls, or investigative workflows\\u2014this is purely end-user enablement to make remote meetings more stable.\\n\\nNext steps:\\n- Kevin\\u2019s team can prioritize kits for client-facing roles first.\\n- If you can send 3\\u20135 affected user names and the meeting times (approx.), we can correlate against call quality telemetry.\\n\\nMatthew Cho\\nDirector, Collaboration & End User Services\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"RE: Escalation: Remote meeting audio/video dropouts (client calls)\", \"from\": \"priya.natarajan@harborpointbank.com\", \"from_name\": \"Priya Natarajan\", \"to\": [\"danielle.morgan@harborpointbank.com\", \"matthew.cho@harborpointbank.com\"], \"cc\": [\"kevin.oleary@harborpointbank.com\", \"sophia.reed@harborpointbank.com\"], \"date\": \"2026-03-10 10:28:03\", \"body\": \"Adding a quick note from Network/Infrastructure.\\n\\nWe implemented the increased default bandwidth allocation for the video conferencing service last week (updated QoS classification and raised the minimum reserved rate for the app\\u2019s traffic profiles). Early results look good: fewer packet-loss spikes during peak hours and improved jitter metrics for VPN-connected users.\\n\\nAgree with Matt that the standardized headset/webcam kit will eliminate a lot of the device-side issues we can\\u2019t solve purely from the network (USB driver conflicts, low-quality mics, etc.).\\n\\nDanielle\\u2014send me the specific meeting examples and we\\u2019ll validate against the telemetry dashboard.\\n\\nPriya Natarajan\\nSenior Manager, Network & Infrastructure\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}",
+    "email_setup": [
+        {
+            "type": "user",
+            "username": "danielle.morgan",
+            "first_name": "Danielle",
+            "last_name": "Morgan",
+            "email": "danielle.morgan@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "matthew.cho",
+            "first_name": "Matthew",
+            "last_name": "Cho",
+            "email": "matthew.cho@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "priya.natarajan",
+            "first_name": "Priya",
+            "last_name": "Natarajan",
+            "email": "priya.natarajan@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "kevin.oleary",
+            "first_name": "Kevin",
+            "last_name": "O'Leary",
+            "email": "kevin.oleary@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "sophia.reed",
+            "first_name": "Sophia",
+            "last_name": "Reed",
+            "email": "sophia.reed@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "jameson.price",
+            "first_name": "Jameson",
+            "last_name": "Price",
+            "email": "jameson.price@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "daniel.han",
+            "first_name": "Daniel",
+            "last_name": "Han",
+            "email": "daniel.han@harborpoint.com",
+            "password": "my_drbench_pwd"
+        }
+    ],
+    "email_messages": [
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Q3 Treasury Services Pipeline Review \u2013 Inputs Needed by Friday",
+            "from": "danielle.morgan@harborpointbank.com",
+            "from_name": "Danielle Morgan",
+            "to": [
+                "matthew.cho@harborpointbank.com",
+                "priya.natarajan@harborpointbank.com",
+                "daniel.han@harborpoint.com"
+            ],
+            "cc": [
+                "sophia.reed@harborpointbank.com"
+            ],
+            "date": "2026-04-14 09:12:33",
+            "body": "Hi Matthew and Priya,\n\nI\u2019m consolidating our Q3 Treasury Services pipeline summary for the ELT readout. Can you send me your updates for:\n\n- Top 10 prospects (company name + stage + expected close month)\n- Any renewals at risk (and mitigation plan)\n- Notable wins/losses from the last 30 days\n- Forecast assumptions you changed since last month\n\nPlease reply by EOD Friday so I can incorporate and circulate a draft Monday morning.\n\nThanks,\nDanielle\n\nDanielle Morgan\nVP, Treasury Services",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "Re: Q3 Treasury Services Pipeline Review \u2013 Inputs Needed by Friday",
+            "from": "matthew.cho@harborpointbank.com",
+            "from_name": "Matthew Cho",
+            "to": [
+                "danielle.morgan@harborpointbank.com",
+                "priya.natarajan@harborpointbank.com"
+            ],
+            "cc": [
+                "sophia.reed@harborpointbank.com"
+            ],
+            "date": "2026-04-14 11:03:18",
+            "body": "Danielle,\n\nGot it. I\u2019ll send a clean list by Thursday afternoon.\n\nQuick heads-up: we\u2019re seeing increased questions from manufacturing clients about same-day ACH cutoff times and return processing. I\u2019m pulling together a short FAQ for Relationship Managers so we\u2019re consistent in how we explain timelines and fees.\n\nAlso flagging one renewal risk: BlueCrest Logistics is shopping pricing on Positive Pay. The product is sticky for them, but Procurement is pushing hard. I\u2019m proposing a 12-month pricing step-down tied to volume commitments.\n\nMore detail to follow in the pipeline notes.\n\nThanks,\nMatthew\n\nMatthew Cho\nDirector, Treasury Product",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "Commercial Lending Policy Refresh \u2013 Comment Window Closes 4/22",
+            "from": "priya.natarajan@harborpointbank.com",
+            "from_name": "Priya Natarajan",
+            "to": [
+                "kevin.oleary@harborpointbank.com",
+                "danielle.morgan@harborpointbank.com"
+            ],
+            "cc": [
+                "jameson.price@harborpointbank.com"
+            ],
+            "date": "2026-04-16 15:27:44",
+            "body": "Kevin and Danielle,\n\nSharing a reminder that the comment window for the Commercial Lending Policy refresh closes Wednesday 4/22.\n\nKey items where we still need business input:\n1) Updated debt service coverage ratio guidance by industry segment\n2) Exceptions workflow: thresholds for second-line review vs. committee escalation\n3) Appraisal validity periods and re-valuation triggers for CRE\n\nIf you can review Sections 3.2\u20133.6 and send feedback (even bullet points), Compliance will incorporate before the final redline goes to Legal.\n\nThank you,\nPriya\n\nPriya Natarajan\nSenior Manager, Risk & Controls",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_004",
+            "subject": "Client Satisfaction Survey \u2013 Branch + Treasury Follow-Up Assignments",
+            "from": "sophia.reed@harborpointbank.com",
+            "from_name": "Sophia Reed",
+            "to": [
+                "danielle.morgan@harborpointbank.com",
+                "matthew.cho@harborpointbank.com",
+                "kevin.oleary@harborpointbank.com"
+            ],
+            "cc": [
+                "priya.natarajan@harborpointbank.com",
+                "jameson.price@harborpointbank.com"
+            ],
+            "date": "2026-04-21 10:18:09",
+            "body": "Team,\n\nWe closed the March client satisfaction survey and have 18 comments that require follow-up within 10 business days.\n\nThemes:\n- ACH origination onboarding: clients want clearer \u201cwhat happens next\u201d timelines\n- Treasury portal navigation: requests for a simplified payments landing page\n- Relationship coverage: a few clients unclear on who to contact for service vs. sales\n\nAssignments:\n- Danielle: please take 5 treasury onboarding comments (I\u2019ll forward details separately) and confirm next-step messaging we want RMs to use.\n- Matthew: please draft a one-page \u201cPayments Quick Start\u201d outline we can pilot with two clients next month.\n- Kevin: 4 branch/service escalation items need owner confirmation\u2014can you route to the appropriate Market Leaders?\n\nPriya/Jameson: looping you in for tracking and any policy/process considerations.\n\nI\u2019ll host a 20-minute check-in next Tuesday to confirm owners and closure dates.\n\nThanks,\nSophia\n\nSophia Reed\nCustomer Experience Program Lead",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Escalation: Remote meeting audio/video dropouts (client calls)",
+            "from": "danielle.morgan@harborpointbank.com",
+            "from_name": "Danielle Morgan",
+            "to": [
+                "matthew.cho@harborpointbank.com"
+            ],
+            "cc": [
+                "priya.natarajan@harborpointbank.com"
+            ],
+            "date": "2026-03-10 09:14:22",
+            "body": "Hi Matt,\n\nWe\u2019ve had a noticeable uptick in audio cutting out and frozen video during remote meetings, especially on external client calls. It\u2019s happening across a few teams (Treasury and Commercial Lending) and it\u2019s starting to impact client experience.\n\nCan IT share what\u2019s changed recently (if anything) and what we\u2019re doing to stabilize video conferencing reliability? If there are standard settings or equipment we should be using, please point us to the guidance.\n\nThanks,\nDanielle Morgan\nSVP, Treasury Management\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Escalation: Remote meeting audio/video dropouts (client calls)",
+            "from": "matthew.cho@harborpointbank.com",
+            "from_name": "Matthew Cho",
+            "to": [
+                "danielle.morgan@harborpointbank.com"
+            ],
+            "cc": [
+                "priya.natarajan@harborpointbank.com",
+                "kevin.oleary@harborpointbank.com"
+            ],
+            "date": "2026-03-10 10:02:47",
+            "body": "Danielle,\n\nThanks for flagging. We\u2019ve been tracking similar reports and have two reliability improvements in flight that should address most of what you\u2019re seeing:\n\n1) Standardized meeting kit: IT is rolling out a bank-standard headset + webcam kit (same models/config across users) to reduce variability from consumer-grade devices/drivers that tend to cause echo, mic dropouts, and camera freezes.\n\n2) Increased default bandwidth allocation: We increased the default bandwidth allocation for our video conferencing service on the network side (QoS/policy) so video traffic is less likely to be throttled during peak utilization, particularly for remote users on VPN.\n\nNeither of these changes touches security monitoring, evidence retention, AML controls, or investigative workflows\u2014this is purely end-user enablement to make remote meetings more stable.\n\nNext steps:\n- Kevin\u2019s team can prioritize kits for client-facing roles first.\n- If you can send 3\u20135 affected user names and the meeting times (approx.), we can correlate against call quality telemetry.\n\nMatthew Cho\nDirector, Collaboration & End User Services\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "RE: Escalation: Remote meeting audio/video dropouts (client calls)",
+            "from": "priya.natarajan@harborpointbank.com",
+            "from_name": "Priya Natarajan",
+            "to": [
+                "danielle.morgan@harborpointbank.com",
+                "matthew.cho@harborpointbank.com"
+            ],
+            "cc": [
+                "kevin.oleary@harborpointbank.com",
+                "sophia.reed@harborpointbank.com"
+            ],
+            "date": "2026-03-10 10:28:03",
+            "body": "Adding a quick note from Network/Infrastructure.\n\nWe implemented the increased default bandwidth allocation for the video conferencing service last week (updated QoS classification and raised the minimum reserved rate for the app\u2019s traffic profiles). Early results look good: fewer packet-loss spikes during peak hours and improved jitter metrics for VPN-connected users.\n\nAgree with Matt that the standardized headset/webcam kit will eliminate a lot of the device-side issues we can\u2019t solve purely from the network (USB driver conflicts, low-quality mics, etc.).\n\nDanielle\u2014send me the specific meeting examples and we\u2019ll validate against the telemetry dashboard.\n\nPriya Natarajan\nSenior Manager, Network & Infrastructure\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_email_document.jsonl",
+    "qa_type": "distractor",
+    "timestamp": "2026-05-02 15:20",
+    "app": "file_system"
+}

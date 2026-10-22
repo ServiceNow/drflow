@@ -1,0 +1,256 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• aisha.rahman
+  Name: Aisha Rahman
+  Email: aisha.rahman@eastportuniversity.edu
+
+• miguel.santos
+  Name: Miguel Santos
+  Email: miguel.santos@eastportuniversity.edu
+
+• linda.chen
+  Name: Linda Chen
+  Email: linda.chen@eastportuniversity.edu
+
+• karen.owens
+  Name: Karen Owens
+  Email: karen.owens@eastportuniversity.edu
+
+• mark.dawson
+  Name: Mark Dawson
+  Email: mark.dawson@eastportuniversity.edu
+
+• rachel.nguyen
+  Name: Rachel Nguyen
+  Email: rachel.nguyen@eastportuniversity.edu
+
+• michael.brooks
+  Name: Michael Brooks
+  Email: michael.brooks@eastportuniversity.edu
+
+• sarah.patel
+  Name: Sarah Patel
+  Email: sarah.patel@eastportuniversity.edu
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-04-02 09:18:44
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: linda.chen@eastportuniversity.edu, miguel.santos@eastportuniversity.edu
+Subject: Fall Graduate Orientation: room hold + catering headcount (Sep 3)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Linda and Miguel,
+
+Can you confirm we’re still set for Fall Graduate Orientation on Wed, Sep 3 (9:00–12:30)? I’d like to place a tentative hold today so we don’t lose the space.
+
+Items I need by Friday:
+- Preferred room (Auditorium B vs. Student Center Ballroom C) and any AV needs
+- Catering estimate (coffee/tea + light breakfast): are we planning 180 or closer to 220 based on last year’s yield?
+- Any accessibility accommodations we should flag early (captioning, reserved seating, etc.)
+
+Once I have the room + headcount, I’ll draft the calendar invite and the facilities request.
+
+Thanks,
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+============================================================
+
+Email ID: email_002
+Date: 2026-04-02 11:03:27
+From: Linda Chen <linda.chen@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, miguel.santos@eastportuniversity.edu
+CC: karen.owens@eastportuniversity.edu
+Subject: RE: Fall Graduate Orientation: room hold + catering headcount (Sep 3)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Yes—Sep 3 still works on our side.
+
+Room: I recommend Student Center Ballroom C. It has better sightlines and we won’t need overflow seating. AV: 2 wireless mics + podium mic, projector, and a confidence monitor if available.
+
+Headcount: I’d budget for 210 for catering. Last year we planned 200 and ended up at ~195, but we’ve had higher early confirmations this cycle.
+
+Karen—looping you in: do we still have the same per-person breakfast cap as last fall, or has it changed with the new vendor contract?
+
+Thanks,
+Linda Chen
+Eastport University
+============================================================
+
+Email ID: email_003
+Date: 2026-04-04 15:26:10
+From: Miguel Santos <miguel.santos@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu
+CC: rachel.nguyen@eastportuniversity.edu
+Subject: Graduate communications survey: top issues + proposed fixes
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Sharing a quick summary from the graduate communications pulse survey (n=312). Nothing urgent, but there are a few consistent themes we can address before summer.
+
+Top pain points:
+1) Students aren’t sure where to find “official” deadlines (many cited conflicting webpages)
+2) Too many emails from different senders (registrar, departments, grad school) with overlapping info
+3) Confusion around compliance reminders (people don’t know which trainings apply to them)
+
+Proposed fixes (light lift):
+- Create a single “Graduate Deadlines” landing page and link it in every weekly digest
+- Move to a consistent sender name (e.g., “Graduate Programs Office”) with a standard footer
+- Add a short decision tree graphic for trainings (Rachel can help with the wording)
+
+If you’re open to it, I can draft a one-page comms style guide and a template for the weekly digest.
+
+Best,
+Miguel Santos
+Eastport University
+============================================================
+
+Email ID: email_001
+Date: 2026-04-07 09:14:22
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: linda.chen@eastportuniversity.edu, mark.dawson@eastportuniversity.edu
+CC: karen.owens@eastportuniversity.edu, rachel.nguyen@eastportuniversity.edu
+Subject: Day-one readiness items for new TT faculty (Dr. Rivera) – facilities/teaching/compliance/IT
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Linda and Mark,
+
+I’m finalizing the onboarding workflow for our newly hired tenure-track faculty (Dr. Sofia Rivera, start date 8/15) and want to make sure we’re aligned on what constitutes “day-one ready” across facilities, teaching setup, research compliance scope, and IT/access provisioning.
+
+Could you confirm the required actions/requests we should have submitted and what we should schedule prior to keys/accounts being issued (especially for Engineering Research Building space)?
+
+If you can reply with the specific forms/tickets (and who submits), I’ll incorporate it into the standard onboarding checklist we send to chairs and new hires.
+
+Thank you,
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+
+============================================================
+
+Email ID: email_002
+Date: 2026-04-07 11:02:09
+From: Linda Chen <linda.chen@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu
+CC: mark.dawson@eastportuniversity.edu, karen.owens@eastportuniversity.edu, rachel.nguyen@eastportuniversity.edu
+Subject: RE: Day-one readiness items for new TT faculty (Dr. Rivera) – facilities/teaching/compliance/IT
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Confirming the day-one readiness items for Dr. Rivera based on the department’s onboarding plan (Engineering).
+
+Facilities / Lab access (Engineering Research Building):
+- Dr. Rivera will be using a wet lab space in the Engineering Research Building.
+- We need to submit a Lab Access Request (LAR-5) (department admin submits) to initiate key/card access.
+- EH&S prerequisites: Karen’s team schedules the required lab safety trainings before keys are issued. We’ve found this is the critical path for “first day in the lab,” so we try to get trainings on the calendar as soon as the LAR-5 is in.
+
+Teaching setup (first semester):
+- Dr. Rivera is scheduled to teach one graduate course in the first semester.
+- Actions for readiness:
+  1) Instructor-of-record entry in the SIS (so they appear as the official instructor),
+  2) LMS course shell creation/association (so the course is visible in Canvas/Blackboard),
+  3) Classroom technology orientation (so they can use the podium, lecture capture, etc.).
+
+Research compliance scope (first ~90 days):
+- The expected research activity in the first 90 days is non-human-subjects and non-animal.
+- As a result, IRB and IACUC protocols are not planned during initial onboarding (we’ll revisit once study designs or animal work are proposed). This keeps onboarding focused on operational access rather than pushing compliance submissions that aren’t in scope yet.
+
+IT / access provisioning:
+- Day-one essentials: building access + email + VPN + a university laptop.
+- The department will submit the IT Access Request (IT-8) to request network group memberships and door access provisioning (Mark’s team typically ties this to the EID and card access).
+
+Rationale (for your checklist): these items cover the operational minimums that let a new research-track faculty member be productive immediately—lab access with safety training, teaching system setup for the first semester, clear statement of what compliance is NOT needed in the first 90 days, and core IT/building access.
+
+Mark—please correct anything on the IT-8 routing/lead times.
+
+Best,
+Linda Chen
+Department Administrator, College of Engineering
+Eastport University
+
+============================================================
+
+Email ID: email_003
+Date: 2026-04-07 13:26:41
+From: Mark Dawson <mark.dawson@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, linda.chen@eastportuniversity.edu
+CC: karen.owens@eastportuniversity.edu, rachel.nguyen@eastportuniversity.edu
+Subject: RE: Day-one readiness items for new TT faculty (Dr. Rivera) – facilities/teaching/compliance/IT
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha and Linda,
+
+Linda’s summary is spot-on. A couple of IT specifics you can include in the workflow:
+
+IT Access Request (IT-8):
+- Submitted by the department (admin or chair’s delegate).
+- We use IT-8 to provision: (1) network/security group memberships (shared drives, research storage as applicable), (2) VPN entitlement, and (3) door access requests that are routed to Access Control for the requested buildings/rooms.
+
+Accounts & endpoints:
+- Email/EID creation is triggered from HR hire data; once active, we can attach VPN and groups via IT-8.
+- Laptop: department confirms funding source; IT can image a standard faculty laptop and schedule pickup/delivery. If Dr. Rivera will work in the Engineering Research Building wet lab, we recommend a secondary “lab-safe” device policy discussion, but that’s optional for day one.
+
+Lead time notes (for day-one readiness):
+- If IT-8 is submitted at least 10 business days prior to start date, we can reliably have email/VPN/groups ready by day one.
+- Door access timing depends on Access Control, but tying it to IT-8 early helps avoid last-minute badge/reader issues.
+
+Thanks,
+Mark Dawson
+IT Service Delivery Manager
+Eastport University
+
+============================================================
+
+Email ID: email_004
+Date: 2026-04-08 10:12:55
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: mark.dawson@eastportuniversity.edu, michael.brooks@eastportuniversity.edu
+CC: sarah.patel@eastportuniversity.edu
+Subject: Banner upgrade weekend: request for quick testing of GA forms
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Mark and Michael,
+
+Sarah mentioned the Banner upgrade is scheduled for the weekend of Apr 19–20. Before we go live, could we do a quick validation pass on the Graduate Assistantship (GA) e-forms?
+
+What I’m hoping to test (15–20 minutes total):
+- GA appointment form submission (new + renewal)
+- Routing to approvers (department + budget authority)
+- Confirmation email generation
+- PDF export formatting (especially the stipend/tuition lines)
+
+If you can share a test window and any sandbox credentials we should use, I can run through the scenarios and send back screenshots of anything that looks off.
+
+Thanks,
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

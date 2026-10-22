@@ -1,0 +1,198 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• maria.gomez
+  Name: Maria Gomez
+  Email: maria.gomez@heliofreight.com
+
+• derek.holt
+  Name: Derek Holt
+  Email: derek.holt@heliofreight.com
+
+• priya.nair
+  Name: Priya Nair
+  Email: priya.nair@heliofreight.com
+
+• jason.kim
+  Name: Jason Kim
+  Email: jason.kim@heliofreight.com
+
+• lisa.watkins
+  Name: Lisa Watkins
+  Email: lisa.watkins@heliofreight.com
+
+• priya.desai
+  Name: Priya Desai
+  Email: priya.desai@heliofreight.com
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-04-14 09:12:36
+From: Priya Nair <priya.nair@heliofreight.com>
+To: maria.gomez@heliofreight.com, derek.holt@heliofreight.com
+CC: jason.kim@heliofreight.com
+Subject: Inventory accuracy – Q2 variance + next steps
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi Maria, Derek,
+
+Sharing a quick readout on the inventory accuracy workstream.
+
+Since March we’ve tightened our operational controls by rolling out a monthly cycle-count program across all regional warehouses (every site on the same calendar), and we’re now tracking count variance as a formal KPI in the weekly ops scorecard. Early results are encouraging: most sites are down to low single-digit variance, with the remaining exceptions tied to a few high-velocity SKUs.
+
+Next steps this week:
+- Standardize the root-cause tags (receiving vs. picking vs. slotting)
+- Refresh the training module for new associates
+- Confirm the threshold for escalating variances to site leadership
+
+This is strictly an ops process/metrics change to improve accuracy (not a contract/approval workflow change), so it shouldn’t affect any redline review or customer-specific signoff paths.
+
+Thanks,
+Priya
+
+Priya Nair
+Director, Warehouse Operations
+HelioFreight Logistics
+============================================================
+
+Email ID: email_001
+Date: 2026-04-14 09:18:42
+From: Priya Nair <priya.nair@heliofreight.com>
+To: maria.gomez@heliofreight.com, jason.kim@heliofreight.com, priya.desai@heliofreight.com
+CC: lisa.watkins@heliofreight.com
+Subject: Q3 Customer Survey Results + Action Items for Shipments Visibility
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi Maria, Jason,
+
+Sharing the toplines from the Q3 customer satisfaction pulse (freight + warehousing accounts). Overall NPS improved slightly, but the recurring theme is shipment visibility during exceptions (weather holds, appointment reschedules).
+
+Key takeaways:
+- Customers want faster proactive updates when an ETA changes (even if we don’t have a final appointment yet).
+- The carrier scorecard is appreciated, but clients want it summarized by lane and month.
+- Several enterprise accounts asked for a single escalation email alias per region.
+
+Proposed actions (April/May):
+1) Jason: Can your team add an “Exception Update” template in the customer portal notifications (email + in-app) with placeholders for next update time?
+2) Maria: Can Ops define a standard cadence for exception updates (e.g., initial notice within 60 mins, then every 4 hours until resolved) for Transportation?
+3) Lisa: If you agree, I’ll draft regional escalation aliases and routing rules for approval.
+
+If we can align this week, I’ll incorporate into the Q3 closeout deck for ELT.
+
+Thanks,
+Priya
+============================================================
+
+Email ID: email_002
+Date: 2026-04-14 10:03:11
+From: Maria Gomez <maria.gomez@heliofreight.com>
+To: priya.nair@heliofreight.com
+CC: derek.holt@heliofreight.com, jason.kim@heliofreight.com, lisa.watkins@heliofreight.com
+Subject: RE: Inventory accuracy – Q2 variance + next steps
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Priya — thank you.
+
+Two quick questions for the QBR deck:
+1) Can we confirm the “recent operational change” language is the monthly cycle counts + the new KPI on count variance (vs. anything system-related)?
+2) Any concerns from Legal/Commercial about calling out this change publicly in customer materials?
+
+Lisa is helping me finalize the narrative for two customers who have asked what we’ve changed to improve inventory accuracy.
+
+Maria
+
+Maria Gomez
+Sr. Program Manager, Strategic Accounts
+HelioFreight Logistics
+============================================================
+
+Email ID: email_003
+Date: 2026-04-14 10:27:49
+From: Priya Nair <priya.nair@heliofreight.com>
+To: maria.gomez@heliofreight.com
+CC: derek.holt@heliofreight.com, jason.kim@heliofreight.com, lisa.watkins@heliofreight.com
+Subject: RE: Inventory accuracy – Q2 variance + next steps
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Maria — confirmed.
+
+1) The recent operational change is exactly that: we implemented a monthly cycle-count program for all regional warehouses and started tracking count variance as a KPI (reported weekly and reviewed in the monthly ops business review). No WMS change is required to support the program.
+
+2) I don’t see any Legal/Commercial sensitivity in stating this. It’s a general warehouse process/metrics initiative and does not touch contract redline review, customer approval workflows, or any pricing/terms. We’re just describing how we’re tightening inventory controls.
+
+If helpful, you can phrase it as: “Standardized monthly cycle counts across all sites and introduced count variance KPI tracking to drive accountability and root-cause resolution.”
+
+Priya
+============================================================
+
+Email ID: email_002
+Date: 2026-04-14 11:03:17
+From: Jason Kim <jason.kim@heliofreight.com>
+To: priya.nair@heliofreight.com, maria.gomez@heliofreight.com
+CC: lisa.watkins@heliofreight.com
+Subject: Re: Q3 Customer Survey Results + Action Items for Shipments Visibility
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Priya, Maria,
+
+Yes—we can support the “Exception Update” template. A couple notes:
+
+- We can push the template into the portal notifications in the next sprint (targeting Apr 26 release), assuming copy is finalized by Apr 18.
+- For email, we’ll need approved language for what we can/can’t commit to when an appointment is pending (legal/compliance sensitivity around guaranteed ETAs).
+- For the carrier scorecard by lane/month: we can generate a monthly PDF export for enterprise accounts as an interim step. A dashboard enhancement would land in May.
+
+Maria: If you can confirm the Ops cadence you want for exceptions, I’ll map it to system triggers (e.g., event types for delay, tender rejected, appointment moved).
+
+Lisa: If you already have naming conventions for aliases (e.g., west-escalations@), send them and we’ll ensure routing integrates with ServiceNow queues.
+
+Thanks,
+Jason
+============================================================
+
+Email ID: email_003
+Date: 2026-04-21 16:27:05
+From: Derek Holt <derek.holt@heliofreight.com>
+To: maria.gomez@heliofreight.com, priya.nair@heliofreight.com, lisa.watkins@heliofreight.com
+CC: jason.kim@heliofreight.com
+Subject: Budget Hold: May Travel Requests (Conferences + Customer Visits)
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi all,
+
+Finance is placing a temporary hold on new May travel approvals while we reconcile Q2 spend vs. forecast. This impacts conference attendance (e.g., CSCMP regional) and non-essential customer on-sites.
+
+What I need from you by EOD Thursday:
+1) A list of planned May trips (traveler, destination, purpose, estimated cost).
+2) Whether the trip is revenue-protecting (customer retention/escalation) vs. optional.
+3) If virtual attendance is viable (for events) or if we can combine visits.
+
+We’re not canceling anything already ticketed; this is for new requests that haven’t been booked yet. I’ll consolidate and bring a recommendation to the CFO for exceptions.
+
+Thanks,
+Derek
+
+—
+Derek Holt
+Director, FP&A
+HelioFreight Logistics
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

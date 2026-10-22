@@ -1,0 +1,41 @@
+{
+    "name": "b2b_04",
+    "task_id": "b2b_04",
+    "level": "",
+    "company_info": {
+        "name": "HelioFreight Logistics",
+        "industry": "Third-Party Logistics (3PL)",
+        "description": "HelioFreight manages warehousing and freight services for B2B shippers across North America.",
+        "size": "Large",
+        "employee_count": "2000-5000",
+        "annual_revenue": "$600M-$1.2B",
+        "founded_year": 2000,
+        "headquarters": "Unknown",
+        "key_products_services": [],
+        "market_position": "",
+        "target_markets": []
+    },
+    "dr_question": "What is the step-by-step process to approve contract redlines quickly?",
+    "date": "2026-02-01",
+    "persona": {
+        "name": "Priya Desai",
+        "first_name": "Priya",
+        "last_name": "Desai",
+        "role": "Commercial Counsel",
+        "department": "Department",
+        "email": "priya.desai@heliofreight.com",
+        "password": "my_drbench_pwd",
+        "seniority": "Mid",
+        "responsibilities": "Reviews customer contracts and sets legal guardrails for deal approvals.",
+        "id": "b2b_04",
+        "domain": "crm",
+        "justification": "",
+        "username": "priya.desai"
+    },
+    "citation_format": {
+        "urls": [],
+        "file_names": [],
+        "mattermost_chats": [],
+        "email_messages": []
+    }
+}

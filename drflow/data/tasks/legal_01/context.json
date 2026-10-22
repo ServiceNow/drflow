@@ -1,0 +1,60 @@
+{
+    "company_info": {
+        "name": "HarborPoint Community Bank",
+        "industry": "Banking",
+        "description": "HarborPoint provides lending and treasury services to local small and mid-sized businesses.",
+        "size": "Large",
+        "employee_count": "1000-3000",
+        "annual_revenue": "$500M-$900M",
+        "founded_year": 2000,
+        "headquarters": "Unknown",
+        "key_products_services": [],
+        "market_position": "",
+        "target_markets": []
+    },
+    "persona": {
+        "name": "Daniel Han",
+        "first_name": "Daniel",
+        "last_name": "Han",
+        "role": "Operations Manager",
+        "department": "Department",
+        "email": "daniel.han@harborpoint.com",
+        "password": "my_drbench_pwd",
+        "seniority": "Mid",
+        "responsibilities": "He manages regulatory obligations, internal controls, and policy implementation across multiple business units.",
+        "id": "legal_01",
+        "domain": "crm",
+        "justification": "",
+        "username": "daniel.han"
+    },
+    "url": {
+        "date": "2026-02-01",
+        "domain": "crm",
+        "example_dr_questions": [
+            "What exact steps should we take to investigate a potential internal compliance violation?"
+        ],
+        "industry": "Banking",
+        "insights": [
+            "- A treasury-operations analyst reported via the HarborPoint Ethics Hotline that a relationship manager may have helped a long-time commercial client send 3 outgoing wires to a higher-risk jurisdiction without completing the required Enhanced Due Diligence (EDD) checklist.\n- The report includes customer name, CIF number, the three wire reference IDs, dates, and the employee\u2019s name and branch; it does not allege customer identity theft or loss of devices.",
+            "- The allegation appears compliance-related (BSA/AML / suspicious activity controls) and not an HR conduct issue (no harassment, violence, or discrimination claims).\n- Initial review suggests this is a \u201cmaterial controls breach\u201d but not an immediate safety or systems-outage emergency, so it will be handled as a standard Compliance Investigation (Severity S2).\n- The employee implicated is a non-executive relationship manager; no senior officer (VP+), Audit Committee member, or Compliance staff are named.",
+            "- Because the report touches wire activity and possible structuring/avoidance behavior, the BSA Officer must be looped in early to evaluate whether a SAR decision track is needed.\n- No indicators of customer PII exposure are present (no mention of emails sent to wrong recipients, stolen laptops, or unauthorized database downloads).",
+            "- The involved systems are the Wire Platform (reference IDs provided) and the customer due diligence repository where the EDD checklist should be stored.\n- The immediate need is to preserve records (EDD files, wire approvals, chat/email approvals, access logs) and prevent alteration while keeping the matter confidential.\n- The investigation should result in a documented findings memo, control-remediation tasks for Treasury Services, and a decision record on whether a SAR is warranted, with approvals captured in the compliance case file.",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "url": ""
+    },
+    "timestamp": "2026-02-01 00:00"
+}

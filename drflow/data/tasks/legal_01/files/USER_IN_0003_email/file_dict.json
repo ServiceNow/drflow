@@ -1,0 +1,219 @@
+{
+    "file_name": "roundcube_email_20260409_101628",
+    "content": "{\"type\": \"user\", \"username\": \"daniel.han\", \"first_name\": \"Daniel\", \"last_name\": \"Han\", \"email\": \"daniel.han@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"monica.reyes\", \"first_name\": \"Monica\", \"last_name\": \"Reyes\", \"email\": \"monica.reyes@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"james.whitaker\", \"first_name\": \"James\", \"last_name\": \"Whitaker\", \"email\": \"james.whitaker@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"priya.natarajan\", \"first_name\": \"Priya\", \"last_name\": \"Natarajan\", \"email\": \"priya.natarajan@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"laura.kim\", \"first_name\": \"Laura\", \"last_name\": \"Kim\", \"email\": \"laura.kim@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"michael.owens\", \"first_name\": \"Michael\", \"last_name\": \"Owens\", \"email\": \"michael.owens@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Q2 Treasury Services Metrics \\u2014 Data Cut and Dashboard Refresh\", \"from\": \"priya.natarajan@harborpoint.com\", \"from_name\": \"Priya Natarajan\", \"to\": [\"daniel.han@harborpoint.com\", \"monica.reyes@harborpoint.com\"], \"cc\": [\"james.whitaker@harborpoint.com\"], \"date\": \"2026-04-02 09:14:22\", \"body\": \"Hi Daniel and Monica,\\n\\nI\\u2019m pulling together the Q2 Treasury Services operating metrics for the leadership dashboard refresh. Can you confirm the agreed data cut for:\\n\\n\\u2022 ACH returns and exception items (Ops)\\n\\u2022 Wire volume and average processing time (Ops)\\n\\u2022 Client onboarding cycle time (Treasury)\\n\\nIf we\\u2019re aligned on using end-of-day Fridays, I\\u2019ll set the PowerBI extract to refresh early Monday mornings.\\n\\nAlso, are we still excluding the small-business pilot portfolio from the baseline metrics (so it\\u2019s reported separately)?\\n\\nThanks,\\nPriya\", \"folder\": \"inbox\", \"read\": true, \"attachments\": []}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"Re: Q2 Treasury Services Metrics \\u2014 Data Cut and Dashboard Refresh\", \"from\": \"daniel.han@harborpoint.com\", \"from_name\": \"Daniel Han\", \"to\": [\"priya.natarajan@harborpoint.com\", \"monica.reyes@harborpoint.com\"], \"cc\": [\"james.whitaker@harborpoint.com\"], \"date\": \"2026-04-02 10:03:47\", \"body\": \"Priya,\\n\\nYes\\u2014end-of-day Friday is what we\\u2019ve been using for the Ops feeds.\\n\\nFor Q2, let\\u2019s keep the small-business pilot portfolio excluded from the baseline and show it as a separate tile. That\\u2019s been helpful for leadership context.\\n\\nMonica\\u2014can you confirm Treasury onboarding cycle time is still measured from \\u201capplication complete\\u201d to \\u201cfirst successful funding/transaction,\\u201d not contract signature?\\n\\nThanks,\\nDaniel\\nOperations Manager | HarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": []}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"April Ops Huddle \\u2014 Agenda Items and Time Confirmation\", \"from\": \"monica.reyes@harborpoint.com\", \"from_name\": \"Monica Reyes\", \"to\": [\"daniel.han@harborpoint.com\", \"michael.owens@harborpoint.com\", \"laura.kim@harborpoint.com\"], \"cc\": [], \"date\": \"2026-04-03 14:26:09\", \"body\": \"Hi Daniel, Michael, Laura,\\n\\nCan we confirm the April Ops Huddle for Tuesday, 4/8 from 11:00\\u201311:45 AM?\\n\\nProposed agenda:\\n1) Treasury onboarding queue: staffing coverage and SLAs (Michael)\\n2) Lending booking backlog: end-of-month spike mitigation (Laura)\\n3) Policy acknowledgment tracking: current completion rate by unit (Daniel)\\n4) Customer feedback highlights from branch referrals into treasury products (Monica)\\n\\nIf anyone has additional topics, please send by EOD Monday so I can finalize the deck.\\n\\nThanks,\\nMonica\", \"folder\": \"inbox\", \"read\": true, \"attachments\": []}\n{\"type\": \"email\", \"id\": \"email_004\", \"subject\": \"Vendor Training Slots \\u2014 Fraud Analytics Tool (April/May)\", \"from\": \"michael.owens@harborpoint.com\", \"from_name\": \"Michael Owens\", \"to\": [\"daniel.han@harborpoint.com\", \"laura.kim@harborpoint.com\"], \"cc\": [\"monica.reyes@harborpoint.com\"], \"date\": \"2026-04-04 08:41:55\", \"body\": \"Daniel and Laura,\\n\\nThe vendor confirmed additional training slots for the fraud analytics tool rollout. Options are:\\n\\n\\u2022 Wed 4/16, 2:00\\u20133:30 PM (virtual)\\n\\u2022 Fri 4/25, 10:00\\u201311:30 AM (virtual)\\n\\u2022 Tue 5/6, 1:00\\u20132:30 PM (in-person, HQ Conf B)\\n\\nRecommendation: we prioritize teams supporting wire callbacks and ACH exceptions, then open the remaining seats to branch ops and lending ops.\\n\\nDaniel\\u2014can you let me know which slot works best for your cross-unit policy and controls leads? I\\u2019d like to finalize the attendee list by next Wednesday.\\n\\nThanks,\\nMichael\", \"folder\": \"inbox\", \"read\": false, \"attachments\": []}\n{\"type\": \"email\", \"id\": \"email_005\", \"subject\": \"Q3 Budget Inputs \\u2014 Ops Controls Testing Hours and Overtime Assumptions\", \"from\": \"james.whitaker@harborpoint.com\", \"from_name\": \"James Whitaker\", \"to\": [\"daniel.han@harborpoint.com\"], \"cc\": [\"priya.natarajan@harborpoint.com\"], \"date\": \"2026-04-07 16:18:30\", \"body\": \"Daniel,\\n\\nAs we lock Q3 budget inputs, I need your estimates for:\\n\\n1) Controls testing hours (by month) for the multi-unit review calendar\\n2) Any expected overtime in Ops tied to month-end volume (wires/ACH) and lending booking\\n3) Travel/training expenses for the policy implementation workshops\\n\\nIf helpful, you can provide ranges (low/likely/high). Priya is consolidating the broader Ops numbers, so I copied her here.\\n\\nPlease send your inputs by Thursday noon so Finance can finalize the draft.\\n\\nThanks,\\nJames\\nFP&A | HarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": []}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern)\", \"from\": \"daniel.han@harborpoint.com\", \"from_name\": \"Daniel Han\", \"to\": [\"monica.reyes@harborpoint.com\"], \"cc\": [\"laura.kim@harborpoint.com\", \"priya.natarajan@harborpoint.com\"], \"date\": \"2026-04-08 09:12:44\", \"body\": \"Monica,\\n\\nWe received a report via manager escalation that a Relationship Manager may have advised a business client to split outgoing wires into smaller amounts after the client asked about \\u201creview thresholds.\\u201d There\\u2019s also a question of whether the RM bypassed the normal approval path for the second and third wires by using a different template.\\n\\nI need your guidance on the exact steps we should take to investigate this as a potential internal compliance violation (initial triage through fact-finding). Specifically:\\n- Who needs to be looped in immediately (AML/BSA vs. Privacy vs. IT Security vs. Audit)?\\n- What evidence should we preserve first (wire system logs, emails/IMs, case notes)?\\n- At what point do we decide whether we\\u2019re on a SAR decision track?\\n\\nSo far, the report references wire activity and internal process circumvention, but does not mention any customer information being sent externally.\\n\\nThanks,\\nDaniel Han\\nOperations Manager\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": []}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern)\", \"from\": \"monica.reyes@harborpoint.com\", \"from_name\": \"Monica Reyes\", \"to\": [\"daniel.han@harborpoint.com\"], \"cc\": [\"laura.kim@harborpoint.com\", \"priya.natarajan@harborpoint.com\"], \"date\": \"2026-04-08 10:01:18\", \"body\": \"Daniel,\\n\\nAgree this should be handled as a compliance investigation with early AML/BSA involvement.\\n\\n1) Immediate escalation / who to loop in\\n- Loop in the BSA Officer (my team) now. Because the report touches wire activity + potential structuring/avoidance behavior (splitting wires after asking about thresholds), we need to assess quickly whether this belongs on a SAR decision track. Early BSA involvement helps ensure we preserve the right facts for SAR decisioning and avoid delays if the activity is determined to be suspicious.\\n- Keep Internal Audit (Laura) in the loop for controls/process questions, but we should not turn this into an audit review yet\\u2014treat it as a case with documented investigative steps.\\n- Do NOT treat this as a privacy/data-breach response at this time. There are currently no indicators of customer PII exposure (no mention of emails sent to the wrong recipients, stolen devices, unauthorized database downloads/exfiltration, or external sharing of customer lists). Priya can remain CC\\u2019d for awareness, but this does not look like a privacy incident.\\n- Bring IT Security (Michael) only if we identify signs of data access abuse (mass downloads, unusual access patterns) or if we need to preserve endpoint evidence beyond normal retention.\\n\\n2) First evidence to preserve (today)\\n- Wire transfer records for the customer and any related entities: dates/times, amounts, beneficiaries, templates used, approver trail, overrides.\\n- System logs: who initiated/edited/approved each wire; any template changes; any use of \\u201calternate\\u201d workflow.\\n- RM communications and notes: CRM notes, call logs (if recorded), internal emails/Teams/IMs referencing thresholds, split transactions, or approvals.\\n- Policy/procedure references: current wire approval and exception policy; any approvals granted outside procedure.\\n\\n3) Suggested investigation steps (next 3\\u20135 business days)\\n- Open a formal case file with a single case owner; document allegation, scope, time period, and initial risk rating.\\n- Implement \\u201cneed-to-know\\u201d restrictions; avoid tipping off the RM until we have preserved communications.\\n- Build a timeline: client inquiry \\u2192 RM response \\u2192 wire instructions \\u2192 approvals/overrides \\u2192 any follow-on activity.\\n- Conduct interviews in this order: (a) operations/wire processing staff who executed the wires; (b) approver(s); (c) RM last.\\n- Determine whether the behavior indicates: (i) customer-initiated structuring/avoidance, (ii) employee facilitation, or (iii) control bypass without customer intent.\\n\\n4) SAR-related escalation / decision track\\n- Given the structuring/avoidance cues, we should treat this as \\u201cSAR evaluation required\\u201d until we can rule it out. That means: document key facts, collect supporting records, and route to BSA Officer review early rather than waiting for a full HR/controls conclusion.\\n- If facts support suspicion, we\\u2019ll follow our standard SAR decisioning workflow (case narrative, supporting docs, decision committee as applicable, filing timeline tracking).\\n\\nIf you want, I can join a 20-minute triage call today to align on scope and assign a case owner.\\n\\nMonica Reyes\\nDirector, BSA/AML Compliance\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": []}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"RE: Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern) \\u2014 Next Steps\", \"from\": \"daniel.han@harborpoint.com\", \"from_name\": \"Daniel Han\", \"to\": [\"monica.reyes@harborpoint.com\"], \"cc\": [\"laura.kim@harborpoint.com\", \"priya.natarajan@harborpoint.com\"], \"date\": \"2026-04-08 10:24:37\", \"body\": \"Monica,\\n\\nThis is helpful\\u2014thank you.\\n\\nWe\\u2019ll proceed as follows:\\n- Open a formal investigation case file today (I\\u2019ll assign case owner from Ops Controls) and document allegation/scope/time window.\\n- Preserve wire records + system logs (initiator/editor/approver trails, template history, any overrides) and place a hold on relevant CRM notes and internal comms for the RM and wire ops team.\\n- Keep distribution tight until evidence is preserved; we will not interview the RM until after we complete the initial data capture.\\n- Treat as \\u201cSAR evaluation required\\u201d and engage the BSA Officer early per your guidance, given the potential structuring/avoidance element.\\n- No privacy/incident-response activation at this point since we have no indicators of customer PII exposure (no misdirected communications, stolen device, or unauthorized downloads). Priya, we\\u2019ll update you if any evidence suggests data exposure.\\n\\nLet\\u2019s do the 20-minute triage call at 2:00 PM today. I\\u2019ll send the invite.\\n\\nDaniel Han\\nOperations Manager\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": []}",
+    "email_setup": [
+        {
+            "type": "user",
+            "username": "daniel.han",
+            "first_name": "Daniel",
+            "last_name": "Han",
+            "email": "daniel.han@harborpoint.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "monica.reyes",
+            "first_name": "Monica",
+            "last_name": "Reyes",
+            "email": "monica.reyes@harborpoint.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "james.whitaker",
+            "first_name": "James",
+            "last_name": "Whitaker",
+            "email": "james.whitaker@harborpoint.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "priya.natarajan",
+            "first_name": "Priya",
+            "last_name": "Natarajan",
+            "email": "priya.natarajan@harborpoint.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "laura.kim",
+            "first_name": "Laura",
+            "last_name": "Kim",
+            "email": "laura.kim@harborpoint.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "michael.owens",
+            "first_name": "Michael",
+            "last_name": "Owens",
+            "email": "michael.owens@harborpoint.com",
+            "password": "my_drbench_pwd"
+        }
+    ],
+    "email_messages": [
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Q2 Treasury Services Metrics \u2014 Data Cut and Dashboard Refresh",
+            "from": "priya.natarajan@harborpoint.com",
+            "from_name": "Priya Natarajan",
+            "to": [
+                "daniel.han@harborpoint.com",
+                "monica.reyes@harborpoint.com"
+            ],
+            "cc": [
+                "james.whitaker@harborpoint.com"
+            ],
+            "date": "2026-04-02 09:14:22",
+            "body": "Hi Daniel and Monica,\n\nI\u2019m pulling together the Q2 Treasury Services operating metrics for the leadership dashboard refresh. Can you confirm the agreed data cut for:\n\n\u2022 ACH returns and exception items (Ops)\n\u2022 Wire volume and average processing time (Ops)\n\u2022 Client onboarding cycle time (Treasury)\n\nIf we\u2019re aligned on using end-of-day Fridays, I\u2019ll set the PowerBI extract to refresh early Monday mornings.\n\nAlso, are we still excluding the small-business pilot portfolio from the baseline metrics (so it\u2019s reported separately)?\n\nThanks,\nPriya",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "Re: Q2 Treasury Services Metrics \u2014 Data Cut and Dashboard Refresh",
+            "from": "daniel.han@harborpoint.com",
+            "from_name": "Daniel Han",
+            "to": [
+                "priya.natarajan@harborpoint.com",
+                "monica.reyes@harborpoint.com"
+            ],
+            "cc": [
+                "james.whitaker@harborpoint.com"
+            ],
+            "date": "2026-04-02 10:03:47",
+            "body": "Priya,\n\nYes\u2014end-of-day Friday is what we\u2019ve been using for the Ops feeds.\n\nFor Q2, let\u2019s keep the small-business pilot portfolio excluded from the baseline and show it as a separate tile. That\u2019s been helpful for leadership context.\n\nMonica\u2014can you confirm Treasury onboarding cycle time is still measured from \u201capplication complete\u201d to \u201cfirst successful funding/transaction,\u201d not contract signature?\n\nThanks,\nDaniel\nOperations Manager | HarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "April Ops Huddle \u2014 Agenda Items and Time Confirmation",
+            "from": "monica.reyes@harborpoint.com",
+            "from_name": "Monica Reyes",
+            "to": [
+                "daniel.han@harborpoint.com",
+                "michael.owens@harborpoint.com",
+                "laura.kim@harborpoint.com"
+            ],
+            "cc": [],
+            "date": "2026-04-03 14:26:09",
+            "body": "Hi Daniel, Michael, Laura,\n\nCan we confirm the April Ops Huddle for Tuesday, 4/8 from 11:00\u201311:45 AM?\n\nProposed agenda:\n1) Treasury onboarding queue: staffing coverage and SLAs (Michael)\n2) Lending booking backlog: end-of-month spike mitigation (Laura)\n3) Policy acknowledgment tracking: current completion rate by unit (Daniel)\n4) Customer feedback highlights from branch referrals into treasury products (Monica)\n\nIf anyone has additional topics, please send by EOD Monday so I can finalize the deck.\n\nThanks,\nMonica",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_004",
+            "subject": "Vendor Training Slots \u2014 Fraud Analytics Tool (April/May)",
+            "from": "michael.owens@harborpoint.com",
+            "from_name": "Michael Owens",
+            "to": [
+                "daniel.han@harborpoint.com",
+                "laura.kim@harborpoint.com"
+            ],
+            "cc": [
+                "monica.reyes@harborpoint.com"
+            ],
+            "date": "2026-04-04 08:41:55",
+            "body": "Daniel and Laura,\n\nThe vendor confirmed additional training slots for the fraud analytics tool rollout. Options are:\n\n\u2022 Wed 4/16, 2:00\u20133:30 PM (virtual)\n\u2022 Fri 4/25, 10:00\u201311:30 AM (virtual)\n\u2022 Tue 5/6, 1:00\u20132:30 PM (in-person, HQ Conf B)\n\nRecommendation: we prioritize teams supporting wire callbacks and ACH exceptions, then open the remaining seats to branch ops and lending ops.\n\nDaniel\u2014can you let me know which slot works best for your cross-unit policy and controls leads? I\u2019d like to finalize the attendee list by next Wednesday.\n\nThanks,\nMichael",
+            "folder": "inbox",
+            "read": false,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_005",
+            "subject": "Q3 Budget Inputs \u2014 Ops Controls Testing Hours and Overtime Assumptions",
+            "from": "james.whitaker@harborpoint.com",
+            "from_name": "James Whitaker",
+            "to": [
+                "daniel.han@harborpoint.com"
+            ],
+            "cc": [
+                "priya.natarajan@harborpoint.com"
+            ],
+            "date": "2026-04-07 16:18:30",
+            "body": "Daniel,\n\nAs we lock Q3 budget inputs, I need your estimates for:\n\n1) Controls testing hours (by month) for the multi-unit review calendar\n2) Any expected overtime in Ops tied to month-end volume (wires/ACH) and lending booking\n3) Travel/training expenses for the policy implementation workshops\n\nIf helpful, you can provide ranges (low/likely/high). Priya is consolidating the broader Ops numbers, so I copied her here.\n\nPlease send your inputs by Thursday noon so Finance can finalize the draft.\n\nThanks,\nJames\nFP&A | HarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern)",
+            "from": "daniel.han@harborpoint.com",
+            "from_name": "Daniel Han",
+            "to": [
+                "monica.reyes@harborpoint.com"
+            ],
+            "cc": [
+                "laura.kim@harborpoint.com",
+                "priya.natarajan@harborpoint.com"
+            ],
+            "date": "2026-04-08 09:12:44",
+            "body": "Monica,\n\nWe received a report via manager escalation that a Relationship Manager may have advised a business client to split outgoing wires into smaller amounts after the client asked about \u201creview thresholds.\u201d There\u2019s also a question of whether the RM bypassed the normal approval path for the second and third wires by using a different template.\n\nI need your guidance on the exact steps we should take to investigate this as a potential internal compliance violation (initial triage through fact-finding). Specifically:\n- Who needs to be looped in immediately (AML/BSA vs. Privacy vs. IT Security vs. Audit)?\n- What evidence should we preserve first (wire system logs, emails/IMs, case notes)?\n- At what point do we decide whether we\u2019re on a SAR decision track?\n\nSo far, the report references wire activity and internal process circumvention, but does not mention any customer information being sent externally.\n\nThanks,\nDaniel Han\nOperations Manager\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern)",
+            "from": "monica.reyes@harborpoint.com",
+            "from_name": "Monica Reyes",
+            "to": [
+                "daniel.han@harborpoint.com"
+            ],
+            "cc": [
+                "laura.kim@harborpoint.com",
+                "priya.natarajan@harborpoint.com"
+            ],
+            "date": "2026-04-08 10:01:18",
+            "body": "Daniel,\n\nAgree this should be handled as a compliance investigation with early AML/BSA involvement.\n\n1) Immediate escalation / who to loop in\n- Loop in the BSA Officer (my team) now. Because the report touches wire activity + potential structuring/avoidance behavior (splitting wires after asking about thresholds), we need to assess quickly whether this belongs on a SAR decision track. Early BSA involvement helps ensure we preserve the right facts for SAR decisioning and avoid delays if the activity is determined to be suspicious.\n- Keep Internal Audit (Laura) in the loop for controls/process questions, but we should not turn this into an audit review yet\u2014treat it as a case with documented investigative steps.\n- Do NOT treat this as a privacy/data-breach response at this time. There are currently no indicators of customer PII exposure (no mention of emails sent to the wrong recipients, stolen devices, unauthorized database downloads/exfiltration, or external sharing of customer lists). Priya can remain CC\u2019d for awareness, but this does not look like a privacy incident.\n- Bring IT Security (Michael) only if we identify signs of data access abuse (mass downloads, unusual access patterns) or if we need to preserve endpoint evidence beyond normal retention.\n\n2) First evidence to preserve (today)\n- Wire transfer records for the customer and any related entities: dates/times, amounts, beneficiaries, templates used, approver trail, overrides.\n- System logs: who initiated/edited/approved each wire; any template changes; any use of \u201calternate\u201d workflow.\n- RM communications and notes: CRM notes, call logs (if recorded), internal emails/Teams/IMs referencing thresholds, split transactions, or approvals.\n- Policy/procedure references: current wire approval and exception policy; any approvals granted outside procedure.\n\n3) Suggested investigation steps (next 3\u20135 business days)\n- Open a formal case file with a single case owner; document allegation, scope, time period, and initial risk rating.\n- Implement \u201cneed-to-know\u201d restrictions; avoid tipping off the RM until we have preserved communications.\n- Build a timeline: client inquiry \u2192 RM response \u2192 wire instructions \u2192 approvals/overrides \u2192 any follow-on activity.\n- Conduct interviews in this order: (a) operations/wire processing staff who executed the wires; (b) approver(s); (c) RM last.\n- Determine whether the behavior indicates: (i) customer-initiated structuring/avoidance, (ii) employee facilitation, or (iii) control bypass without customer intent.\n\n4) SAR-related escalation / decision track\n- Given the structuring/avoidance cues, we should treat this as \u201cSAR evaluation required\u201d until we can rule it out. That means: document key facts, collect supporting records, and route to BSA Officer review early rather than waiting for a full HR/controls conclusion.\n- If facts support suspicion, we\u2019ll follow our standard SAR decisioning workflow (case narrative, supporting docs, decision committee as applicable, filing timeline tracking).\n\nIf you want, I can join a 20-minute triage call today to align on scope and assign a case owner.\n\nMonica Reyes\nDirector, BSA/AML Compliance\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "RE: Triage Steps Needed: Potential Internal Compliance Violation (Wire Activity Concern) \u2014 Next Steps",
+            "from": "daniel.han@harborpoint.com",
+            "from_name": "Daniel Han",
+            "to": [
+                "monica.reyes@harborpoint.com"
+            ],
+            "cc": [
+                "laura.kim@harborpoint.com",
+                "priya.natarajan@harborpoint.com"
+            ],
+            "date": "2026-04-08 10:24:37",
+            "body": "Monica,\n\nThis is helpful\u2014thank you.\n\nWe\u2019ll proceed as follows:\n- Open a formal investigation case file today (I\u2019ll assign case owner from Ops Controls) and document allegation/scope/time window.\n- Preserve wire records + system logs (initiator/editor/approver trails, template history, any overrides) and place a hold on relevant CRM notes and internal comms for the RM and wire ops team.\n- Keep distribution tight until evidence is preserved; we will not interview the RM until after we complete the initial data capture.\n- Treat as \u201cSAR evaluation required\u201d and engage the BSA Officer early per your guidance, given the potential structuring/avoidance element.\n- No privacy/incident-response activation at this point since we have no indicators of customer PII exposure (no misdirected communications, stolen device, or unauthorized downloads). Priya, we\u2019ll update you if any evidence suggests data exposure.\n\nLet\u2019s do the 20-minute triage call at 2:00 PM today. I\u2019ll send the invite.\n\nDaniel Han\nOperations Manager\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_email_document.jsonl",
+    "qa_type": "insight",
+    "timestamp": "2026-04-09 10:16",
+    "app": "file_system"
+}

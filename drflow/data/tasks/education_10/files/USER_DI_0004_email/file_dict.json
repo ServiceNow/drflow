@@ -1,0 +1,181 @@
+{
+    "file_name": "roundcube_email_20260408_201634",
+    "content": "{\"type\": \"user\", \"username\": \"jordan.lee\", \"first_name\": \"Jordan\", \"last_name\": \"Lee\", \"email\": \"jordan.lee@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"maria.gonzalez\", \"first_name\": \"Maria\", \"last_name\": \"Gonzalez\", \"email\": \"maria.gonzalez@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"david.chen\", \"first_name\": \"David\", \"last_name\": \"Chen\", \"email\": \"david.chen@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"anita.patel\", \"first_name\": \"Anita\", \"last_name\": \"Patel\", \"email\": \"anita.patel@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"kevin.omalley\", \"first_name\": \"Kevin\", \"last_name\": \"OMalley\", \"email\": \"kevin.omalley@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"aisha.rahman\", \"first_name\": \"Aisha\", \"last_name\": \"Rahman\", \"email\": \"aisha.rahman@eastportuniversity.edu\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Confirming agenda + attendees for next week's research faculty onboarding session\", \"from\": \"maria.gonzalez@eastportuniversity.edu\", \"from_name\": \"Maria Gonzalez\", \"to\": [\"jordan.lee@eastportuniversity.edu\", \"anita.patel@eastportuniversity.edu\", \"aisha.rahman@eastportuniversity.edu\"], \"cc\": [\"david.chen@eastportuniversity.edu\"], \"date\": \"2026-04-07 09:18:42\", \"body\": \"Hi Jordan and Anita,\\n\\nCould you confirm the final agenda and attendee list for the research-track faculty onboarding session next week?\\n\\nWhat I have so far:\\n- 10 min: Welcome + quick overview of campus resources\\n- 20 min: HR/benefits essentials (Anita)\\n- 25 min: Research compliance overview (IRB/IACUC/COI) (David)\\n- 15 min: Sponsored Programs intake + routing basics\\n- 10 min: Q&A\\n\\nLogistics questions:\\n1) Are we keeping this hybrid (Zoom + in-person) or fully in-person?\\n2) Do we want a short section on travel and reimbursement policies? It tends to come up.\\n3) Please send any slides by Friday so we can compile and run an accessibility check.\\n\\nThanks,\\nMaria\\n\\nMaria Gonzalez\\nProgram Manager, Faculty Affairs\\nEastport University\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"FY26 budget worksheet timing + assumptions for shared services\", \"from\": \"jordan.lee@eastportuniversity.edu\", \"from_name\": \"Jordan Lee\", \"to\": [\"kevin.omalley@eastportuniversity.edu\", \"maria.gonzalez@eastportuniversity.edu\"], \"cc\": [\"anita.patel@eastportuniversity.edu\"], \"date\": \"2026-04-07 14:06:11\", \"body\": \"Kevin,\\n\\nDo you have an updated timeline for when Finance needs the FY26 budget worksheets back from units? Maria and I are trying to plan time for shared-services assumptions (admin support, grad coordinator coverage, and the new ticketing model).\\n\\nA few items we\\u2019re unclear on:\\n- Are we still using the 3% salary pool placeholder, or did that change with the latest guidance?\\n- Will central IT continue charging departments for endpoint management, or is that moving to a flat-rate model?\\n- For shared spaces (conference rooms/classrooms), are facilities costs staying in the same cost center as last year?\\n\\nIf you can point us to the latest assumptions doc (or confirm it hasn\\u2019t changed), we\\u2019ll start plugging numbers in.\\n\\nThanks,\\nJordan\\n\\nJordan Lee\\nOperations & Planning\\nEastport University\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"Action needed: Duo MFA re-enrollment & phishing simulation window\", \"from\": \"david.chen@eastportuniversity.edu\", \"from_name\": \"David Chen\", \"to\": [\"jordan.lee@eastportuniversity.edu\", \"maria.gonzalez@eastportuniversity.edu\", \"anita.patel@eastportuniversity.edu\", \"kevin.omalley@eastportuniversity.edu\"], \"cc\": [], \"date\": \"2026-04-08 10:32:05\", \"body\": \"Hi all,\\n\\nFlagging two IT/security items coming up that may affect your teams:\\n\\n1) Duo MFA re-enrollment (April 15\\u201319)\\nSeveral staff accounts are being migrated to the new Duo policy set. Users will see a prompt to re-enroll devices. Please remind your teams not to ignore it\\u2014access to Banner, Outlook web, and the VPN may be blocked until completed.\\n\\n2) Phishing simulation window (April 22\\u2013May 3)\\nInformation Security is running the next simulated phishing campaign. If you get reports from staff that they \\u201cclicked something,\\u201d please route them to the Service Desk as usual (don\\u2019t troubleshoot locally). The goal is to measure response time and reporting rates.\\n\\nIf you want, I can share a short blurb you can paste into your unit newsletters.\\n\\nBest,\\nDavid\\n\\nDavid Chen\\nIT Service Management Liaison\\nEastport University\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Quick check: Q2 donor relations initiative + faculty involvement\", \"from\": \"jordan.lee@eastportuniversity.edu\", \"from_name\": \"Jordan Lee\", \"to\": [\"maria.gonzalez@eastportuniversity.edu\"], \"cc\": [\"david.chen@eastportuniversity.edu\"], \"date\": \"2026-04-07 09:14:22\", \"body\": \"Hi Maria,\\n\\nI\\u2019m updating the Dean\\u2019s weekly brief and want to confirm what donor relations initiative the college advancement team is running this quarter.\\n\\nAlso\\u2014David is getting questions from department admins about whether the initiative ties into the new research-track/tenure-track faculty onboarding workflow. My understanding is that it\\u2019s separate (stewardship/fundraising vs. HR/academic onboarding), but I\\u2019d like to represent it accurately.\\n\\nCan you share a 2\\u20133 sentence summary (and whether you need any faculty speakers/participants from us)?\\n\\nThanks,\\nJordan\\n\\nJordan Lee\\nAssistant Director, College Operations\\nEastport University\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Quick check: Q2 donor relations initiative + faculty involvement\", \"from\": \"maria.gonzalez@eastportuniversity.edu\", \"from_name\": \"Maria Gonzalez\", \"to\": [\"jordan.lee@eastportuniversity.edu\"], \"cc\": [\"david.chen@eastportuniversity.edu\", \"anita.patel@eastportuniversity.edu\"], \"date\": \"2026-04-07 10:02:51\", \"body\": \"Hi Jordan,\\n\\nYes\\u2014your read is right that this is separate from onboarding. This quarter the advancement office is running a donor stewardship push that includes:\\n\\n1) An alumni-and-donors stewardship reception (late May) to thank recent supporters and re-engage lapsed alumni.\\n2) Impact summaries for last year\\u2019s giving (one-pagers by program) so donors can see outcomes and we can use the same content in follow-up calls.\\n3) A fundraising panel featuring faculty speakers (early June) to highlight current research and connect it to giving priorities.\\n\\nWe\\u2019re coordinating faculty speakers now\\u2014Anita is helping with the list. None of this changes the procedural workflow for onboarding newly hired research-track/tenure-track faculty (offer letters, HR, space, start-up, etc.); it\\u2019s purely stewardship/fundraising activity.\\n\\nIf helpful for the Dean\\u2019s brief, I can send a short blurb and the draft reception invite language.\\n\\nBest,\\nMaria\\n\\nMaria Gonzalez\\nDirector of Advancement, College Programs\\nEastport University\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"RE: Quick check: Q2 donor relations initiative + faculty involvement\", \"from\": \"jordan.lee@eastportuniversity.edu\", \"from_name\": \"Jordan Lee\", \"to\": [\"maria.gonzalez@eastportuniversity.edu\"], \"cc\": [\"david.chen@eastportuniversity.edu\", \"anita.patel@eastportuniversity.edu\"], \"date\": \"2026-04-07 10:21:06\", \"body\": \"Maria\\u2014perfect, thank you.\\n\\nI\\u2019ll summarize for the Dean as: stewardship reception + impact summaries for FY25 giving + faculty-speaker fundraising panel (and note it\\u2019s donor relations activity, not part of the faculty onboarding workflow).\\n\\nAnita, please keep me posted on the faculty speaker shortlist in case the Dean wants to suggest a couple of names.\\n\\nThanks again,\\nJordan\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}",
+    "email_setup": [
+        {
+            "type": "user",
+            "username": "jordan.lee",
+            "first_name": "Jordan",
+            "last_name": "Lee",
+            "email": "jordan.lee@eastportuniversity.edu",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "maria.gonzalez",
+            "first_name": "Maria",
+            "last_name": "Gonzalez",
+            "email": "maria.gonzalez@eastportuniversity.edu",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "david.chen",
+            "first_name": "David",
+            "last_name": "Chen",
+            "email": "david.chen@eastportuniversity.edu",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "anita.patel",
+            "first_name": "Anita",
+            "last_name": "Patel",
+            "email": "anita.patel@eastportuniversity.edu",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "kevin.omalley",
+            "first_name": "Kevin",
+            "last_name": "OMalley",
+            "email": "kevin.omalley@eastportuniversity.edu",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "aisha.rahman",
+            "first_name": "Aisha",
+            "last_name": "Rahman",
+            "email": "aisha.rahman@eastportuniversity.edu",
+            "password": "my_drbench_pwd"
+        }
+    ],
+    "email_messages": [
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Confirming agenda + attendees for next week's research faculty onboarding session",
+            "from": "maria.gonzalez@eastportuniversity.edu",
+            "from_name": "Maria Gonzalez",
+            "to": [
+                "jordan.lee@eastportuniversity.edu",
+                "anita.patel@eastportuniversity.edu",
+                "aisha.rahman@eastportuniversity.edu"
+            ],
+            "cc": [
+                "david.chen@eastportuniversity.edu"
+            ],
+            "date": "2026-04-07 09:18:42",
+            "body": "Hi Jordan and Anita,\n\nCould you confirm the final agenda and attendee list for the research-track faculty onboarding session next week?\n\nWhat I have so far:\n- 10 min: Welcome + quick overview of campus resources\n- 20 min: HR/benefits essentials (Anita)\n- 25 min: Research compliance overview (IRB/IACUC/COI) (David)\n- 15 min: Sponsored Programs intake + routing basics\n- 10 min: Q&A\n\nLogistics questions:\n1) Are we keeping this hybrid (Zoom + in-person) or fully in-person?\n2) Do we want a short section on travel and reimbursement policies? It tends to come up.\n3) Please send any slides by Friday so we can compile and run an accessibility check.\n\nThanks,\nMaria\n\nMaria Gonzalez\nProgram Manager, Faculty Affairs\nEastport University",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "FY26 budget worksheet timing + assumptions for shared services",
+            "from": "jordan.lee@eastportuniversity.edu",
+            "from_name": "Jordan Lee",
+            "to": [
+                "kevin.omalley@eastportuniversity.edu",
+                "maria.gonzalez@eastportuniversity.edu"
+            ],
+            "cc": [
+                "anita.patel@eastportuniversity.edu"
+            ],
+            "date": "2026-04-07 14:06:11",
+            "body": "Kevin,\n\nDo you have an updated timeline for when Finance needs the FY26 budget worksheets back from units? Maria and I are trying to plan time for shared-services assumptions (admin support, grad coordinator coverage, and the new ticketing model).\n\nA few items we\u2019re unclear on:\n- Are we still using the 3% salary pool placeholder, or did that change with the latest guidance?\n- Will central IT continue charging departments for endpoint management, or is that moving to a flat-rate model?\n- For shared spaces (conference rooms/classrooms), are facilities costs staying in the same cost center as last year?\n\nIf you can point us to the latest assumptions doc (or confirm it hasn\u2019t changed), we\u2019ll start plugging numbers in.\n\nThanks,\nJordan\n\nJordan Lee\nOperations & Planning\nEastport University",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "Action needed: Duo MFA re-enrollment & phishing simulation window",
+            "from": "david.chen@eastportuniversity.edu",
+            "from_name": "David Chen",
+            "to": [
+                "jordan.lee@eastportuniversity.edu",
+                "maria.gonzalez@eastportuniversity.edu",
+                "anita.patel@eastportuniversity.edu",
+                "kevin.omalley@eastportuniversity.edu"
+            ],
+            "cc": [],
+            "date": "2026-04-08 10:32:05",
+            "body": "Hi all,\n\nFlagging two IT/security items coming up that may affect your teams:\n\n1) Duo MFA re-enrollment (April 15\u201319)\nSeveral staff accounts are being migrated to the new Duo policy set. Users will see a prompt to re-enroll devices. Please remind your teams not to ignore it\u2014access to Banner, Outlook web, and the VPN may be blocked until completed.\n\n2) Phishing simulation window (April 22\u2013May 3)\nInformation Security is running the next simulated phishing campaign. If you get reports from staff that they \u201cclicked something,\u201d please route them to the Service Desk as usual (don\u2019t troubleshoot locally). The goal is to measure response time and reporting rates.\n\nIf you want, I can share a short blurb you can paste into your unit newsletters.\n\nBest,\nDavid\n\nDavid Chen\nIT Service Management Liaison\nEastport University",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Quick check: Q2 donor relations initiative + faculty involvement",
+            "from": "jordan.lee@eastportuniversity.edu",
+            "from_name": "Jordan Lee",
+            "to": [
+                "maria.gonzalez@eastportuniversity.edu"
+            ],
+            "cc": [
+                "david.chen@eastportuniversity.edu"
+            ],
+            "date": "2026-04-07 09:14:22",
+            "body": "Hi Maria,\n\nI\u2019m updating the Dean\u2019s weekly brief and want to confirm what donor relations initiative the college advancement team is running this quarter.\n\nAlso\u2014David is getting questions from department admins about whether the initiative ties into the new research-track/tenure-track faculty onboarding workflow. My understanding is that it\u2019s separate (stewardship/fundraising vs. HR/academic onboarding), but I\u2019d like to represent it accurately.\n\nCan you share a 2\u20133 sentence summary (and whether you need any faculty speakers/participants from us)?\n\nThanks,\nJordan\n\nJordan Lee\nAssistant Director, College Operations\nEastport University",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Quick check: Q2 donor relations initiative + faculty involvement",
+            "from": "maria.gonzalez@eastportuniversity.edu",
+            "from_name": "Maria Gonzalez",
+            "to": [
+                "jordan.lee@eastportuniversity.edu"
+            ],
+            "cc": [
+                "david.chen@eastportuniversity.edu",
+                "anita.patel@eastportuniversity.edu"
+            ],
+            "date": "2026-04-07 10:02:51",
+            "body": "Hi Jordan,\n\nYes\u2014your read is right that this is separate from onboarding. This quarter the advancement office is running a donor stewardship push that includes:\n\n1) An alumni-and-donors stewardship reception (late May) to thank recent supporters and re-engage lapsed alumni.\n2) Impact summaries for last year\u2019s giving (one-pagers by program) so donors can see outcomes and we can use the same content in follow-up calls.\n3) A fundraising panel featuring faculty speakers (early June) to highlight current research and connect it to giving priorities.\n\nWe\u2019re coordinating faculty speakers now\u2014Anita is helping with the list. None of this changes the procedural workflow for onboarding newly hired research-track/tenure-track faculty (offer letters, HR, space, start-up, etc.); it\u2019s purely stewardship/fundraising activity.\n\nIf helpful for the Dean\u2019s brief, I can send a short blurb and the draft reception invite language.\n\nBest,\nMaria\n\nMaria Gonzalez\nDirector of Advancement, College Programs\nEastport University",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "RE: Quick check: Q2 donor relations initiative + faculty involvement",
+            "from": "jordan.lee@eastportuniversity.edu",
+            "from_name": "Jordan Lee",
+            "to": [
+                "maria.gonzalez@eastportuniversity.edu"
+            ],
+            "cc": [
+                "david.chen@eastportuniversity.edu",
+                "anita.patel@eastportuniversity.edu"
+            ],
+            "date": "2026-04-07 10:21:06",
+            "body": "Maria\u2014perfect, thank you.\n\nI\u2019ll summarize for the Dean as: stewardship reception + impact summaries for FY25 giving + faculty-speaker fundraising panel (and note it\u2019s donor relations activity, not part of the faculty onboarding workflow).\n\nAnita, please keep me posted on the faculty speaker shortlist in case the Dean wants to suggest a couple of names.\n\nThanks again,\nJordan",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_email_document.jsonl",
+    "qa_type": "distractor",
+    "timestamp": "2026-05-02 15:16",
+    "app": "file_system"
+}

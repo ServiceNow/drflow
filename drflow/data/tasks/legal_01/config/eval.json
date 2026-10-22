@@ -1,0 +1,230 @@
+{
+    "supporting_file_paths": [],
+    "dr_report_evaluation_qa": [
+        {
+            "id": "WORKFLOW_STEP_1",
+            "title": "Open new compliance case (CP-101 intake)",
+            "task": "Create a new CCP case using Form CP-101 for the hotline report regarding missing EDD on three outgoing wires to a higher-risk jurisdiction.",
+            "question": "What is the first step?",
+            "answer": "In the Compliance Case Portal (CCP), select **New Case** and start **Form CP-101 (Concern Intake)**. Populate: reporter channel = **HarborPoint Ethics Hotline**; reporter role/area = **Treasury Operations analyst** (as provided); impacted business unit(s) = **Treasury Services / Wire Operations** and the implicated **Branch/Commercial Banking** team; allegation summary = relationship manager may have facilitated **3 outgoing wires** for a long-time commercial client to a **higher-risk jurisdiction** without completing the required **Enhanced Due Diligence (EDD) checklist**; date range = the **three wire dates** provided; people named = the **relationship manager name**, title/role (relationship manager), and **branch**; customer identifiers = **customer name** and **CIF number**; systems involved = **Wire Platform** and **Customer Due Diligence (CDD) / EDD repository**; transactions/references = the **three wire reference IDs** (enter each ID with its date/amount/beneficiary details if available). Save CP-101 and confirm the CCP case record/case ID is created and visible on the case overview.",
+            "justification": "The concern was reported via the HarborPoint Ethics Hotline and includes specific identifiers (customer name, CIF, three wire reference IDs, dates, employee name/branch), which are exactly the required intake elements to open a formal, auditable compliance case.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/harborpoint-compliance-incident-intake-escalation.pdf",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_2",
+            "title": "Classify concern type and policy category",
+            "task": "Classify the case as Financial Crime (BSA/AML) and tag it to suspicious activity / EDD controls.",
+            "question": "What is the next step after 'Open new compliance case (CP-101 intake)'?",
+            "answer": "In the CCP case classification section, review the CP-101 narrative and set the concern tag to **Financial Crime**. In any available policy/category fields, select the closest match to **BSA/AML \u2013 Customer Due Diligence / Enhanced Due Diligence (EDD)** and/or **Suspicious Activity Monitoring/Controls** (based on your CCP taxonomy). Save classification so it displays in the case header/metadata for routing, triage, and required parallel artifacts.",
+            "justification": "The allegation specifically concerns outgoing wires to a higher-risk jurisdiction and an allegedly missing EDD checklist, which squarely falls under BSA/AML and suspicious activity controls (Financial Crime).",
+            "conditions": "If the concern involves BSA/AML, sanctions, or suspicious transactions, tag it \u201cFinancial Crime\u201d; otherwise tag it \u201cRegulatory/Conduct\u201d and select the closest policy category in CCP.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/compliance-review-guidelines.pdf",
+                "shared/roundcube_email_20260409_101530.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_3",
+            "title": "Triage and set initial severity (S1/S2/S3)",
+            "task": "Set initial severity to S2 (material controls breach with potential regulatory exposure).",
+            "question": "What is the next step after 'Classify concern type and policy category'?",
+            "answer": "Open the CCP triage card for the case and evaluate the criteria against the facts. Set **Severity = S2** and save it in CCP, documenting the basis in the triage notes: potential **material control breach** (EDD not completed for higher-risk wire activity) with potential **regulatory exposure** and possible suspicious activity implications, but **no live system compromise**, **no immediate safety risk**, and no indication of active customer harm requiring emergency response.",
+            "justification": "User context states the initial review suggests a material controls breach (EDD failure) but not an immediate emergency, and it should be handled as a standard Compliance Investigation at Severity S2.",
+            "conditions": "If there is immediate customer harm, active fraud, or a live system compromise, set Severity S1; else if it is a material control breach with potential regulatory exposure, set S2; else set S3.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/harborpoint-compliance-governance-incident-workflow.pdf",
+                "shared/roundcube_email_20260409_101530.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_4",
+            "title": "Restrict access (need-to-know) and generate case code",
+            "task": "Restrict the CCP case to a need-to-know group and establish the case code for all evidence and communications.",
+            "question": "What is the next step after 'Triage and set initial severity (S1/S2/S3)'?",
+            "answer": "In CCP permissions/sharing, restrict access to only the assigned investigator(s), Compliance Investigations leadership, and (if later added) counsel\u2014excluding broad distribution lists. Generate/record the **CCP case code** and immediately apply it to: email subject lines, file names, meeting invites, and all evidence artifacts (e.g., \"CASECODE_WirePlatformLogs_YYYYMMDD\"). Add a CCP note that all communications about the RM, the customer CIF, and wire IDs must reference the case code to maintain confidentiality.",
+            "justification": "The immediate need is to preserve records while keeping the matter confidential, and the case involves a named employee and a specific commercial client\u2014both require strict need-to-know handling.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/harborpoint-incident-intake-triage-standards.pdf",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_5",
+            "title": "Run conflict/independence check (CP-102 if required)",
+            "task": "Document the independence check outcome and proceed with standard Compliance Investigations assignment (no CP-102 escalation).",
+            "question": "What is the next step after 'Restrict access (need-to-know) and generate case code'?",
+            "answer": "Review the CP-101 'people named' list and confirm whether any subject/witness is in Compliance, Internal Audit, or is a VP+ officer. Document in CCP that the implicated individual is a **non-executive relationship manager** and that **no Compliance staff, Internal Audit staff, VP+ officers, or Audit Committee members** are named. Record that **CP-102 is not required** and assign the case through the standard Compliance Investigations workflow (while coordinating early with the BSA Officer as a specialist stakeholder).",
+            "justification": "User context confirms the subject is a non-executive relationship manager and no senior officer, Audit Committee member, or Compliance staff are named, so no independence escalation is triggered.",
+            "conditions": "If any named person is Compliance, Internal Audit, or a VP+ officer, submit Form CP-102 (Independence Escalation) to assign an independent investigator and notify the Audit Committee liaison; otherwise continue with standard assignment under the Compliance Investigations team.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/incident-intake-confidentiality-routing-playbook.pdf",
+                "shared/roundcube_email_20260409_101530.jsonl",
+                "shared/roundcube_email_20260409_101628.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_6",
+            "title": "Decide and document Legal Hold (LH-7 or No Hold)",
+            "task": "Issue Legal Hold Notice LH-7 to preserve EDD records, wire approvals, and communications related to the three wires and CIF.",
+            "question": "What is the next step after 'Run conflict/independence check (CP-102 if required)'?",
+            "answer": "Evaluate preservation needs for a potential BSA/AML control breach with possible suspicious activity implications and decide to **issue a legal hold**. Prepare and send **Legal Hold Notice LH-7** to relevant custodians identified from CP-101 and scoping (at minimum): the implicated relationship manager; the RM\u2019s manager (if they may have approvals/communications); wire operations approvers for the three wire reference IDs; and the business custodian(s) of the CDD/EDD repository for the customer CIF. In the LH-7 scope, specify: preserve EDD checklist drafts/final versions, CDD repository records, wire initiation/approval records, any exception/override approvals, relevant chat/email/messages, and any local copies. Record in CCP: date/time issued, list of custodians, scope keywords (customer name, CIF, wire reference IDs), and acknowledgment status. Add a reminder task to confirm holds are acknowledged and that retention/auto-deletion is suspended for in-scope sources where applicable.",
+            "justification": "The matter involves potential intentional bypass/avoidance of EDD controls connected to wire activity (possible suspicious activity), and the stated immediate need is to preserve records and prevent alteration\u2014making a legal hold appropriate.",
+            "conditions": "If the allegation includes intentional wrongdoing, litigation threat, or regulator inquiry, issue Legal Hold Notice LH-7 to CP-101 custodians; else document \u201cNo hold\u201d and set a review date.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/compliance-incident-guidelines.docx",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_7",
+            "title": "Create investigation plan in CCP (Plan Tab)",
+            "task": "Create an investigation plan focused on whether EDD was required, whether it was completed/approved, and whether the activity triggers SAR consideration.",
+            "question": "What is the next step after 'Decide and document Legal Hold (LH-7 or No Hold)'?",
+            "answer": "In the CCP **Plan Tab**, draft and save an investigation plan that includes: (1) key questions\u2014Was EDD required for the jurisdiction/customer risk profile? Was an EDD checklist completed before the three wires? Were any approvals/exceptions used? Did the RM influence approvals or circumvent controls? Is the pattern suspicious (structuring/avoidance) and does it warrant SAR evaluation? (2) scope\u2014customer **CIF**, customer name, the **three wire reference IDs** and dates, and an initial lookback window (e.g., 30\u201390 days around the wire dates, or per BSA guidance); (3) data sources\u2014Wire Platform transaction and approval logs, EDD repository records, related email/chat approvals, and access logs for both systems; (4) interview plan\u2014wire ops approver(s), CDD/EDD analyst/owner, then the RM (after evidence is secured), and any manager/second-line reviewers; (5) timeline/target completion date; (6) preservation\u2014reference LH-7 issuance and custodians. Save the plan version in CCP for auditability.",
+            "justification": "You need a documented path from intake (wire IDs/CIF and missing EDD allegation) to evidence collection, interviews, and a final findings memo plus a SAR decision record, and the legal hold affects evidence timing and handling.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/compliance-incident-manual.pdf",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/roundcube_email_20260409_101628.jsonl",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_8",
+            "title": "Secure evidence sources (IS-3 breach ticket or IT-4 log request)",
+            "task": "Submit an IT-4 audit-log/evidence request to preserve Wire Platform and EDD repository logs and records (no IS-3 breach ticket).",
+            "question": "What is the next step after 'Create investigation plan in CCP (Plan Tab)'?",
+            "answer": "Based on the plan and the absence of PII leakage indicators, open a **Form IT-4** request to IT/Audit-Logs with the **case code** and clearly scoped parameters: systems = **Wire Platform** and **CDD/EDD repository**; identifiers = customer name and **CIF**, and the **three wire reference IDs**; date range = at least the three wire dates plus an appropriate buffer window (per policy/plan). Request artifacts including: wire transaction details, initiation metadata, approval/override history, user IDs involved, timestamps, any exception flags, and system event logs; EDD repository records showing whether an EDD checklist exists, created/modified timestamps, approval status, and any workflow routing; and **access logs** for both systems for the relevant custodians/users during the scoped period. In CCP, create tasks/notes that the IT-4 request has been filed and track fulfillment dates so evidence is preserved before normal retention/edits occur.",
+            "justification": "No indicators of customer PII exposure are present, but the matter requires preserving system records (wire approvals, EDD repository files, access logs) in the Wire Platform and due diligence repository to prevent alteration.",
+            "conditions": "If the matter involves customer PII or account data leakage, open an Information Security ticket using Form IS-3 and follow the Breach Playbook; otherwise open an IT audit-log request using Form IT-4 for access logs, approvals, and system events.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/compliance-case-standards.docx",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/roundcube_email_20260409_101628.jsonl",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_9",
+            "title": "Collect records into Evidence Vault and log chain-of-custody",
+            "task": "Ingest Wire Platform records, EDD repository exports, communications, and logs into the CCP Evidence Vault with full chain-of-custody tracking.",
+            "question": "What is the next step after 'Secure evidence sources (IS-3 breach ticket or IT-4 log request)'?",
+            "answer": "As IT fulfills the IT-4 request (and as business owners provide documents), upload each artifact into the CCP **Evidence Vault** using the naming convention **CASECODE_Source_YYYYMMDD** (e.g., CASECODE_WirePlatform_RefID12345_20260409). For each item, update the **Evidence Register** with: description (e.g., \"Wire approval audit log for RefID X\" / \"EDD checklist record export for CIF\" / \"Access log for user Y\"), provider (IT logs team / Wire Ops manager / CDD owner), date/time received, storage link, and handling notes (read-only export, hash if your process requires it). Ensure any email/chat exports related to approvals are preserved and registered the same way.",
+            "justification": "The investigation depends on proving what controls executed (or failed) for specific wire reference IDs and whether EDD records existed; chain-of-custody is necessary to support a defensible findings memo and any SAR decision documentation.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/compliance-review-guide.pdf",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_10",
+            "title": "Route case to specialist track and complete parallel worksheets",
+            "task": "Route to the Financial Crime specialist track: notify the BSA Officer and start the BSA-9 (SAR Decision Worksheet) in parallel.",
+            "question": "What is the next step after 'Collect records into Evidence Vault and log chain-of-custody'?",
+            "answer": "Confirm the **Financial Crime** tag in CCP and document specialist routing. Notify the **BSA Officer** with the case code, customer CIF, wire reference IDs, jurisdiction risk note, and initial scope. Create and attach **BSA-9 (SAR Decision Worksheet)** to the CCP case and begin populating: transaction summary (3 outgoing wires with IDs/dates), known customer profile, EDD requirement/absence hypothesis, and an evidence checklist (EDD repository status, approvals/overrides, patterns suggesting structuring/avoidance). Track BSA review tasks in CCP so SAR decision dependencies are visible alongside the core investigation.",
+            "justification": "User context states the allegation is BSA/AML-related with possible structuring/avoidance behavior, and the BSA Officer must be looped in early to determine whether a SAR decision track is needed.",
+            "conditions": "If tagged \u201cFinancial Crime,\u201d notify the BSA Officer and complete the BSA-9 (SAR Decision Worksheet) in parallel; else if it involves lending pricing/denials, notify Fair Lending and attach the FL-2 checklist; otherwise keep it within Compliance Generalist review.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/harborpoint-internal-compliance-case-playbook.pdf",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/roundcube_email_20260409_101530.jsonl",
+                "shared/roundcube_email_20260409_101628.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_11",
+            "title": "Plan and coordinate interviews (HR-22 or CI-5)",
+            "task": "Conduct compliance interviews using the CI-5 script (not HR-22), sequenced after key evidence is secured.",
+            "question": "What is the next step after 'Route case to specialist track and complete parallel worksheets'?",
+            "answer": "Using the plan, schedule and conduct interviews under the **CI-5 compliance interview script**. Sequence to reduce evidence tampering risk: start with Wire Operations approver(s) and the CDD/EDD repository owner/analyst (to understand the normal EDD workflow and what should exist), then interview the relationship manager after you have core logs and repository extracts. Record interview logistics in CCP, remind each witness of confidentiality and non-retaliation, and upload interview notes/acknowledgments to the Evidence Vault using the case code naming convention; update chain-of-custody entries in the Evidence Register.",
+            "justification": "The allegation is compliance/BSA-related and explicitly not an HR conduct issue, so HR-22 is not applicable; interviews are still needed to explain EDD workflow, approvals, and any circumvention by the RM.",
+            "conditions": "If the allegation includes workplace misconduct (harassment, retaliation, threats), coordinate interviews through HR using HR-22; else conduct compliance interviews using the CI-5 interview script and remind witnesses of non-retaliation.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/internal-compliance-incident-response-intake.pdf",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_12",
+            "title": "Analyze facts using CCP Control Mapping and record preliminary findings",
+            "task": "Map evidence to BSA/AML controls (EDD requirement, wire approval controls, exceptions) and document preliminary findings with citations.",
+            "question": "What is the next step after 'Plan and coordinate interviews (HR-22 or CI-5)'?",
+            "answer": "In CCP **Control Mapping**, link the relevant BSA/AML policy clauses and procedures (EDD requirements for higher-risk jurisdictions/customers, wire approval/exception controls, documentation/retention expectations) to the expected control steps. Cite evidence directly from the Evidence Vault: (a) whether an EDD checklist exists for the CIF and its timestamps/approval status, (b) wire initiation/approval audit trails for the three reference IDs, (c) any override/exception indicators, (d) access logs showing who viewed/edited EDD records and when, and (e) interview statements corroborating or disputing the workflow. Record preliminary findings (supported vs missing vs control failure) with clear links to specific artifacts and timestamps.",
+            "justification": "You must determine whether required EDD controls were executed before the wires and whether approvals/exceptions complied with policy; control mapping creates the defensible bridge between the evidence (wire logs/EDD repository) and the compliance conclusion.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/harborpoint-compliance-incident-intake-triage.pdf",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_13",
+            "title": "Draft Findings Memo (FM-1) and obtain sign-offs",
+            "task": "Draft FM-1 and obtain approvals from Compliance leadership and the BSA Officer (Financial Crime sign-off).",
+            "question": "What is the next step after 'Analyze facts using CCP Control Mapping and record preliminary findings'?",
+            "answer": "Draft **FM-1 (Findings Memo)** covering: issue statement (alleged facilitation of wires to higher-risk jurisdiction without EDD), scope (customer CIF/name, three wire reference IDs/dates, systems reviewed), timeline of events, evidence summary with citations (EDD repository extracts, wire platform approval logs, access logs, communications, interviews), root cause analysis (process gap, control bypass, training issue, system configuration, supervision), and recommended corrective actions for **Treasury Services/Wire Operations** and relevant first-line teams. Upload FM-1 to CCP and route for sign-off by **Compliance leadership** and, because it is Financial Crime with BSA-9 in parallel, obtain **BSA Officer** sign-off; record approvers and dates in CCP.",
+            "justification": "The investigation must culminate in a documented findings memo with auditable evidence citations and approvals, and the case involves BSA/AML controls where the BSA Officer\u2019s sign-off is required/expected.",
+            "conditions": "If BSA-9 was used or the matter is Financial Crime-related, obtain sign-off from the BSA Officer in addition to Compliance leadership.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/internal-compliance-concern-case-handling.pdf",
+                "shared/harborpoint-control-exception-review-escalation-playbook.pdf",
+                "shared/roundcube_email_20260409_101628.jsonl",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_14",
+            "title": "Track remediation, document reporting decisions, and close case",
+            "task": "Implement and track Treasury Services remediation, finalize the SAR decision record, and close the CCP case with complete documentation.",
+            "question": "What is the next step after 'Draft Findings Memo (FM-1) and obtain sign-offs'?",
+            "answer": "From the approved FM-1 recommendations, enter each corrective action into the **Corrective Action Tracker** with owner (e.g., Treasury Services/Wire Ops control owner, CDD/EDD process owner), due date, and test-of-effectiveness (sample review of future wires to higher-risk jurisdictions for EDD completion; configuration/approval workflow validation; QA monitoring). Upload remediation evidence and testing results to CCP. Finalize and store the **SAR decision record** (BSA-9 outcome) in the case file, including rationale and approvals. Confirm CCP contains: CP-101, classification/severity, access restrictions, independence check note, LH-7 issuance details, evidence register, interview notes, control mapping, FM-1 with approvals, remediation tracking, and SAR decision documentation; then complete CCP closure steps/status change and verify closure is auditable.",
+            "justification": "User context requires control-remediation tasks for Treasury Services and a documented decision on whether a SAR is warranted, with approvals captured before the case is closed.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/harborpoint-compliance-case-handling-protocol.docx",
+                "shared/roundcube_email_20260409_101628.jsonl",
+                "shared/mattermost_chat_20260409_101745.jsonl"
+            ]
+        }
+    ],
+    "dr_report_intermediate_steps": []
+}

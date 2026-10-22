@@ -1,0 +1,203 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• jordan.lee
+  Name: Jordan Lee
+  Email: jordan.lee@eastportuniversity.edu
+
+• maria.gonzalez
+  Name: Maria Gonzalez
+  Email: maria.gonzalez@eastportuniversity.edu
+
+• david.chen
+  Name: David Chen
+  Email: david.chen@eastportuniversity.edu
+
+• anita.patel
+  Name: Anita Patel
+  Email: anita.patel@eastportuniversity.edu
+
+• kevin.omalley
+  Name: Kevin OMalley
+  Email: kevin.omalley@eastportuniversity.edu
+
+• aisha.rahman
+  Name: Aisha Rahman
+  Email: aisha.rahman@eastportuniversity.edu
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-04-07 09:14:22
+From: Jordan Lee <jordan.lee@eastportuniversity.edu>
+To: maria.gonzalez@eastportuniversity.edu
+CC: david.chen@eastportuniversity.edu
+Subject: Quick check: Q2 donor relations initiative + faculty involvement
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi Maria,
+
+I’m updating the Dean’s weekly brief and want to confirm what donor relations initiative the college advancement team is running this quarter.
+
+Also—David is getting questions from department admins about whether the initiative ties into the new research-track/tenure-track faculty onboarding workflow. My understanding is that it’s separate (stewardship/fundraising vs. HR/academic onboarding), but I’d like to represent it accurately.
+
+Can you share a 2–3 sentence summary (and whether you need any faculty speakers/participants from us)?
+
+Thanks,
+Jordan
+
+Jordan Lee
+Assistant Director, College Operations
+Eastport University
+============================================================
+
+Email ID: email_001
+Date: 2026-04-07 09:18:42
+From: Maria Gonzalez <maria.gonzalez@eastportuniversity.edu>
+To: jordan.lee@eastportuniversity.edu, anita.patel@eastportuniversity.edu, aisha.rahman@eastportuniversity.edu
+CC: david.chen@eastportuniversity.edu
+Subject: Confirming agenda + attendees for next week's research faculty onboarding session
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi Jordan and Anita,
+
+Could you confirm the final agenda and attendee list for the research-track faculty onboarding session next week?
+
+What I have so far:
+- 10 min: Welcome + quick overview of campus resources
+- 20 min: HR/benefits essentials (Anita)
+- 25 min: Research compliance overview (IRB/IACUC/COI) (David)
+- 15 min: Sponsored Programs intake + routing basics
+- 10 min: Q&A
+
+Logistics questions:
+1) Are we keeping this hybrid (Zoom + in-person) or fully in-person?
+2) Do we want a short section on travel and reimbursement policies? It tends to come up.
+3) Please send any slides by Friday so we can compile and run an accessibility check.
+
+Thanks,
+Maria
+
+Maria Gonzalez
+Program Manager, Faculty Affairs
+Eastport University
+============================================================
+
+Email ID: email_002
+Date: 2026-04-07 10:02:51
+From: Maria Gonzalez <maria.gonzalez@eastportuniversity.edu>
+To: jordan.lee@eastportuniversity.edu
+CC: david.chen@eastportuniversity.edu, anita.patel@eastportuniversity.edu
+Subject: RE: Quick check: Q2 donor relations initiative + faculty involvement
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi Jordan,
+
+Yes—your read is right that this is separate from onboarding. This quarter the advancement office is running a donor stewardship push that includes:
+
+1) An alumni-and-donors stewardship reception (late May) to thank recent supporters and re-engage lapsed alumni.
+2) Impact summaries for last year’s giving (one-pagers by program) so donors can see outcomes and we can use the same content in follow-up calls.
+3) A fundraising panel featuring faculty speakers (early June) to highlight current research and connect it to giving priorities.
+
+We’re coordinating faculty speakers now—Anita is helping with the list. None of this changes the procedural workflow for onboarding newly hired research-track/tenure-track faculty (offer letters, HR, space, start-up, etc.); it’s purely stewardship/fundraising activity.
+
+If helpful for the Dean’s brief, I can send a short blurb and the draft reception invite language.
+
+Best,
+Maria
+
+Maria Gonzalez
+Director of Advancement, College Programs
+Eastport University
+============================================================
+
+Email ID: email_003
+Date: 2026-04-07 10:21:06
+From: Jordan Lee <jordan.lee@eastportuniversity.edu>
+To: maria.gonzalez@eastportuniversity.edu
+CC: david.chen@eastportuniversity.edu, anita.patel@eastportuniversity.edu
+Subject: RE: Quick check: Q2 donor relations initiative + faculty involvement
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Maria—perfect, thank you.
+
+I’ll summarize for the Dean as: stewardship reception + impact summaries for FY25 giving + faculty-speaker fundraising panel (and note it’s donor relations activity, not part of the faculty onboarding workflow).
+
+Anita, please keep me posted on the faculty speaker shortlist in case the Dean wants to suggest a couple of names.
+
+Thanks again,
+Jordan
+============================================================
+
+Email ID: email_002
+Date: 2026-04-07 14:06:11
+From: Jordan Lee <jordan.lee@eastportuniversity.edu>
+To: kevin.omalley@eastportuniversity.edu, maria.gonzalez@eastportuniversity.edu
+CC: anita.patel@eastportuniversity.edu
+Subject: FY26 budget worksheet timing + assumptions for shared services
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Kevin,
+
+Do you have an updated timeline for when Finance needs the FY26 budget worksheets back from units? Maria and I are trying to plan time for shared-services assumptions (admin support, grad coordinator coverage, and the new ticketing model).
+
+A few items we’re unclear on:
+- Are we still using the 3% salary pool placeholder, or did that change with the latest guidance?
+- Will central IT continue charging departments for endpoint management, or is that moving to a flat-rate model?
+- For shared spaces (conference rooms/classrooms), are facilities costs staying in the same cost center as last year?
+
+If you can point us to the latest assumptions doc (or confirm it hasn’t changed), we’ll start plugging numbers in.
+
+Thanks,
+Jordan
+
+Jordan Lee
+Operations & Planning
+Eastport University
+============================================================
+
+Email ID: email_003
+Date: 2026-04-08 10:32:05
+From: David Chen <david.chen@eastportuniversity.edu>
+To: jordan.lee@eastportuniversity.edu, maria.gonzalez@eastportuniversity.edu, anita.patel@eastportuniversity.edu, kevin.omalley@eastportuniversity.edu
+Subject: Action needed: Duo MFA re-enrollment & phishing simulation window
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi all,
+
+Flagging two IT/security items coming up that may affect your teams:
+
+1) Duo MFA re-enrollment (April 15–19)
+Several staff accounts are being migrated to the new Duo policy set. Users will see a prompt to re-enroll devices. Please remind your teams not to ignore it—access to Banner, Outlook web, and the VPN may be blocked until completed.
+
+2) Phishing simulation window (April 22–May 3)
+Information Security is running the next simulated phishing campaign. If you get reports from staff that they “clicked something,” please route them to the Service Desk as usual (don’t troubleshoot locally). The goal is to measure response time and reporting rates.
+
+If you want, I can share a short blurb you can paste into your unit newsletters.
+
+Best,
+David
+
+David Chen
+IT Service Management Liaison
+Eastport University
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

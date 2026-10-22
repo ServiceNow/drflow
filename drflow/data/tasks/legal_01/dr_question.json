@@ -1,0 +1,9 @@
+{
+    "dr_question": "What exact steps should we take to investigate a potential internal compliance violation?",
+    "question_type": "hand_written",
+    "timestamp": "2026-02-01 00:00",
+    "task_id": "legal_01",
+    "subquestions": [],
+    "industry": "Banking",
+    "domain": "crm"
+}

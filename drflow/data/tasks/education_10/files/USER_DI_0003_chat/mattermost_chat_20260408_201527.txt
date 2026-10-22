@@ -1,0 +1,149 @@
+================================================================================
+MATTERMOST CHAT EXPORT
+================================================================================
+
+TEAMS:
+----------------------------------------
+• Campus Operations (campus-operations)
+  Description: N/A
+  Type: Open
+
+• Faculty Onboarding & Compliance (faculty-onboarding)
+  Description: N/A
+  Type: Open
+
+CHANNELS:
+----------------------------------------
+• #Facilities Notices (facilities-notices)
+  Team: campus-operations
+  Purpose: Post and confirm facilities-related notifications that impact occupants (water, HVAC, electrical, access).
+  Type: Public
+
+• #Admin Building Ops (admin-building-ops)
+  Team: campus-operations
+  Purpose: Coordinate building-level impacts, signage, alternate services, and occupant communication timing.
+  Type: Public
+
+• #New Faculty Comms (new-faculty-comms)
+  Team: faculty-onboarding
+  Purpose: Align messaging that may affect new faculty arrivals, orientation schedules, and required notifications.
+  Type: Public
+
+• #Orientation Coordination (orientation-coordination)
+  Team: faculty-onboarding
+  Purpose: Coordinate orientation logistics and contingency plans when campus operations could affect sessions.
+  Type: Public
+
+USERS:
+----------------------------------------
+• @aisha.rahman
+  Name: Aisha Rahman
+  Position: University Graduate Program Coordinator
+  Email: aisha.rahman@eastportuniversity.edu
+
+• @michael.hsu
+  Name: Michael Hsu
+  Position: Facilities Operations Manager
+  Email: michael.hsu@eastportuniversity.edu
+
+• @linda.gomez
+  Name: Linda Gomez
+  Position: Administrative Building Manager
+  Email: linda.gomez@eastportuniversity.edu
+
+• @ryan.patel
+  Name: Ryan Patel
+  Position: University Communications Specialist
+  Email: ryan.patel@eastportuniversity.edu
+
+MESSAGES:
+================================================================================
+[2026-04-07 05:00:00] #campus-operations:facilities-notices
+@michael.hsu:
+Planned maintenance this week that may affect operations: **scheduled domestic water shutdown** in the **Admin Services Building (non-research)** on **Thu 6:00–10:00 AM**. Scope is **replacement of several aging isolation valves** on the 2nd-floor riser.
+
+Impacts: no cold/hot water to restrooms, breakrooms, or kitchenette sinks during the window. Elevators and HVAC unaffected. We’ll post **temporary restroom + water service notices** at all entrances and on each floor; custodial will stage signage and direct occupants to nearby open restrooms (Library lobby level).
+
+This is a general facilities ops item (not related to research spaces/lab access).
+------------------------------------------------------------
+
+[2026-04-07 05:15:00] #campus-operations:admin-building-ops
+@linda.gomez:
+Thanks Mike. Confirming the Admin Services Building tenant list: HR, Finance, Procurement, and Graduate Programs are the main occupants. I’ll coordinate with floor reps to minimize meetings in the building during 6–10 AM and make sure reception knows to route visitors.
+------------------------------------------------------------
+
+[2026-04-07 05:25:00] #campus-operations:admin-building-ops
+@aisha.rahman:
+Appreciate the heads-up. Graduate Programs has advising appointments starting at 9:00 AM Thu—if water won’t be back by then, we’ll shift those to Zoom or relocate to the Library. Do we expect full restoration by 10:00?
+------------------------------------------------------------
+
+[2026-04-07 05:35:00] #campus-operations:admin-building-ops
+@michael.hsu:
+Yes—target is fully restored by **10:00 AM**. The work is straightforward valve swap-out, but we’re building in time for repressurization + leak checks. If anything slips, I’ll post an update here by **9:15 AM** with a revised ETA.
+------------------------------------------------------------
+
+[2026-04-07 05:50:00] #faculty-onboarding:orientation-coordination
+@ryan.patel:
+Quick check for this week’s campus impacts: anything facilities-related that could affect orientation attendees moving around campus?
+------------------------------------------------------------
+
+[2026-04-07 06:00:00] #faculty-onboarding:orientation-coordination
+@michael.hsu:
+Only notable item: **Admin Services Building water shutdown Thu 6–10 AM** to replace aging valves (non-research admin building). We’ll have posted notices and alternate restroom directions. No building access restrictions, and it doesn’t touch any research buildings/labs.
+------------------------------------------------------------
+
+[2026-04-07 06:10:00] #faculty-onboarding:new-faculty-comms
+@aisha.rahman:
+Ryan—if you’re sending a weekly onboarding note, please include: Admin Services Building will have no water/restrooms Thu 6–10 AM due to valve replacement; occupants can use Library lobby restrooms. This is unrelated to lab/research spaces.
+------------------------------------------------------------
+
+[2026-04-07 06:20:00] #campus-operations:facilities-notices
+@ryan.patel:
+Drafting comms now. Mike—confirm wording is okay:
+
+“Thu 6–10 AM: Admin Services Building domestic water shutdown to replace aging valves. Restrooms, sinks, and drinking fountains unavailable during this time. Temporary notices will be posted; occupants may use Library lobby restrooms.”
+------------------------------------------------------------
+
+[2026-04-07 06:25:00] #campus-operations:facilities-notices
+@michael.hsu:
+Looks good. Please add “breakroom/kitchenette sinks affected” and “water service will return as soon as work and leak checks are complete (target 10 AM).”
+------------------------------------------------------------
+
+[2026-04-08 17:05:00] #campus-operations:facilities-notices
+@ryan.patel:
+Quick comms process check: can Facilities Notices standardize the subject line format for campus-wide posts? I’m proposing: "[Facilities Notice] Building – Topic – Date" so the digest and SMS preview are consistent. If folks agree, I’ll update the template and share the guidance doc link here.
+------------------------------------------------------------
+
+[2026-04-08 17:20:00] #campus-operations:facilities-notices
+@michael.hsu:
+Works for me. Also recommending we add a short "Who to contact" line at the bottom (service desk + after-hours number) and keep the first paragraph under 300 characters for mobile. Ryan, send me the draft template and I’ll get it into our SOP binder.
+------------------------------------------------------------
+
+[2026-04-08 17:40:00] #campus-operations:admin-building-ops
+@linda.gomez:
+Admin Building note: we’re doing our quarterly conference room inventory next week (chairs, adapters, whiteboard markers). If any departments have “missing items” complaints, please DM me the room number + what’s missing so we can reconcile before the inventory sheet goes to Procurement.
+------------------------------------------------------------
+
+[2026-04-08 18:00:00] #faculty-onboarding:new-faculty-comms
+@aisha.rahman:
+For the new research-track faculty email series: can we add a short reminder about completing COI disclosure + export controls attestation before they request any sponsored project accounts? I’ve had a few late submissions that slow down account setup. Ryan, I can draft copy if you want it in a consistent tone.
+------------------------------------------------------------
+
+[2026-04-08 18:20:00] #faculty-onboarding:new-faculty-comms
+@ryan.patel:
+Yes please—send 2–3 sentences + a link target and I’ll slot it into Email #2 ("Before Your First Week"). Also: do we want to mention the optional lab safety overview webinar, or keep that in the department-level onboarding packets only?
+------------------------------------------------------------
+
+[2026-04-08 18:40:00] #faculty-onboarding:orientation-coordination
+@linda.gomez:
+Orientation logistics: catering needs final headcount by EOD tomorrow. Current RSVP list shows 38 (including 6 spouses/partners). Aisha—can you confirm if we should order 10 extra as buffer? Also, any dietary notes beyond vegetarian/gluten-free that I should flag to the vendor?
+------------------------------------------------------------
+
+[2026-04-08 19:00:00] #faculty-onboarding:orientation-coordination
+@aisha.rahman:
+Confirming: order +10 buffer. Dietary notes: 2 halal, 1 dairy-free, 1 nut allergy (severe—avoid cross-contact). I’ll update the RSVP sheet and share the final list in this channel once it’s locked.
+------------------------------------------------------------
+
+================================================================================
+END OF CHAT EXPORT
+================================================================================

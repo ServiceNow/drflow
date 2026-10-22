@@ -1,0 +1,246 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• lena.hart
+  Name: Lena Hart
+  Email: lena.hart@harborpointbank.com
+
+• marcus.reed
+  Name: Marcus Reed
+  Email: marcus.reed@harborpointbank.com
+
+• tanya.desai
+  Name: Tanya Desai
+  Email: tanya.desai@harborpointbank.com
+
+• eric.mccall
+  Name: Eric McCall
+  Email: eric.mccall@harborpointbank.com
+
+• diana.nguyen
+  Name: Diana Nguyen
+  Email: diana.nguyen@harborpointbank.com
+
+• daniel.han
+  Name: Daniel Han
+  Email: daniel.han@harborpoint.com
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-03-18 09:12:44
+From: Lena Hart <lena.hart@harborpointbank.com>
+To: tanya.desai@harborpointbank.com
+CC: marcus.reed@harborpointbank.com
+Subject: Office supply backorders impacting branches — need procurement update
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi Tanya,
+
+We’re still seeing intermittent backorders on basic office supplies (toner, pens, deposit slip envelopes) across multiple branches. Branch Ops is asking what procurement step we’re taking to stabilize availability so they can stop placing “just in case” orders.
+
+Can you share what’s been implemented and when we should expect improvement? If there’s a process change branches need to follow (ordering cadence, catalog changes, etc.), please include that as well.
+
+Thanks,
+Lena Hart
+SVP, Branch Operations
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_002
+Date: 2026-03-18 11:03:19
+From: Tanya Desai <tanya.desai@harborpointbank.com>
+To: lena.hart@harborpointbank.com
+CC: marcus.reed@harborpointbank.com, eric.mccall@harborpointbank.com
+Subject: RE: Office supply backorders impacting branches — need procurement update
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi Lena,
+
+Yes—two procurement steps are already in motion specifically to reduce the backorders:
+
+1) We renegotiated the blanket purchase agreement (BPA) with our primary office supplies vendor to lock in branch-priority fulfillment and pre-allocated inventory for the highest-volume SKUs (toner, pens, receipt paper, deposit slip envelopes). The vendor confirmed the BPA amendment went live last Friday.
+
+2) We implemented a minimum-on-hand reorder threshold for high-use items in the centralized catalog. Instead of branches ordering ad hoc, the system now triggers replenishment once stock drops below the set minimums (by region), which should smooth demand spikes and prevent “empty shelf” periods.
+
+This is a supply-chain/process improvement to improve availability and consistency—there’s no compliance or record-hold driver behind the change.
+
+Eric is tracking the KPI impact (backorder rate and average fulfillment time) and can share the first weekly readout after Friday’s cycle.
+
+Best,
+Tanya Desai
+Director, Strategic Sourcing & Procurement
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_003
+Date: 2026-03-18 12:27:06
+From: Eric McCall <eric.mccall@harborpointbank.com>
+To: lena.hart@harborpointbank.com, tanya.desai@harborpointbank.com
+CC: marcus.reed@harborpointbank.com, diana.nguyen@harborpointbank.com
+Subject: RE: Office supply backorders impacting branches — need procurement update
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Adding a quick data point and next steps.
+
+Baseline (last 8 weeks): backorders averaged 14–18% of line items, with the majority concentrated in ~20 high-use SKUs.
+
+With Tanya’s changes—(a) the renegotiated BPA with pre-allocation/priority fulfillment and (b) the minimum-on-hand reorder thresholds for those SKUs—we should see the first measurable drop after the next two replenishment cycles. I’ll publish a weekly dashboard showing backorder rate, fill rate, and median days-to-ship by region.
+
+Operationally, branches shouldn’t need to do anything different other than continue using the centralized catalog (the reorder thresholds work behind the scenes). We’ll message Branch Managers once we confirm the new fulfillment performance holds for two consecutive weeks.
+
+Thanks,
+Eric McCall
+Senior Manager, Procurement Operations
+HarborPoint Community Bank
+============================================================
+
+Email ID: email_001
+Date: 2026-04-06 09:12:44
+From: Lena Hart <lena.hart@harborpointbank.com>
+To: marcus.reed@harborpointbank.com, tanya.desai@harborpointbank.com, diana.nguyen@harborpointbank.com, daniel.han@harborpoint.com
+CC: eric.mccall@harborpointbank.com
+Subject: Q2 Branch Manager Roundtable — agenda items needed by Friday
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi all,
+
+We’re finalizing the agenda for the Q2 Branch Manager Roundtable (next Wednesday, 10:00–11:30). Please send me any agenda items you want included by EOD Friday.
+
+Current draft topics:
+- Treasury services pipeline update (wins/losses and follow-ups)
+- Lending turnaround time metrics (applications to approval)
+- Client experience: top 3 friction points from branch feedback
+- Cyber/security refresher: secure messaging and document handling
+
+If you have a presenter in mind for any topic, include the name and the expected time needed.
+
+Thanks,
+Lena
+
+Lena Hart
+Operations Program Manager | HarborPoint Community Bank
+============================================================
+
+Email ID: email_002
+Date: 2026-04-06 10:03:18
+From: Marcus Reed <marcus.reed@harborpointbank.com>
+To: lena.hart@harborpointbank.com
+CC: tanya.desai@harborpointbank.com, diana.nguyen@harborpointbank.com, eric.mccall@harborpointbank.com
+Subject: Re: Q2 Branch Manager Roundtable — agenda items needed by Friday
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Lena,
+
+Please add a 10-minute segment on Q2 deposit growth initiatives for SMB clients. I can cover:
+- New relationship pricing guardrails (what branch teams can offer without escalation)
+- Cross-sell prompts for cash management services (non-incented prompts, compliance-safe)
+
+Also suggest a short reminder on handling inbound commercial referrals so we reduce drop-off between branch and treasury.
+
+Thanks,
+Marcus
+
+Marcus Reed
+Regional Banking Manager | HarborPoint Community Bank
+============================================================
+
+Email ID: email_003
+Date: 2026-04-07 14:26:03
+From: Diana Nguyen <diana.nguyen@harborpointbank.com>
+To: tanya.desai@harborpointbank.com, lena.hart@harborpointbank.com
+CC: marcus.reed@harborpointbank.com
+Subject: Customer satisfaction survey — final question set for May launch
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+Attachments: 1 file(s)
+  - HP_CX_Survey_Qs_May2026_Draft_v3.docx (unknown bytes)
+
+Message Body:
+----------------------------------------
+Hi Tanya and Lena,
+
+Attached is the near-final question set for the May client satisfaction survey (commercial clients only). Two open items where I’d like your input:
+
+1) Should we keep the “time-to-first-response” question separate from “issue resolution,” or combine them?
+2) For treasury clients, do we want a dedicated question on onboarding clarity (portal access + training materials), or is it redundant with the general onboarding item?
+
+If you can reply with your preference by Thursday, I’ll route the final version to Compliance for review.
+
+Best,
+Diana
+
+Diana Nguyen
+Client Experience Analyst | HarborPoint Community Bank
+============================================================
+
+Email ID: email_004
+Date: 2026-04-09 08:41:57
+From: Tanya Desai <tanya.desai@harborpointbank.com>
+To: eric.mccall@harborpointbank.com, marcus.reed@harborpointbank.com, lena.hart@harborpointbank.com
+CC: diana.nguyen@harborpointbank.com
+Subject: Treasury portal training — attendance confirmation + recording
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi everyone,
+
+Quick follow-up on the treasury portal training held yesterday.
+
+- Attendance: Please confirm your team’s attendee list is correct in the link below so we can track completion.
+- Recording: The session recording is posted for those who couldn’t attend.
+- Next steps: We’ll run an optional office hour next Tuesday (30 minutes) focused on user access requests and common client questions.
+
+Attendance tracker: https://intranet.harborpointbank.com/training/treasury-portal/attendance
+Recording: https://intranet.harborpointbank.com/training/treasury-portal/recordings/apr-8
+
+Thanks,
+Tanya
+
+Tanya Desai
+Treasury Services Enablement Lead | HarborPoint Community Bank
+============================================================
+
+Email ID: email_005
+Date: 2026-04-11 16:09:22
+From: Eric McCall <eric.mccall@harborpointbank.com>
+To: lena.hart@harborpointbank.com, marcus.reed@harborpointbank.com, tanya.desai@harborpointbank.com, diana.nguyen@harborpointbank.com
+Subject: Policy reminder: Secure document handling for commercial loan files
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Team,
+
+As a reminder ahead of month-end, please ensure commercial loan documentation is handled per the secure document policy:
+
+- Do not email unencrypted PDFs containing tax returns, financial statements, or borrower IDs.
+- Use the secure file transfer link (SFT) for external sharing and the approved internal workspace for collaboration.
+- Confirm retention tags are applied before archiving to the client record.
+
+If you need SFT access for a new team member, submit the request through IT Service Portal > Access > Secure File Transfer.
+
+Thanks for reinforcing this with your teams.
+
+Eric
+
+Eric McCall
+Director, Risk & Compliance Operations | HarborPoint Community Bank
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

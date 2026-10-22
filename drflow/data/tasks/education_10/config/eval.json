@@ -1,0 +1,230 @@
+{
+    "supporting_file_paths": [],
+    "dr_report_evaluation_qa": [
+        {
+            "id": "WORKFLOW_STEP_1",
+            "title": "Create faculty onboarding case in EastportWorks (HRIS)",
+            "task": "Open a new EastportWorks faculty onboarding case for the tenure-track Assistant Professor (College of Engineering) using the signed offer letter.",
+            "question": "What is the first step?",
+            "answer": "In EastportWorks, navigate to Onboarding/Case Management and select Create New Faculty Onboarding Case. Enter the faculty member\u2019s legal name and personal email, attach the signed offer letter PDF, set the proposed start date to Aug 15, select College of Engineering as the home department/organizational unit, choose appointment type = tenure-track, and save to generate the onboarding case record/ID. Add a case note that the chair requests all access (email/VPN/building/laptop) ready by the first day.",
+            "justification": "A signed offer exists with a defined start date (Aug 15) for a tenure-track Assistant Professor in Engineering, and the department needs a formal EastportWorks case to drive HR/Payroll/IT provisioning to be ready by day one.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/tenure-track-appointment-coordination-checkpoints.pdf",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/roundcube_email_20260408_201321.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_2",
+            "title": "Submit Faculty Onboarding Packet (FOP-1) for routing",
+            "task": "Complete and submit FOP-1 to route the Engineering tenure-track hire to HR, Payroll, IT, and the dean\u2019s office.",
+            "question": "What is the next step after 'Create faculty onboarding case in EastportWorks (HRIS)'?",
+            "answer": "Using the onboarding case information, open the FOP-1 form and populate: faculty identity/contact details, appointment summary (Assistant Professor, tenure-track, 9-month with summer salary eligible), start date (Aug 15), home department (College of Engineering), work location (Engineering Research Building as primary site if applicable), supervisor/department contact (chair or designated admin), and any initial funding/index placeholders (note that an SFA-3 for $300k startup will be routed). Attach the signed offer letter if prompted. Confirm routing recipients include HR, Payroll, IT, and the dean\u2019s office, submit FOP-1, then record the submission confirmation (date/time and any confirmation number) in the EastportWorks onboarding case notes.",
+            "justification": "This hire requires coordinated setup across HR/Payroll/IT and the dean\u2019s office, and the user context indicates multiple downstream needs (payroll, IT access, visa processing), which FOP-1 routing initiates.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/faculty-startup-guide.pdf",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/mattermost_chat_20260408_201013.jsonl",
+                "shared/tenure-track-faculty-startup-playbook-eastport.pdf",
+                "shared/roundcube_email_20260408_201321.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_3",
+            "title": "Complete Position Data Form (PDF-7)",
+            "task": "Fill out PDF-7 for the 9-month, tenure-track Assistant Professor appointment with FTE 1.0 and summer salary eligibility.",
+            "question": "What is the next step after 'Submit Faculty Onboarding Packet (FOP-1) for routing'?",
+            "answer": "Open PDF-7 from the onboarding toolkit/EastportWorks and enter the onboarding case ID and faculty name. Select the correct job code and job title (Assistant Professor), set rank/track = tenure-track, set FTE = 1.0, confirm pay basis aligns to a 9-month academic-year appointment, and complete compensation rate fields per the signed offer. Check/mark \u201csummer comp: eligible\u201d as indicated for this appointment. Verify the effective/start date matches Aug 15 and is consistent with FOP-1 and the offer letter, then save the completed PDF-7 for routing.",
+            "justification": "The appointment has specific position attributes provided by the department (9-month, FTE 1.0, summer salary eligible) that must be encoded on PDF-7 to create the correct job/compensation setup.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/research-faculty-appointment-startup-coordination.pdf",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/mattermost_chat_20260408_201013.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_4",
+            "title": "Route PDF-7 for the correct approvals",
+            "task": "Route the completed tenure-track PDF-7 through standard approvals and the Provost approval step.",
+            "question": "What is the next step after 'Complete Position Data Form (PDF-7)'?",
+            "answer": "In the PDF-7 routing section (or your institution\u2019s approval workflow tool), attach the completed PDF-7 and confirm the key fields match the offer letter and FOP-1 (Assistant Professor, tenure-track, start date Aug 15, 9-month basis, FTE 1.0, \u201csummer comp: eligible\u201d checked). Route to the required approvers for faculty hiring including the dean\u2019s office and HR, and ensure the Provost approval step is included because this is a tenure-track appointment. Submit the routing and log routing status (submitted date, current approver, and any workflow ID) in the onboarding case notes.",
+            "justification": "Because the hire is tenure-track, Provost approval is required in addition to standard routing, and the department has a tight readiness goal (access ready by day one), so routing must start promptly.",
+            "conditions": "If the appointment is tenure-track, route PDF-7 to the Provost approval step (in addition to any standard routing) before final HR processing; if the appointment is research-track or term, route PDF-7 only to the dean\u2019s office and HR without Provost approval.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/tenure-track-startup-compliance-routing.docx",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/mattermost_chat_20260408_201013.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_5",
+            "title": "Trigger pre-employment check step (BGC-2 or waiver note)",
+            "task": "Initiate the BGC-2 background check authorization in EastportWorks (required for this benefits-eligible hire).",
+            "question": "What is the next step after 'Route PDF-7 for the correct approvals'?",
+            "answer": "In the onboarding case, go to Pre-Employment Checks and launch the BGC-2 authorization workflow. Enter/confirm the faculty member\u2019s identifying information and job/department (College of Engineering) and select the appropriate check package per policy for benefits-eligible faculty. Trigger the authorization link so the hire can complete it in EastportWorks, and update the onboarding case checklist/notes with the date sent and current status (awaiting candidate authorization / in progress).",
+            "justification": "The user context states a background check is required because the appointment is benefits-eligible and the hire will complete BGC-2 when the link is triggered.",
+            "conditions": "If the role is benefits-eligible or includes student contact, initiate BGC-2 in EastportWorks; otherwise record \u201cBGC not required\u201d in the onboarding case notes/checklist.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/research-track-appointment-activation-access.pdf",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/roundcube_email_20260408_201055.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_6",
+            "title": "Collect identity and payroll items in the onboarding portal",
+            "task": "Ensure the faculty hire completes W-4 (tax withholding), direct deposit, and NHD-4 in the HR onboarding portal before arrival.",
+            "question": "What is the next step after 'Trigger pre-employment check step (BGC-2 or waiver note)'?",
+            "answer": "Send (or verify auto-send of) the onboarding portal invitation from EastportWorks and monitor completion status. Confirm the hire submits: (1) tax withholding form (W-4 or equivalent), (2) direct deposit banking information, and (3) NHD-4 (home address and emergency contact). Review submissions for missing/invalid fields and request corrections through the portal messaging so payroll pay setup is ready by Aug 15. Record completion dates and any follow-ups in the onboarding case notes.",
+            "justification": "The hire will be paid via payroll (not stipend) and the department expects direct deposit and tax withholding to be completed in the HR portal beforehand.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/faculty-onboarding-manual.pdf",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/roundcube_email_20260408_201142.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_7",
+            "title": "Verify work authorization pathway (ISSS case vs standard I-9)",
+            "task": "Open an ISSS/DSO case for a J-1 Professor scholar who is currently outside the U.S., and request the International Scholar Packet (IS-10) items needed for DS-2019 processing.",
+            "question": "What is the next step after 'Collect identity and payroll items in the onboarding portal'?",
+            "answer": "Using the onboarding intake details (from NHD-4/onboarding portal) and the offer letter, document that the faculty member is a non-U.S. citizen and will enter in J-1 \u201cProfessor\u201d status. Open an ISSS/DSO case and request/attach the required IS-10 packet items for DS-2019 processing. At minimum, upload the passport bio page, current CV, and the signed offer letter (as the department expects) and provide appointment details (College of Engineering, Assistant Professor tenure-track, start date Aug 15). Note in the EastportWorks onboarding case that immigration processing is in progress and identify the departmental owner for ISSS follow-ups.",
+            "justification": "The hire is a non-U.S. citizen currently outside the U.S. who will enter in J-1 Professor status, so an ISSS case and DS-2019 workflow are required rather than a citizen/PR-only I-9 path.",
+            "conditions": "If the hire is not a U.S. citizen/permanent resident, open an ISSS/DSO case and request IS-10 items (passport, CV, degree proof, immigration history); otherwise schedule only the standard I-9 review.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/new-faculty-appointment-admin-handbook.pdf",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/roundcube_email_20260408_201055.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_8",
+            "title": "Process ISSS case requirements by visa type (J-1 vs H-1B)",
+            "task": "Complete the J-1 DS-2019 request requirements in the ISSS case (funding proof + English-proficiency attestation) and track issuance status.",
+            "question": "What is the next step after 'Verify work authorization pathway (ISSS case vs standard I-9)'?",
+            "answer": "In the ISSS/DSO case, confirm the immigration category is J-1 \u201cProfessor.\u201d Verify that passport bio page, CV, and offer letter are uploaded. Add the department-provided supporting documents required for a J-1 DS-2019 request: upload funding proof consistent with the appointment/offer and provide an English-proficiency attestation per ISSS requirements. Submit/mark the ISSS checklist items complete so ISSS can issue the DS-2019. Record in the EastportWorks onboarding case: date all documents were provided, DS-2019 issuance status, and any pending ISSS requests that could affect arrival timing.",
+            "justification": "The user context specifies J-1 Professor status and that the department will provide documents for DS-2019; the J-1 path requires DS-2019 issuance steps (including funding proof and English attestation) rather than H-1B prevailing wage.",
+            "conditions": "If the ISSS case type is J-1, ISSS issues the DS-2019 after the department uploads funding proof and an English-proficiency attestation; if the case type is H-1B, ISSS requires the Wage/Prevailing Wage Summary (PW-2) before petition filing.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/tenure-track-activation-compliance-coordination.docx",
+                "shared/roundcube_email_20260408_201055.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_9",
+            "title": "Complete in-person verification plan (on-campus I-9 vs remote verifier)",
+            "task": "Plan for on-campus, in-person I-9 completion during the faculty check-in.",
+            "question": "What is the next step after 'Process ISSS case requirements by visa type (J-1 vs H-1B)'?",
+            "answer": "Document in the onboarding case that the hire will complete the I-9 in person during on-campus check-in (not via remote verifier). Coordinate with HR to schedule the I-9 appointment aligned with the Aug 15 start/check-in, and send the hire instructions on acceptable I-9 documents and deadlines (so they arrive prepared). After completion, ensure HR records the verification per policy and update the onboarding case checklist/status to reflect I-9 completed.",
+            "justification": "The department states the faculty will be paid via payroll and the I-9 will be completed in person during check-in, so the on-campus verification path applies.",
+            "conditions": "If the hire cannot appear on campus by day 3, assign an authorized remote I-9 verifier and record the verifier memo (I9-R1); otherwise complete I-9 on campus during check-in.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/tenure-track-startup-admin-coordination.pdf",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/roundcube_email_20260408_201142.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_10",
+            "title": "Provision accounts and campus access (IT-8 and CCR-6)",
+            "task": "Submit IT-8 and CCR-6 to provision email, VPN, building/door access, and a university laptop in time for Aug 15.",
+            "question": "What is the next step after 'Complete in-person verification plan (on-campus I-9 vs remote verifier)'?",
+            "answer": "Using the onboarding case details (legal name, start date Aug 15, College of Engineering, Assistant Professor, work location Engineering Research Building, supervisor/chair), submit IT-8 requesting: university email, VPN, any required network/security groups, shared drives, and any research/admin systems access as needed. Include the requirement for a university laptop in the IT-8 request (model/standard image per Engineering, delivery/pickup date before or on Aug 15). Submit CCR-6 for campus card/ID and ensure requested door/building access aligns to Engineering Research Building and office location (and coordinate any additional door access that IT/security manages). Record all ticket/request numbers and target completion dates in the onboarding case; flag \u201caccess ready by first day\u201d as a priority requirement.",
+            "justification": "The chair requires access ready by day one, and the hire needs email, VPN, building access, and a university laptop; these are fulfilled via IT-8/CCR-6 after the I-9 plan is established.",
+            "conditions": "",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/eastport-tenure-track-appointment-guidelines.docx",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/roundcube_email_20260408_201321.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_11",
+            "title": "Determine research setup needs and route SFA-3 if applicable",
+            "task": "Route SFA-3 for the $300k startup package and set up PI/index needs for the new Engineering faculty member.",
+            "question": "What is the next step after 'Provision accounts and campus access (IT-8 and CCR-6)'?",
+            "answer": "Confirm (with chair/department) that the hire will serve as a PI and has a $300k startup package. Complete SFA-3 including startup amount ($300,000) with the \u201c>$250k\u201d selection, allowable categories, any initial equipment/purchasing expectations, and the speedtype/index needs required for purchasing and account setup. Route SFA-3 to Sponsored Programs, Finance, and Procurement for approvals and index creation. Document in the onboarding case the SFA-3 routing date, approvers, and expected index creation timeline so purchasing authority can be enabled promptly.",
+            "justification": "The hire will be a PI with a $300k startup package, and the department expects an index to be created; therefore SFA-3 routing is required (not a default index-only path).",
+            "conditions": "If the hire will be a PI or have startup funds, route SFA-3 to Sponsored Programs, Finance, and Procurement; otherwise skip SFA-3 and only assign a default department index.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/eastport-tenure-track-appointment-onboarding.pdf",
+                "shared/tenure-track-faculty-startup-playbook-eastport.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_12",
+            "title": "Apply purchasing access controls based on SFA-3 thresholds",
+            "task": "Require Procurement & P-Card training before granting purchasing authority because startup funds exceed $250k.",
+            "question": "What is the next step after 'Determine research setup needs and route SFA-3 if applicable'?",
+            "answer": "Review the routed/approved SFA-3 and confirm it indicates startup funds over $250k ($300k). Enroll the faculty member (and any delegates, if policy requires) in required Procurement and P-Card trainings and track completion. After training completion and once the startup index is created/active, request enabling of purchasing roles/access tied to that index (per your Finance/Procurement access process) and file evidence of training completion and access enablement in the onboarding case.",
+            "justification": "Startup is $300k (above the $250k threshold) and the faculty needs purchasing authority, so training-gated purchasing access controls apply.",
+            "conditions": "If SFA-3 indicates startup funds over $250k or any specialized equipment purchase, require Procurement & P-Card training completion before purchasing access is granted; otherwise allow standard purchasing access after index creation.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/eastport-tenure-track-integration-transition.pdf",
+                "shared/tenure-track-faculty-startup-playbook-eastport.pdf"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_13",
+            "title": "Confirm facilities and safety needs (LAR-5 and EH&S trainings)",
+            "task": "Submit LAR-5 for wet lab access in the Engineering Research Building and schedule required EH&S trainings before keys/access are issued.",
+            "question": "What is the next step after 'Apply purchasing access controls based on SFA-3 thresholds'?",
+            "answer": "Confirm the wet lab space details (Engineering Research Building building/room numbers, any shared lab sponsor/PI information, after-hours access needs) and submit LAR-5 with start date aligned to Aug 15 (or earlier if training/access can be granted pre-arrival per policy). Enroll the faculty member in the EH&S role-based trainings required for wet lab access (and any chemical hygiene/lab safety modules mandated by your EH&S program). Track enrollment/completion and coordinate with facilities/security so keys/door access are only issued after required training completion. Document LAR-5 submission, approvals, and training completion status in the onboarding case.",
+            "justification": "The hire requires wet lab access in the Engineering Research Building, and EH&S trainings must be completed before keys are issued, making LAR-5 and training enrollment mandatory.",
+            "conditions": "If the hire needs lab, clinic, animal, or shop access, submit LAR-5 and enroll them in EH&S role-based trainings; otherwise issue office access only.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/eastport-research-faculty-appointment-admin.docx",
+                "shared/roundcube_email_20260408_200915.jsonl",
+                "shared/roundcube_email_20260408_201321.jsonl"
+            ]
+        },
+        {
+            "id": "WORKFLOW_STEP_14",
+            "title": "Finalize academic and compliance onboarding (teaching setup, COI, check-ins)",
+            "task": "Complete first-semester teaching setup, require annual COI disclosure, set 30/60/90-day check-ins (include ISSS), and establish a compliance reminder cadence for visa tracking + COI updates.",
+            "question": "What is the next step after 'Confirm facilities and safety needs (LAR-5 and EH&S trainings)'?",
+            "answer": "Teaching setup: Coordinate with Registrar/Academic Affairs to enter the faculty member as Instructor-of-Record for the scheduled graduate course in the first semester; ensure LMS access is active and a course shell is created/linked; schedule a classroom technology orientation (as needed) before the term begins.\nCompliance: Direct the faculty member to complete the annual Conflict of Interest (COI) disclosure in the ERIC portal and confirm submission. Because an ISSS case exists (J-1 Professor), include ISSS touchpoints in the onboarding cadence.\nCheck-ins: Schedule and calendar 30/60/90-day check-ins with HR and the department; add ISSS as an invited stakeholder or parallel check-in owner for visa/document tracking.\nReminder cadence: Set reminders (department admin and faculty) for key immigration document milestones (e.g., DS-2019 issuance/arrival check, SEVIS validation/check-in requirements per ISSS, extension planning) and for annual COI update/re-attestation\u2014especially because sponsored research is expected in year one. Record all dates/owners and completion confirmations in the onboarding case.",
+            "justification": "The hire is teaching a graduate course in the first semester (requiring instructor-of-record/LMS setup), must complete COI, has an active J-1/ISSS process (requiring ongoing visa tracking), and the department wants a structured compliance reminder cadence and early check-ins.",
+            "conditions": "If the hire is teaching in the first term, complete Instructor-of-Record setup and LMS onboarding; always require annual COI disclosure in ERIC and schedule 30/60/90-day check-ins with HR and department, adding ISSS check-ins if an ISSS case exists.",
+            "type": "workflow_step",
+            "qa_type": "insight",
+            "supporting_file_paths": [
+                "shared/eastport-tenure-track-appointment-operations.pdf",
+                "shared/roundcube_email_20260408_201055.jsonl",
+                "shared/tenure-track-faculty-startup-playbook-eastport.pdf",
+                "shared/roundcube_email_20260408_201321.jsonl"
+            ]
+        }
+    ],
+    "dr_report_intermediate_steps": []
+}

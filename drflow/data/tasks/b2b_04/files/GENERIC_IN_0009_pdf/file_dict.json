@@ -1,0 +1,16 @@
+{
+    "file_name": "contract-review-guidelines",
+    "file_title": "Contract Review Governance and Workflow",
+    "introduction": "This manual defines standardized practices for contract review and negotiation support within HelioFreight Logistics. It aligns Legal, Sales, Procurement, and Operations to ensure consistent risk management and customer responsiveness. The guidelines establish roles, required artifacts, and decision paths for handling contract changes. Adoption of these practices supports scalable growth while maintaining compliance across North American operations.",
+    "subsections": [
+        {
+            "subsection_heading": "Negotiation Intake and Triage Standards",
+            "content": "All contract redline requests must enter the HelioFreight intake queue with a completed submission form and an RSS-14 that has its commercial fields finalized for Finance, including documented Finance confirmation before any approvals are launched. Intake analysts triage each matter for required reviewers and assemble a single approval packet that includes the latest draft, a redline/delta summary, the current RSS-14, and any addenda triggered by shipment profile, warehousing scope, liability, or regulatory requirements. The packet is then submitted through the CLM’s sequenced e-approval workflow in strict order—Legal first, followed by Finance, then Operations—with Special Reviewers added when thresholds or non-standard terms are flagged at intake. During routing, the coordinator monitors decisions in the CLM, captures approver comments and required edits within the record, and enforces version control so the draft and supporting artifacts remain aligned as the file progresses. If any approver rejects, the deal is returned to the negotiator with the recorded change requirements, the draft and RSS-14 are revised accordingly, and any affected delta artifacts are regenerated to reflect the new markup. Once updates are complete, the package is re-routed through the same ordered approval path to ensure consistent governance, faster cycle times, and an auditable trail of decisions.",
+            "justification": "The paragraph defines intake and triage standards that enable quick approval of redlines by requiring a complete, version-controlled approval packet and a strict, ordered CLM e-approval sequence with monitoring and documentation. It embeds the prerequisite by stating Finance confirmation on RSS-14 commercial fields must be captured before approvals begin. It also includes the conditional branch for rejection, describing rework, artifact regeneration, and re-routing through the same approval order to maintain speed and compliance."
+        }
+    ],
+    "conclusion": "Consistent execution of these guidelines improves negotiation throughput while protecting HelioFreight’s legal and commercial interests. Clear intake requirements and routing discipline reduce rework and avoid stalled deal cycles. Proper escalation and controls ensure appropriate oversight for higher-risk terms. Teams should use this manual as the baseline for training, audits, and continuous process refinement.",
+    "file_format": "pdf",
+    "file_path": "/Users/tawka.islamkhondaker/Documents/Codes/DRBench/drbench/drbench_basic/data/turing/b2b_04/GENERIC_IN_0009_pdf/contract-review-guidelines.pdf",
+    "app": "file_system"
+}

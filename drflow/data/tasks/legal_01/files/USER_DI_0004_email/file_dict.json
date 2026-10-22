@@ -1,0 +1,212 @@
+{
+    "file_name": "roundcube_email_20260409_102048",
+    "content": "{\"type\": \"user\", \"username\": \"erin.mccarthy\", \"first_name\": \"Erin\", \"last_name\": \"McCarthy\", \"email\": \"erin.mccarthy@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"david.cho\", \"first_name\": \"David\", \"last_name\": \"Cho\", \"email\": \"david.cho@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"marisol.rivera\", \"first_name\": \"Marisol\", \"last_name\": \"Rivera\", \"email\": \"marisol.rivera@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"kevin.patel\", \"first_name\": \"Kevin\", \"last_name\": \"Patel\", \"email\": \"kevin.patel@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"daniel.han\", \"first_name\": \"Daniel\", \"last_name\": \"Han\", \"email\": \"daniel.han@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Treasury Portal Training \\u2013 final attendee list & dial-in\", \"from\": \"marisol.rivera@harborpointcb.com\", \"from_name\": \"Marisol Rivera\", \"to\": [\"erin.mccarthy@harborpointcb.com\", \"david.cho@harborpointcb.com\", \"daniel.han@harborpoint.com\"], \"cc\": [\"kevin.patel@harborpointcb.com\"], \"date\": \"2026-05-01 09:12:34\", \"body\": \"Hi Erin and David,\\n\\nSharing the final attendee list for next week\\u2019s Treasury Portal refresher (ACH templates + wire approvals). Please confirm your teams\\u2019 attendance by EOD Monday so I can lock the session size with Vendor Ops.\\n\\nProposed sessions (all times ET):\\n- Tue 10:00\\u201311:00: Operations + Client Support\\n- Wed 2:00\\u20133:00: Relationship Managers + Treasury Sales\\n\\nDial-in/Teams link: will send once headcount is confirmed.\\n\\nAlso: if there are any client-facing \\u201chow-to\\u201d PDFs you want included (e.g., Positive Pay exceptions, token reset), email them to me and I\\u2019ll compile into a single packet.\\n\\nThanks,\\nMarisol\\n\\nMarisol Rivera\\nTreasury Services \\u2013 Enablement\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"Re: Treasury Portal Training \\u2013 final attendee list & dial-in\", \"from\": \"david.cho@harborpointcb.com\", \"from_name\": \"David Cho\", \"to\": [\"marisol.rivera@harborpointcb.com\", \"erin.mccarthy@harborpointcb.com\"], \"cc\": [\"kevin.patel@harborpointcb.com\"], \"date\": \"2026-05-01 10:03:19\", \"body\": \"Marisol,\\n\\nConfirmed on our side:\\n- Tue session: 6 attendees from Client Support (mix of new hires + 2 escalations specialists)\\n- Wed session: 4 from Treasury Sales\\n\\nRequest: can you spend 10 minutes on the \\u201capproval chain\\u201d configuration? We\\u2019re getting repeat tickets where a client adds an approver but doesn\\u2019t set limits/sequence correctly.\\n\\nErin\\u2014FYI, we\\u2019ll be using the training as part of onboarding for the two associates starting next Monday.\\n\\nThanks,\\nDavid\\n\\nDavid Cho\\nManager, Client Support\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"Branch signage refresh \\u2013 vendor quotes needed by Friday\", \"from\": \"erin.mccarthy@harborpointcb.com\", \"from_name\": \"Erin McCarthy\", \"to\": [\"kevin.patel@harborpointcb.com\"], \"cc\": [\"marisol.rivera@harborpointcb.com\", \"david.cho@harborpointcb.com\"], \"date\": \"2026-05-01 13:47:02\", \"body\": \"Hi Kevin,\\n\\nFacilities asked me to consolidate vendor quotes for the branch signage refresh (lobby posters + ATM toppers). Can you send over:\\n\\n1) Any preferred print vendors already in Procurement\\n2) Ballpark cost ranges for:\\n   - 24x36 posters (qty ~120)\\n   - Counter tent cards (qty ~300)\\n   - Window clings (qty ~80)\\n3) Typical lead time and whether they handle install coordination\\n\\nThis is for standard brand compliance updates (fonts, accessibility language, refreshed FDIC/EHL placements). No campaign messaging\\u2014just evergreen signage.\\n\\nIf you can get this to me by Friday 3pm, I can include it in the Facilities request packet.\\n\\nThanks,\\nErin\\n\\nErin McCarthy\\nInternal Communications & Brand Operations\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_004\", \"subject\": \"Re: Branch signage refresh \\u2013 vendor quotes needed by Friday\", \"from\": \"kevin.patel@harborpointcb.com\", \"from_name\": \"Kevin Patel\", \"to\": [\"erin.mccarthy@harborpointcb.com\"], \"cc\": [\"marisol.rivera@harborpointcb.com\"], \"date\": \"2026-05-01 15:22:41\", \"body\": \"Erin,\\n\\nGot it. Procurement has two approved vendors we\\u2019ve used in the last 12 months:\\n\\n- Bayview Print & Ship (preferred for posters + tent cards)\\n- Northline Graphics (preferred for window clings and specialty finishes)\\n\\nI\\u2019ll request updated quotes today using your quantities. Typical lead times have been:\\n- Posters/tent cards: 7\\u201310 business days after proof approval\\n- Window clings: 10\\u201315 business days (longer if custom sizing)\\n\\nNeither vendor includes install; they\\u2019ll drop-ship by branch, and Facilities usually handles install via the regional coordinators.\\n\\nI\\u2019ll send the quote sheets as soon as I receive them.\\n\\nKevin\\n\\nKevin Patel\\nStrategic Sourcing\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_005\", \"subject\": \"Monthly compliance reminder: customer communication archiving\", \"from\": \"marisol.rivera@harborpointcb.com\", \"from_name\": \"Marisol Rivera\", \"to\": [\"erin.mccarthy@harborpointcb.com\", \"david.cho@harborpointcb.com\", \"kevin.patel@harborpointcb.com\"], \"cc\": [], \"date\": \"2026-05-02 08:18:09\", \"body\": \"Hi all,\\n\\nQuick reminder ahead of next week\\u2019s audit sampling: please ensure any customer-facing materials and operational communications are archived per the retention schedule.\\n\\nHighlights:\\n- Final versions only (PDF) should be saved to the designated SharePoint library (no local-only copies)\\n- If a doc changes due to compliance language updates, store the superseded version in the \\u201cArchive \\u2013 Prior Versions\\u201d folder\\n- For client support email templates/macros, export the current set once monthly and save the export file to the same library\\n\\nIf you need the folder path or permissions updated, send me the group name and I\\u2019ll coordinate with IT Access.\\n\\nThank you,\\nMarisol\\n\\nMarisol Rivera\\nTreasury Services \\u2013 Enablement\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Q2 Campaign Performance Review \\u2014 readout & next steps\", \"from\": \"marisol.rivera@harborpointcb.com\", \"from_name\": \"Marisol Rivera\", \"to\": [\"erin.mccarthy@harborpointcb.com\", \"david.cho@harborpointcb.com\"], \"cc\": [\"kevin.patel@harborpointcb.com\"], \"date\": \"2026-07-10 09:14:22\", \"body\": \"Hi Erin and David,\\n\\nSharing the readout from yesterday\\u2019s Q2 marketing campaign performance review.\\n\\nKey outcomes (Q2 vs Q1):\\n- Website form conversions: +12% (primary driver was improved landing-page flow + faster follow-up routing)\\n- Paid search: we paused the underperforming keyword set (the ones with high CPC and low form-completion rate) and will reallocate that budget into email nurturing (segmented sequences for treasury + lending leads).\\n\\nActions:\\n1) Marketing/Ops to shift remaining July paid-search budget into the nurture program by EOW.\\n2) David\\u2019s team to confirm the top two nurture journeys and SLA for lead handoff.\\n\\nSide note for context: this is standard marketing performance management and isn\\u2019t connected to any compliance case work or due diligence-control investigations that have been circulating separately.\\n\\nThanks,\\nMarisol\\n\\nMarisol Rivera\\nDirector, Marketing Analytics\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Q2 Campaign Performance Review \\u2014 readout & next steps\", \"from\": \"erin.mccarthy@harborpointcb.com\", \"from_name\": \"Erin McCarthy\", \"to\": [\"marisol.rivera@harborpointcb.com\", \"david.cho@harborpointcb.com\"], \"cc\": [\"kevin.patel@harborpointcb.com\"], \"date\": \"2026-07-10 10:02:41\", \"body\": \"Marisol \\u2014 thank you.\\n\\nCan you confirm what we\\u2019re stating as the \\u201coutcome\\u201d for the Q2 review in the exec summary? I want to make sure we\\u2019re consistent before Kevin and I send the monthly update.\\n\\nAlso appreciate the note on keeping this separate from the compliance/due diligence items.\\n\\nErin\\n\\nErin McCarthy\\nVP, Marketing\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"RE: Q2 Campaign Performance Review \\u2014 readout & next steps\", \"from\": \"marisol.rivera@harborpointcb.com\", \"from_name\": \"Marisol Rivera\", \"to\": [\"erin.mccarthy@harborpointcb.com\", \"david.cho@harborpointcb.com\"], \"cc\": [\"kevin.patel@harborpointcb.com\"], \"date\": \"2026-07-10 10:18:09\", \"body\": \"Yes \\u2014 for the exec summary, the outcome statement should be:\\n\\n- Q2 review outcome: we delivered a 12% increase in website form conversions and, based on performance, paused underperforming paid-search keywords to reallocate spend into email nurturing (segmented lead nurture to improve conversion-to-appointment).\\n\\nAnd agreed on separation: this is purely performance optimization; it\\u2019s not relevant to any compliance case investigations or the due diligence-controls allegation.\\n\\nMarisol\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}",
+    "email_setup": [
+        {
+            "type": "user",
+            "username": "erin.mccarthy",
+            "first_name": "Erin",
+            "last_name": "McCarthy",
+            "email": "erin.mccarthy@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "david.cho",
+            "first_name": "David",
+            "last_name": "Cho",
+            "email": "david.cho@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "marisol.rivera",
+            "first_name": "Marisol",
+            "last_name": "Rivera",
+            "email": "marisol.rivera@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "kevin.patel",
+            "first_name": "Kevin",
+            "last_name": "Patel",
+            "email": "kevin.patel@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "daniel.han",
+            "first_name": "Daniel",
+            "last_name": "Han",
+            "email": "daniel.han@harborpoint.com",
+            "password": "my_drbench_pwd"
+        }
+    ],
+    "email_messages": [
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Treasury Portal Training \u2013 final attendee list & dial-in",
+            "from": "marisol.rivera@harborpointcb.com",
+            "from_name": "Marisol Rivera",
+            "to": [
+                "erin.mccarthy@harborpointcb.com",
+                "david.cho@harborpointcb.com",
+                "daniel.han@harborpoint.com"
+            ],
+            "cc": [
+                "kevin.patel@harborpointcb.com"
+            ],
+            "date": "2026-05-01 09:12:34",
+            "body": "Hi Erin and David,\n\nSharing the final attendee list for next week\u2019s Treasury Portal refresher (ACH templates + wire approvals). Please confirm your teams\u2019 attendance by EOD Monday so I can lock the session size with Vendor Ops.\n\nProposed sessions (all times ET):\n- Tue 10:00\u201311:00: Operations + Client Support\n- Wed 2:00\u20133:00: Relationship Managers + Treasury Sales\n\nDial-in/Teams link: will send once headcount is confirmed.\n\nAlso: if there are any client-facing \u201chow-to\u201d PDFs you want included (e.g., Positive Pay exceptions, token reset), email them to me and I\u2019ll compile into a single packet.\n\nThanks,\nMarisol\n\nMarisol Rivera\nTreasury Services \u2013 Enablement\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "Re: Treasury Portal Training \u2013 final attendee list & dial-in",
+            "from": "david.cho@harborpointcb.com",
+            "from_name": "David Cho",
+            "to": [
+                "marisol.rivera@harborpointcb.com",
+                "erin.mccarthy@harborpointcb.com"
+            ],
+            "cc": [
+                "kevin.patel@harborpointcb.com"
+            ],
+            "date": "2026-05-01 10:03:19",
+            "body": "Marisol,\n\nConfirmed on our side:\n- Tue session: 6 attendees from Client Support (mix of new hires + 2 escalations specialists)\n- Wed session: 4 from Treasury Sales\n\nRequest: can you spend 10 minutes on the \u201capproval chain\u201d configuration? We\u2019re getting repeat tickets where a client adds an approver but doesn\u2019t set limits/sequence correctly.\n\nErin\u2014FYI, we\u2019ll be using the training as part of onboarding for the two associates starting next Monday.\n\nThanks,\nDavid\n\nDavid Cho\nManager, Client Support\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "Branch signage refresh \u2013 vendor quotes needed by Friday",
+            "from": "erin.mccarthy@harborpointcb.com",
+            "from_name": "Erin McCarthy",
+            "to": [
+                "kevin.patel@harborpointcb.com"
+            ],
+            "cc": [
+                "marisol.rivera@harborpointcb.com",
+                "david.cho@harborpointcb.com"
+            ],
+            "date": "2026-05-01 13:47:02",
+            "body": "Hi Kevin,\n\nFacilities asked me to consolidate vendor quotes for the branch signage refresh (lobby posters + ATM toppers). Can you send over:\n\n1) Any preferred print vendors already in Procurement\n2) Ballpark cost ranges for:\n   - 24x36 posters (qty ~120)\n   - Counter tent cards (qty ~300)\n   - Window clings (qty ~80)\n3) Typical lead time and whether they handle install coordination\n\nThis is for standard brand compliance updates (fonts, accessibility language, refreshed FDIC/EHL placements). No campaign messaging\u2014just evergreen signage.\n\nIf you can get this to me by Friday 3pm, I can include it in the Facilities request packet.\n\nThanks,\nErin\n\nErin McCarthy\nInternal Communications & Brand Operations\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_004",
+            "subject": "Re: Branch signage refresh \u2013 vendor quotes needed by Friday",
+            "from": "kevin.patel@harborpointcb.com",
+            "from_name": "Kevin Patel",
+            "to": [
+                "erin.mccarthy@harborpointcb.com"
+            ],
+            "cc": [
+                "marisol.rivera@harborpointcb.com"
+            ],
+            "date": "2026-05-01 15:22:41",
+            "body": "Erin,\n\nGot it. Procurement has two approved vendors we\u2019ve used in the last 12 months:\n\n- Bayview Print & Ship (preferred for posters + tent cards)\n- Northline Graphics (preferred for window clings and specialty finishes)\n\nI\u2019ll request updated quotes today using your quantities. Typical lead times have been:\n- Posters/tent cards: 7\u201310 business days after proof approval\n- Window clings: 10\u201315 business days (longer if custom sizing)\n\nNeither vendor includes install; they\u2019ll drop-ship by branch, and Facilities usually handles install via the regional coordinators.\n\nI\u2019ll send the quote sheets as soon as I receive them.\n\nKevin\n\nKevin Patel\nStrategic Sourcing\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_005",
+            "subject": "Monthly compliance reminder: customer communication archiving",
+            "from": "marisol.rivera@harborpointcb.com",
+            "from_name": "Marisol Rivera",
+            "to": [
+                "erin.mccarthy@harborpointcb.com",
+                "david.cho@harborpointcb.com",
+                "kevin.patel@harborpointcb.com"
+            ],
+            "cc": [],
+            "date": "2026-05-02 08:18:09",
+            "body": "Hi all,\n\nQuick reminder ahead of next week\u2019s audit sampling: please ensure any customer-facing materials and operational communications are archived per the retention schedule.\n\nHighlights:\n- Final versions only (PDF) should be saved to the designated SharePoint library (no local-only copies)\n- If a doc changes due to compliance language updates, store the superseded version in the \u201cArchive \u2013 Prior Versions\u201d folder\n- For client support email templates/macros, export the current set once monthly and save the export file to the same library\n\nIf you need the folder path or permissions updated, send me the group name and I\u2019ll coordinate with IT Access.\n\nThank you,\nMarisol\n\nMarisol Rivera\nTreasury Services \u2013 Enablement\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Q2 Campaign Performance Review \u2014 readout & next steps",
+            "from": "marisol.rivera@harborpointcb.com",
+            "from_name": "Marisol Rivera",
+            "to": [
+                "erin.mccarthy@harborpointcb.com",
+                "david.cho@harborpointcb.com"
+            ],
+            "cc": [
+                "kevin.patel@harborpointcb.com"
+            ],
+            "date": "2026-07-10 09:14:22",
+            "body": "Hi Erin and David,\n\nSharing the readout from yesterday\u2019s Q2 marketing campaign performance review.\n\nKey outcomes (Q2 vs Q1):\n- Website form conversions: +12% (primary driver was improved landing-page flow + faster follow-up routing)\n- Paid search: we paused the underperforming keyword set (the ones with high CPC and low form-completion rate) and will reallocate that budget into email nurturing (segmented sequences for treasury + lending leads).\n\nActions:\n1) Marketing/Ops to shift remaining July paid-search budget into the nurture program by EOW.\n2) David\u2019s team to confirm the top two nurture journeys and SLA for lead handoff.\n\nSide note for context: this is standard marketing performance management and isn\u2019t connected to any compliance case work or due diligence-control investigations that have been circulating separately.\n\nThanks,\nMarisol\n\nMarisol Rivera\nDirector, Marketing Analytics\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Q2 Campaign Performance Review \u2014 readout & next steps",
+            "from": "erin.mccarthy@harborpointcb.com",
+            "from_name": "Erin McCarthy",
+            "to": [
+                "marisol.rivera@harborpointcb.com",
+                "david.cho@harborpointcb.com"
+            ],
+            "cc": [
+                "kevin.patel@harborpointcb.com"
+            ],
+            "date": "2026-07-10 10:02:41",
+            "body": "Marisol \u2014 thank you.\n\nCan you confirm what we\u2019re stating as the \u201coutcome\u201d for the Q2 review in the exec summary? I want to make sure we\u2019re consistent before Kevin and I send the monthly update.\n\nAlso appreciate the note on keeping this separate from the compliance/due diligence items.\n\nErin\n\nErin McCarthy\nVP, Marketing",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "RE: Q2 Campaign Performance Review \u2014 readout & next steps",
+            "from": "marisol.rivera@harborpointcb.com",
+            "from_name": "Marisol Rivera",
+            "to": [
+                "erin.mccarthy@harborpointcb.com",
+                "david.cho@harborpointcb.com"
+            ],
+            "cc": [
+                "kevin.patel@harborpointcb.com"
+            ],
+            "date": "2026-07-10 10:18:09",
+            "body": "Yes \u2014 for the exec summary, the outcome statement should be:\n\n- Q2 review outcome: we delivered a 12% increase in website form conversions and, based on performance, paused underperforming paid-search keywords to reallocate spend into email nurturing (segmented lead nurture to improve conversion-to-appointment).\n\nAnd agreed on separation: this is purely performance optimization; it\u2019s not relevant to any compliance case investigations or the due diligence-controls allegation.\n\nMarisol",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_email_document.jsonl",
+    "qa_type": "distractor",
+    "timestamp": "2026-05-02 15:20",
+    "app": "file_system"
+}

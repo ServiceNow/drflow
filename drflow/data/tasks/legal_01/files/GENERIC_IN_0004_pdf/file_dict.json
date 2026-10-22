@@ -1,0 +1,16 @@
+{
+    "file_name": "harborpoint-incident-intake-triage-standards",
+    "file_title": "Compliance Incident Management Guidelines",
+    "introduction": "This document establishes HarborPoint Community Bank’s internal standards for managing potential compliance incidents across lending and treasury services. It aligns expectations for consistent intake, documentation, and oversight while preserving confidentiality and evidentiary integrity. The guidelines support timely risk mitigation and appropriate escalation to second-line and legal stakeholders. All employees and managers must follow these requirements when concerns are raised.",
+    "subsections": [
+        {
+            "subsection_heading": "Compliance Concern Intake and Triage",
+            "content": "During intake, the Compliance Duty Officer logs the concern in the Compliance Case Platform (CCP) and first assigns an initial severity rating using the CCP triage card criteria, as this determination governs escalation and controls. Once severity is set, the case record must be secured on a strict need-to-know basis by limiting CCP permissions to the designated investigator and Compliance leadership, with Legal/counsel added only if counsel is formally engaged for the matter. The investigator then generates (or records) the CCP case code and, if a platform code is unavailable, creates the standard HarborPoint case identifier per Compliance policy. This case code is mandatory for all related communications and artifacts, including email subject lines, document headers, file names, and calendar invitations, to reduce inadvertent disclosure and support audit-ready traceability. Any sharing outside the approved access list requires documented approval from Compliance leadership and must be reflected immediately in CCP permissions to maintain confidentiality and preserve investigative integrity.",
+            "justification": "This subsection outlines a concrete intake-and-triage workflow that supports investigating potential internal compliance violations by sequencing severity assessment (the prerequisite) before access control and case identification steps. It embeds the need-to-know restrictions in CCP, includes the conditional addition of counsel, and requires creation/recording of a case code used across emails, documents, filenames, and meeting invites. These procedures improve confidentiality, chain-of-custody, and auditability, directly addressing the DR Question and the target insight."
+        }
+    ],
+    "conclusion": "Consistent handling of potential compliance incidents protects HarborPoint, our clients, and the integrity of our control environment. Adhering to these guidelines supports fair outcomes, defensible documentation, and effective remediation where needed. Proper escalation and secure information management reduce regulatory and reputational risk. Leaders are accountable for ensuring teams understand and execute these standards.",
+    "file_format": "pdf",
+    "file_path": "/Users/tawka.islamkhondaker/Documents/Codes/DRBench/drbench/drbench_basic/data/turing/legal_01/GENERIC_IN_0004_pdf/harborpoint-incident-intake-triage-standards.pdf",
+    "app": "file_system"
+}

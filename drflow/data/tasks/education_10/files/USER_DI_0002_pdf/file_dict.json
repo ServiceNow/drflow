@@ -1,0 +1,29 @@
+{
+    "file_name": "quarter-close-pcard-controls-audit-readiness-brief",
+    "file_title": "Quarterly P-Card Controls and Readiness Update",
+    "introduction": "This internal update provides Finance and departmental administrators with a consolidated view of current purchasing card (P-Card) control activities and quarter-end close expectations at Eastport University. The document is intended to support consistent execution of reconciliation tasks, strengthen documentation practices, and align departments with audit requirements. It highlights notable trends, process checkpoints, and operational risks observed during the current cycle. Recommendations are included to help units prioritize corrective actions ahead of upcoming reviews.",
+    "subsections": [
+        {
+            "heading": "Quarter-End Transaction Review Summary",
+            "content": "In Q1 FY2026 (Jan\u2013Mar 2026), Procurement Analytics observed a 12% shift in small-dollar spend from lab consumables to field research travel, primarily within Biology and Earth Systems. Average transaction size across all purchasing channels decreased from $214 to $198, while the number of vendor storefront purchases increased 9% after the February 2026 catalog refresh. The top five suppliers by volume remained stable, led by Fisher Scientific and Staples, together representing 31% of non-payroll purchases. Separately, a pilot for automated merchant category coding normalization processed 18,400 lines of spend data to improve dashboard accuracy for deans and department administrators.",
+            "type": "distractor",
+            "justification": "Focuses on spend trends and analytics; no reconciliation progress or audit readiness details (trend distractor)."
+        },
+        {
+            "heading": "Supporting Documentation and Retention Standards",
+            "content": "Records Management issued an updated retention crosswalk on 2026-02-15 aligning research administration files with sponsor-specific requirements, including NIH (7 years) and NSF (3 years) closeout standards. During a February sampling exercise, 26 departments validated that 94% of grant-related statements of work and subaward invoices were stored in approved repositories (OnBase or SharePoint Online) with consistent naming conventions. The University Archivist also finalized guidance for storing meeting minutes and committee files, targeting a 60-day upload window to reduce ad hoc local drives. IT Security supported this by expanding immutable backup coverage to 1.2 PB for designated \u201cofficial record\u201d libraries.",
+            "type": "distractor",
+            "justification": "Discusses general records retention and repositories; avoids P-Card documentation specifics (policy distractor)."
+        },
+        {
+            "heading": "Departmental Training and Process Support",
+            "content": "Between 2026-01-08 and 2026-03-29, Organizational Development delivered 22 sessions of onboarding for newly hired research-track faculty, reaching 317 participants across Engineering, Arts & Sciences, and Public Health. Compliance modules prioritized human subjects protections, export controls, and data classification, with a 97% completion rate within 30 days of hire. Department administrators also received two workshops on requisition intake triage and vendor onboarding, reducing average supplier setup cycle time from 14 to 9 business days. The Service Desk logged 1,148 tickets related to procurement system navigation in the same period, with a median first-response time of 2.3 hours.",
+            "type": "distractor",
+            "justification": "Covers onboarding and system support metrics; not quarterly reconciliation/audit readiness status (adjacent training distractor)."
+        }
+    ],
+    "conclusion": "Departments should use this update to confirm local ownership for review, approval, and records retention steps ahead of the quarter-end deadline. Key gaps should be addressed through targeted follow-ups, including missing receipts, late approvals, and unresolved exceptions. Finance will continue monitoring adherence to established checkpoints and will provide unit-level outreach where risk indicators persist. Next steps include reinforcing training attendance, standardizing file retention, and escalating repeat noncompliance through established administrative channels.",
+    "file_format": "pdf",
+    "file_path": ".llm_responses/generated_pdf_document.pdf",
+    "app": "file_system"
+}

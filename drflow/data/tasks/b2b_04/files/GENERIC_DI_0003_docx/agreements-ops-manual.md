@@ -1,0 +1,13 @@
+# Commercial Agreements Operations Manual
+
+## Introduction
+
+This manual defines standardized practices for managing commercial agreements within HelioFreight Logistics. It aligns Legal, Sales, Procurement, and Operations on roles, documentation expectations, and internal controls. The guidance supports consistent execution across North American warehousing and freight service lines. Adherence ensures contractual obligations are understood, traceable, and enforceable.
+
+## Document Control and Records Retention
+
+HelioFreight retains a controlled record set for each shipper’s monthly SLA/KPI dashboard, including the WMS/TMS extracts for order cycle time, dock-to-stock, pick accuracy, tender acceptance, on-time delivery, and dwell time. Prior to publication, analysts validate data quality, normalize KPI definitions to the customer’s contract/SOW, and store calculation workbooks with locked formulas and date-stamped metadata in the designated account repository. The final dashboard and a written narrative detailing exceptions, actions taken, and planned improvements are versioned and distributed to customer contacts and internal account teams, with distribution logs captured for auditability. If performance misses SLA targets, the retained package must include a corrective action plan with named owners and due dates, and if data anomalies are detected, the analyst reruns extracts and documents all assumptions and filters used in the archived file set.
+
+## Conclusion
+
+Consistent application of these guidelines reduces operational risk and improves cross-functional coordination. Standardized documentation and communication enable faster issue resolution and clearer accountability. Teams should follow the defined controls to maintain audit readiness and contractual integrity. Ongoing review of these practices supports scalable growth across HelioFreight’s service network.

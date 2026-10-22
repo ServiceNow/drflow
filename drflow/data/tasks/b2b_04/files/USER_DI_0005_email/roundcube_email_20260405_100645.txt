@@ -1,0 +1,237 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• maria.chen
+  Name: Maria Chen
+  Email: maria.chen@heliofreight.com
+
+• david.nguyen
+  Name: David Nguyen
+  Email: david.nguyen@heliofreight.com
+
+• sarah.patel
+  Name: Sarah Patel
+  Email: sarah.patel@heliofreight.com
+
+• jason.reed
+  Name: Jason Reed
+  Email: jason.reed@heliofreight.com
+
+• megan.ortiz
+  Name: Megan Ortiz
+  Email: megan.ortiz@heliofreight.com
+
+• priya.desai
+  Name: Priya Desai
+  Email: priya.desai@heliofreight.com
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-04-14 09:12:08
+From: Maria Chen <maria.chen@heliofreight.com>
+To: david.nguyen@heliofreight.com
+CC: sarah.patel@heliofreight.com
+Subject: Re: Quick check — any Finance Ops changes impacting reimbursements?
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi David,
+
+As we’re finalizing the internal controls notes for Q2, can you confirm whether Finance Ops rolled out any updates that impacted employee reimbursements? I’ve heard a couple of managers mention “new receipt requirements” and an “expense coding field,” but I don’t have the specifics.
+
+If there was a change, I also need to note whether it touches contract workflows (e.g., redline approval) or if it’s strictly T&E.
+
+Thanks,
+Maria
+
+Maria Chen
+Finance Operations Program Manager
+HelioFreight Logistics
+============================================================
+
+Email ID: email_001
+Date: 2026-04-14 09:12:33
+From: Maria Chen <maria.chen@heliofreight.com>
+To: david.nguyen@heliofreight.com, sarah.patel@heliofreight.com, priya.desai@heliofreight.com
+CC: jason.reed@heliofreight.com
+Subject: Q2 Warehouse Slotting Pilot — Kickoff & Data Needed by Friday
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi David, Sarah,
+
+As discussed in last week’s ops sync, we’re kicking off the Q2 slotting optimization pilot for the Dallas and Joliet sites. Goal is to reduce pick travel time and improve dock-to-stock throughput for our top 20 SKUs by volume.
+
+To build the baseline, can you please send the following by EOD Friday?
+
+1) Last 8 weeks of order lines (CSV export is fine)
+2) Current bin locations and replenishment triggers
+3) Any known constraints (hazmat segregation, temp zones, customer-specific handling)
+
+Proposed kickoff: Tuesday 10:00–10:45 CT. Jason is CC’d in case we need WMS report support.
+
+Thanks,
+Maria
+
+Maria Chen
+Operations Program Manager | HelioFreight Logistics
+============================================================
+
+Email ID: email_002
+Date: 2026-04-14 10:03:41
+From: David Nguyen <david.nguyen@heliofreight.com>
+To: maria.chen@heliofreight.com
+CC: sarah.patel@heliofreight.com, megan.ortiz@heliofreight.com
+Subject: Re: Quick check — any Finance Ops changes impacting reimbursements?
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Hi Maria,
+
+Yes—Finance Ops updated the travel and expense (T&E) policy effective 4/1.
+
+Key items impacting reimbursements:
+- Rideshare: itemized receipts are now required for rideshare charges over $25 (previously we accepted non-itemized email confirmations regardless of amount).
+- Concur/expense submission: we introduced a new required expense coding field (cost object/GL coding) so reimbursements post to the correct lane/region programs without manual reclass.
+
+This is strictly an internal reimbursement control change. It does not affect the contract redline approval process or any customer contract workflow—those approvals still route through Legal/RevOps as before.
+
+If you need the exact policy language, Megan has the FAQ that went out with the rollout.
+
+Best,
+David
+
+David Nguyen
+Director, Finance Operations
+HelioFreight Logistics
+============================================================
+
+Email ID: email_003
+Date: 2026-04-14 10:22:17
+From: Megan Ortiz <megan.ortiz@heliofreight.com>
+To: maria.chen@heliofreight.com, david.nguyen@heliofreight.com
+CC: sarah.patel@heliofreight.com
+Subject: Re: Quick check — any Finance Ops changes impacting reimbursements?
+Folder: inbox | Status: Read 🔍 [INSIGHT]
+
+Message Body:
+----------------------------------------
+Adding the employee-facing context in case it’s helpful for your controls notes.
+
+We made the change because we were seeing inconsistent backup for higher-dollar rideshare claims and too many manual corrections during month-end close. The new expense coding field is required at submission (Concur won’t allow “unknown” anymore), which should reduce reclasses and speed reimbursement once reports are approved.
+
+Agree with David: this is limited to T&E reimbursements and doesn’t touch contract redlines/approvals.
+
+Thanks,
+Megan
+
+Megan Ortiz
+Manager, Travel & Expense (Finance Ops)
+HelioFreight Logistics
+============================================================
+
+Email ID: email_002
+Date: 2026-04-14 11:03:18
+From: David Nguyen <david.nguyen@heliofreight.com>
+To: maria.chen@heliofreight.com
+CC: sarah.patel@heliofreight.com, jason.reed@heliofreight.com
+Subject: Re: Q2 Warehouse Slotting Pilot — Kickoff & Data Needed by Friday
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi Maria,
+
+Confirmed—Joliet can provide the 8-week order line export and current bin map by Friday noon CT.
+
+A couple notes for constraints:
+- We have a dedicated overpack area for two customers (Riverton and Kestrel) that can’t be mixed due to QA requirements.
+- Hazmat is currently in Zone H with fixed aisle allocation; we can adjust within the zone but not relocate outside.
+
+Tuesday 10:00–10:45 CT works for me.
+
+Thanks,
+David
+
+David Nguyen
+Senior Warehouse Manager | HelioFreight Logistics
+============================================================
+
+Email ID: email_003
+Date: 2026-04-18 15:27:46
+From: Sarah Patel <sarah.patel@heliofreight.com>
+To: maria.chen@heliofreight.com, megan.ortiz@heliofreight.com
+CC: david.nguyen@heliofreight.com
+Subject: Customer Feedback: On-time Performance Survey Results (March) — Action Items
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Hi Maria, Megan,
+
+Sharing a quick readout from the March customer satisfaction pulse focused on on-time performance and shipment visibility.
+
+Highlights:
+- Overall satisfaction: 4.2/5 (up from 4.0 in Feb)
+- Top praise: faster exception notifications; cleaner POD uploads
+- Top gaps:
+  1) “Late appointment updates” when dwell > 2 hours at select cross-docks
+  2) “Inconsistent tracking milestones” on LTL moves routed through the Midwest
+
+Proposed action items:
+- Ops: standardize the dwell escalation at 90 minutes (vs. current site-by-site thresholds)
+- IT/Ops: audit milestone mapping for the two carriers flagged most often (I can send names in a separate note)
+- Customer Success: refresh the shipment visibility FAQ and circulate to CS reps
+
+Can we align on owners in next week’s cross-functional standup?
+
+Thanks,
+Sarah
+
+Sarah Patel
+Customer Experience Lead | HelioFreight Logistics
+============================================================
+
+Email ID: email_004
+Date: 2026-04-22 08:41:02
+From: Jason Reed <jason.reed@heliofreight.com>
+To: david.nguyen@heliofreight.com, maria.chen@heliofreight.com, megan.ortiz@heliofreight.com
+CC: sarah.patel@heliofreight.com
+Subject: WMS Training Slots — April 29–30 (Super User Coverage Needed)
+Folder: inbox | Status: Read 💼 [DISTRACTOR]
+
+Message Body:
+----------------------------------------
+Team,
+
+We’ve finalized the WMS refresher sessions for April 29–30 to cover the new receiving workflow and updated pick-path rules.
+
+Schedule:
+- Tue 4/29: 09:00–10:30 CT and 14:00–15:30 CT
+- Wed 4/30: 09:00–10:30 CT and 14:00–15:30 CT
+
+Request:
+- Each site needs 2 “super users” per session to help with floor Q&A and to capture follow-ups.
+- Please send me names by EOD Friday so I can add them to the roster and grant training environment access.
+
+Notes:
+- This is a workflow-only update (no downtime expected).
+- We’ll record the sessions for teams that can’t attend live.
+
+Thanks,
+Jason
+
+Jason Reed
+Director, Systems & Process | HelioFreight Logistics
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

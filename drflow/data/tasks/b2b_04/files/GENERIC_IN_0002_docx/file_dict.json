@@ -1,0 +1,16 @@
+{
+    "file_name": "heliofreight-contract-risk-triage-governance",
+    "file_title": "Contract Review and Negotiation Governance Guide",
+    "introduction": "This document defines governance and operational guidelines for managing customer and vendor agreements across HelioFreight Logistics. It establishes consistent standards for evaluating commercial, legal, and operational impacts during contract negotiations. The intent is to support timely decision-making while maintaining risk controls appropriate for a large 3PL. These guidelines apply to all business units involved in warehousing and freight services across North America.",
+    "subsections": [
+        {
+            "subsection_heading": "Contract Risk Triage Standards",
+            "content": "Contract redline approvals at HelioFreight begin only after a new CLM Deal Intake record is created and all required intake fields are completed to enable accurate triage and auditability. As the first risk gate, the contract owner must run the CLM paper-source check to confirm whether the deal is based on an approved HelioFreight template (e.g., the Master Services Agreement for North American 3PL services) or is provided on customer paper. The record must then be labeled accordingly as “Standard Paper” or “Customer Paper,” and the workflow status must be set to the appropriate starting point before any redline routing or negotiation steps are initiated. For Standard Paper, the team proceeds directly into the approved redline path using the designated starting template and clause playbook. For Customer Paper, the contract owner must submit a request to Legal to select or validate the correct starting template and must pause all redline circulation until Legal provides explicit direction. This discipline prevents parallel negotiations on the wrong form, reduces cycle time by avoiding rework, and ensures consistent contractual risk posture across high-volume shipper agreements.",
+            "justification": "The paragraph defines an SOP-style triage step that speeds redline approval by first establishing the paper source and starting template path, including the conditional branch for Standard vs Customer Paper and the requirement to halt routing until Legal confirms direction. It explicitly embeds the prerequisite of creating a CLM Deal Intake record and completing required fields before performing the paper-source check and tagging, aligning the workflow state to the correct starting point."
+        }
+    ],
+    "conclusion": "Following these guidelines ensures contracts align with HelioFreight’s service model, pricing practices, and risk tolerance. Consistent intake, review, and documentation reduce negotiation cycle time and prevent uncontrolled deviations from approved terms. Clear ownership and governance help protect customer relationships while maintaining regulatory and insurance compliance. Teams should apply these standards on every agreement and escalate exceptions promptly.",
+    "file_format": "docx",
+    "file_path": "/Users/tawka.islamkhondaker/Documents/Codes/DRBench/drbench/drbench_basic/data/turing/b2b_04/GENERIC_IN_0002_docx/heliofreight-contract-risk-triage-governance.docx",
+    "app": "file_system"
+}

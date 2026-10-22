@@ -1,0 +1,182 @@
+{
+    "file_name": "roundcube_email_20260409_102402",
+    "content": "{\"type\": \"user\", \"username\": \"monica.reyes\", \"first_name\": \"Monica\", \"last_name\": \"Reyes\", \"email\": \"monica.reyes@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"david.chen\", \"first_name\": \"David\", \"last_name\": \"Chen\", \"email\": \"david.chen@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"erin.kline\", \"first_name\": \"Erin\", \"last_name\": \"Kline\", \"email\": \"erin.kline@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"mark.walters\", \"first_name\": \"Mark\", \"last_name\": \"Walters\", \"email\": \"mark.walters@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"sophia.patel\", \"first_name\": \"Sophia\", \"last_name\": \"Patel\", \"email\": \"sophia.patel@harborpointbank.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"daniel.han\", \"first_name\": \"Daniel\", \"last_name\": \"Han\", \"email\": \"daniel.han@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Q3 Treasury Client Webinar \\u2014 agenda + speaker slots\", \"from\": \"monica.reyes@harborpointbank.com\", \"from_name\": \"Monica Reyes\", \"to\": [\"erin.kline@harborpointbank.com\", \"david.chen@harborpointbank.com\", \"daniel.han@harborpoint.com\"], \"cc\": [\"sophia.patel@harborpointbank.com\"], \"date\": \"2026-04-14 09:12:44\", \"body\": \"Hi Erin and David,\\n\\nWe\\u2019re finalizing the Treasury Services client webinar for late May (target audience: small/mid-sized commercial clients; focus on ACH fraud prevention and liquidity tools). Can you confirm:\\n\\n1) Your availability for a 30-min dry run next week (Tue or Thu, 2:00\\u20133:30pm)?\\n2) Who will cover which segments:\\n   - Product overview (Positive Pay, ACH blocks/filters)\\n   - Client onboarding workflow + timeline\\n   - Q&A moderation and follow-ups\\n\\nSophia\\u2014can you share any recent client survey themes we should address (e.g., training gaps, portal navigation issues) without getting too deep into feature requests?\\n\\nI\\u2019ll circulate a draft agenda once I have speaker assignments.\\n\\nThanks,\\nMonica\\n\\nMonica Reyes\\nTreasury Services | HarborPoint Community Bank\\n(555) 013-8821\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Q3 Treasury Client Webinar \\u2014 agenda + speaker slots\", \"from\": \"erin.kline@harborpointbank.com\", \"from_name\": \"Erin Kline\", \"to\": [\"monica.reyes@harborpointbank.com\", \"david.chen@harborpointbank.com\"], \"cc\": [\"sophia.patel@harborpointbank.com\"], \"date\": \"2026-04-14 10:03:18\", \"body\": \"Monica,\\n\\nHappy to support. Thu next week works best for me\\u20142:30\\u20133:30pm is ideal.\\n\\nFor segments, I can cover:\\n- Client onboarding workflow + timeline (including what clients need to provide for ACH and wires)\\n- A quick slide on common implementation pitfalls (e.g., signer changes, token delivery timing)\\n\\nDavid\\u2014if you can take product overview, I can coordinate with Marketing on a simple \\u201cprep checklist\\u201d handout for attendees.\\n\\nSophia\\u2014any top 3 client pain points from the last survey would help us tune the examples.\\n\\nRegards,\\nErin\\n\\nErin Kline\\nClient Enablement, Treasury Management | HarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"Branch staffing coverage \\u2014 May PTO requests and lobby hours\", \"from\": \"mark.walters@harborpointbank.com\", \"from_name\": \"Mark Walters\", \"to\": [\"sophia.patel@harborpointbank.com\", \"monica.reyes@harborpointbank.com\"], \"cc\": [\"david.chen@harborpointbank.com\"], \"date\": \"2026-04-18 15:27:06\", \"body\": \"Sophia and Monica,\\n\\nFlagging a scheduling item: we have higher-than-usual PTO requests in the first two weeks of May at the North Harbor branch, and we need to confirm whether we can maintain normal lobby hours.\\n\\nSophia\\u2014can you review the PTO calendar and let me know by Monday EOD if you\\u2019re able to shift one teller from the South Cove branch for coverage (3 days total)? If not, we\\u2019ll need to adjust appointment availability and put signage/email notices in place.\\n\\nMonica\\u2014if lobby hours change, Treasury may see an uptick in client calls about cashier\\u2019s checks and wire cutoffs. Can your team share a short script we can give to frontline staff (1 page) that clarifies same-day wire deadlines and who to route urgent items to?\\n\\nDavid\\u2014cc\\u2019ing you in case Retail Ops needs your input on comms to commercial clients who typically drop off documentation in person.\\n\\nThanks,\\nMark\\n\\nMark Walters\\nRegional Branch Operations Manager | HarborPoint Community Bank\\n(555) 014-2209\", \"folder\": \"inbox\", \"read\": false, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Exec QBR KPI Dashboard \\u2013 confirm updates for this quarter\", \"from\": \"monica.reyes@harborpointbank.com\", \"from_name\": \"Monica Reyes\", \"to\": [\"erin.kline@harborpointbank.com\", \"david.chen@harborpointbank.com\"], \"cc\": [\"mark.walters@harborpointbank.com\"], \"date\": \"2026-03-30 09:12:44\", \"body\": \"Hi Erin/David,\\n\\nAhead of Friday\\u2019s exec QBR packet, can you confirm what changed on the quarterly KPI dashboard versus last quarter? Mark asked specifically whether we\\u2019re still sending separate slides for branch experience, contact center, and digital, or if those are now combined.\\n\\nAlso\\u2014please confirm refresh cadence so we can set expectations with the ELT (last quarter we had a few \\u201cas of\\u201d questions).\\n\\nThanks,\\nMonica\\n\\nMonica Reyes\\nDirector, Executive Reporting\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Exec QBR KPI Dashboard \\u2013 confirm updates for this quarter\", \"from\": \"david.chen@harborpointbank.com\", \"from_name\": \"David Chen\", \"to\": [\"monica.reyes@harborpointbank.com\", \"erin.kline@harborpointbank.com\"], \"cc\": [\"mark.walters@harborpointbank.com\"], \"date\": \"2026-03-30 10:03:19\", \"body\": \"Monica,\\n\\nConfirmed\\u2014this quarter the analytics team changed the exec-facing quarterly KPI dashboard to add a consolidated \\u201cClient Experience & Adoption\\u201d view. It rolls up three items that used to be shown separately:\\n\\n- Branch NPS\\n- Call-center abandon rate\\n- Digital adoption\\n\\nWe also set the dashboard to auto-refresh every Monday morning so the QBR deck reflects a consistent weekly cut (no more manual refresh before publishing).\\n\\nThis is standard KPI reporting/ops work only\\u2014nothing compliance-related and it doesn\\u2019t change how we\\u2019d investigate any internal issue; it\\u2019s strictly about making the ELT view cleaner and more consistent.\\n\\nErin\\u2014please chime in if you want any of the legacy tiles kept as appendix views.\\n\\nThanks,\\nDavid\\n\\nDavid Chen\\nVP, Analytics & Insights\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"RE: Exec QBR KPI Dashboard \\u2013 confirm updates for this quarter\", \"from\": \"erin.kline@harborpointbank.com\", \"from_name\": \"Erin Kline\", \"to\": [\"monica.reyes@harborpointbank.com\", \"david.chen@harborpointbank.com\"], \"cc\": [\"mark.walters@harborpointbank.com\"], \"date\": \"2026-03-30 10:27:06\", \"body\": \"Adding to David\\u2019s note:\\n\\nYes, we replaced the three separate widgets with the consolidated view for exec reporting, and the Monday AM automated refresh is now the standard cadence. We\\u2019ll keep drill-downs available in the dashboard (branch/call center/digital tabs) but they won\\u2019t be in the default ELT view unless requested.\\n\\nMonica\\u2014good to message the ELT that the \\u201cas of\\u201d timestamp will always be Monday AM, which should reduce last-minute questions.\\n\\nErin\\n\\nErin Kline\\nDirector, Data Products & BI\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}",
+    "email_setup": [
+        {
+            "type": "user",
+            "username": "monica.reyes",
+            "first_name": "Monica",
+            "last_name": "Reyes",
+            "email": "monica.reyes@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "david.chen",
+            "first_name": "David",
+            "last_name": "Chen",
+            "email": "david.chen@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "erin.kline",
+            "first_name": "Erin",
+            "last_name": "Kline",
+            "email": "erin.kline@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "mark.walters",
+            "first_name": "Mark",
+            "last_name": "Walters",
+            "email": "mark.walters@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "sophia.patel",
+            "first_name": "Sophia",
+            "last_name": "Patel",
+            "email": "sophia.patel@harborpointbank.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "daniel.han",
+            "first_name": "Daniel",
+            "last_name": "Han",
+            "email": "daniel.han@harborpoint.com",
+            "password": "my_drbench_pwd"
+        }
+    ],
+    "email_messages": [
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Q3 Treasury Client Webinar \u2014 agenda + speaker slots",
+            "from": "monica.reyes@harborpointbank.com",
+            "from_name": "Monica Reyes",
+            "to": [
+                "erin.kline@harborpointbank.com",
+                "david.chen@harborpointbank.com",
+                "daniel.han@harborpoint.com"
+            ],
+            "cc": [
+                "sophia.patel@harborpointbank.com"
+            ],
+            "date": "2026-04-14 09:12:44",
+            "body": "Hi Erin and David,\n\nWe\u2019re finalizing the Treasury Services client webinar for late May (target audience: small/mid-sized commercial clients; focus on ACH fraud prevention and liquidity tools). Can you confirm:\n\n1) Your availability for a 30-min dry run next week (Tue or Thu, 2:00\u20133:30pm)?\n2) Who will cover which segments:\n   - Product overview (Positive Pay, ACH blocks/filters)\n   - Client onboarding workflow + timeline\n   - Q&A moderation and follow-ups\n\nSophia\u2014can you share any recent client survey themes we should address (e.g., training gaps, portal navigation issues) without getting too deep into feature requests?\n\nI\u2019ll circulate a draft agenda once I have speaker assignments.\n\nThanks,\nMonica\n\nMonica Reyes\nTreasury Services | HarborPoint Community Bank\n(555) 013-8821",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Q3 Treasury Client Webinar \u2014 agenda + speaker slots",
+            "from": "erin.kline@harborpointbank.com",
+            "from_name": "Erin Kline",
+            "to": [
+                "monica.reyes@harborpointbank.com",
+                "david.chen@harborpointbank.com"
+            ],
+            "cc": [
+                "sophia.patel@harborpointbank.com"
+            ],
+            "date": "2026-04-14 10:03:18",
+            "body": "Monica,\n\nHappy to support. Thu next week works best for me\u20142:30\u20133:30pm is ideal.\n\nFor segments, I can cover:\n- Client onboarding workflow + timeline (including what clients need to provide for ACH and wires)\n- A quick slide on common implementation pitfalls (e.g., signer changes, token delivery timing)\n\nDavid\u2014if you can take product overview, I can coordinate with Marketing on a simple \u201cprep checklist\u201d handout for attendees.\n\nSophia\u2014any top 3 client pain points from the last survey would help us tune the examples.\n\nRegards,\nErin\n\nErin Kline\nClient Enablement, Treasury Management | HarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "Branch staffing coverage \u2014 May PTO requests and lobby hours",
+            "from": "mark.walters@harborpointbank.com",
+            "from_name": "Mark Walters",
+            "to": [
+                "sophia.patel@harborpointbank.com",
+                "monica.reyes@harborpointbank.com"
+            ],
+            "cc": [
+                "david.chen@harborpointbank.com"
+            ],
+            "date": "2026-04-18 15:27:06",
+            "body": "Sophia and Monica,\n\nFlagging a scheduling item: we have higher-than-usual PTO requests in the first two weeks of May at the North Harbor branch, and we need to confirm whether we can maintain normal lobby hours.\n\nSophia\u2014can you review the PTO calendar and let me know by Monday EOD if you\u2019re able to shift one teller from the South Cove branch for coverage (3 days total)? If not, we\u2019ll need to adjust appointment availability and put signage/email notices in place.\n\nMonica\u2014if lobby hours change, Treasury may see an uptick in client calls about cashier\u2019s checks and wire cutoffs. Can your team share a short script we can give to frontline staff (1 page) that clarifies same-day wire deadlines and who to route urgent items to?\n\nDavid\u2014cc\u2019ing you in case Retail Ops needs your input on comms to commercial clients who typically drop off documentation in person.\n\nThanks,\nMark\n\nMark Walters\nRegional Branch Operations Manager | HarborPoint Community Bank\n(555) 014-2209",
+            "folder": "inbox",
+            "read": false,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Exec QBR KPI Dashboard \u2013 confirm updates for this quarter",
+            "from": "monica.reyes@harborpointbank.com",
+            "from_name": "Monica Reyes",
+            "to": [
+                "erin.kline@harborpointbank.com",
+                "david.chen@harborpointbank.com"
+            ],
+            "cc": [
+                "mark.walters@harborpointbank.com"
+            ],
+            "date": "2026-03-30 09:12:44",
+            "body": "Hi Erin/David,\n\nAhead of Friday\u2019s exec QBR packet, can you confirm what changed on the quarterly KPI dashboard versus last quarter? Mark asked specifically whether we\u2019re still sending separate slides for branch experience, contact center, and digital, or if those are now combined.\n\nAlso\u2014please confirm refresh cadence so we can set expectations with the ELT (last quarter we had a few \u201cas of\u201d questions).\n\nThanks,\nMonica\n\nMonica Reyes\nDirector, Executive Reporting\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Exec QBR KPI Dashboard \u2013 confirm updates for this quarter",
+            "from": "david.chen@harborpointbank.com",
+            "from_name": "David Chen",
+            "to": [
+                "monica.reyes@harborpointbank.com",
+                "erin.kline@harborpointbank.com"
+            ],
+            "cc": [
+                "mark.walters@harborpointbank.com"
+            ],
+            "date": "2026-03-30 10:03:19",
+            "body": "Monica,\n\nConfirmed\u2014this quarter the analytics team changed the exec-facing quarterly KPI dashboard to add a consolidated \u201cClient Experience & Adoption\u201d view. It rolls up three items that used to be shown separately:\n\n- Branch NPS\n- Call-center abandon rate\n- Digital adoption\n\nWe also set the dashboard to auto-refresh every Monday morning so the QBR deck reflects a consistent weekly cut (no more manual refresh before publishing).\n\nThis is standard KPI reporting/ops work only\u2014nothing compliance-related and it doesn\u2019t change how we\u2019d investigate any internal issue; it\u2019s strictly about making the ELT view cleaner and more consistent.\n\nErin\u2014please chime in if you want any of the legacy tiles kept as appendix views.\n\nThanks,\nDavid\n\nDavid Chen\nVP, Analytics & Insights\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "RE: Exec QBR KPI Dashboard \u2013 confirm updates for this quarter",
+            "from": "erin.kline@harborpointbank.com",
+            "from_name": "Erin Kline",
+            "to": [
+                "monica.reyes@harborpointbank.com",
+                "david.chen@harborpointbank.com"
+            ],
+            "cc": [
+                "mark.walters@harborpointbank.com"
+            ],
+            "date": "2026-03-30 10:27:06",
+            "body": "Adding to David\u2019s note:\n\nYes, we replaced the three separate widgets with the consolidated view for exec reporting, and the Monday AM automated refresh is now the standard cadence. We\u2019ll keep drill-downs available in the dashboard (branch/call center/digital tabs) but they won\u2019t be in the default ELT view unless requested.\n\nMonica\u2014good to message the ELT that the \u201cas of\u201d timestamp will always be Monday AM, which should reduce last-minute questions.\n\nErin\n\nErin Kline\nDirector, Data Products & BI\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_email_document.jsonl",
+    "qa_type": "distractor",
+    "timestamp": "2026-05-02 15:22",
+    "app": "file_system"
+}

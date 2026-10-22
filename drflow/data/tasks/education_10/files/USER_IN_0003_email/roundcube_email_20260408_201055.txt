@@ -1,0 +1,195 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• aisha.rahman
+  Name: Aisha Rahman
+  Email: aisha.rahman@eastportuniversity.edu
+
+• linda.cho
+  Name: Linda Cho
+  Email: linda.cho@eastportuniversity.edu
+
+• michael.ortiz
+  Name: Michael Ortiz
+  Email: michael.ortiz@eastportuniversity.edu
+
+• rachel.nandakumar
+  Name: Rachel Nandakumar
+  Email: rachel.nandakumar@eastportuniversity.edu
+
+• daniel.kim
+  Name: Daniel Kim
+  Email: daniel.kim@eastportuniversity.edu
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-04-02 09:18:44
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: linda.cho@eastportuniversity.edu, michael.ortiz@eastportuniversity.edu
+CC: rachel.nandakumar@eastportuniversity.edu
+Subject: April Grad Program Coordinator Sync — agenda items & time confirmation
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Linda and Michael,
+
+Can you confirm whether we’re still on for the monthly Grad Program Coordinator sync on Tuesday, 4/8, 10:00–10:45 AM? If that time no longer works, I can send a quick poll.
+
+Proposed agenda (please add/edit):
+1) Summer orientation planning for incoming graduate students (session owners + room holds)
+2) International student document deadlines — communications cadence (what goes out from Grad Studies vs. departments)
+3) Banner/Slate data cleanup: duplicate student records and unresolved holds
+4) Open issues: late transcript processing + address standardization
+
+If you have any items you need covered, send them my way by EOD Friday and I’ll finalize the agenda.
+
+Thanks,
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+
+============================================================
+
+Email ID: email_002
+Date: 2026-04-02 10:03:12
+From: Linda Cho <linda.cho@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, michael.ortiz@eastportuniversity.edu
+CC: rachel.nandakumar@eastportuniversity.edu
+Subject: RE: April Grad Program Coordinator Sync — agenda items & time confirmation
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Tuesday 4/8 at 10:00 AM works for me.
+
+Two additions for the agenda:
+- Website refresh: the Grad Studies landing page is being updated and we need to confirm which forms should be linked (some are outdated PDFs)
+- FERPA training reminders: we’ve had a few questions from department staff about who needs annual refreshers vs. first-time completion
+
+On the data cleanup item: I can bring a short list of the top recurring duplicate scenarios we’re seeing so we can decide if we want to standardize a fix request to the Registrar’s office.
+
+Thanks for pulling this together.
+
+Best,
+Linda Cho
+Graduate Programs Operations
+Eastport University
+
+============================================================
+
+Email ID: email_003
+Date: 2026-04-04 15:27:56
+From: Michael Ortiz <michael.ortiz@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, rachel.nandakumar@eastportuniversity.edu
+CC: daniel.kim@eastportuniversity.edu, linda.cho@eastportuniversity.edu
+Subject: Action needed: FY27 budget inputs for Grad Studies communications tools
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha and Rachel,
+
+Finance is asking for preliminary FY27 inputs by next Friday, and I need a quick read from you on expected costs for Grad Studies communications tools.
+
+Specifically:
+1) Slate email/SMS volume estimates for the next academic year (high-level is fine)
+2) Any planned upgrades or add-ons (e.g., additional user licenses, reporting modules)
+3) Anticipated training needs (vendor sessions vs. internal)
+
+If you don’t have exact numbers, please send a best estimate and note any assumptions. Daniel is helping us reconcile IT charges (hosting/security line items), so looping him in as well.
+
+Goal is to avoid surprise overages in Q2 once campaigns ramp up.
+
+Thanks,
+Michael Ortiz
+Planning & Administration
+Eastport University
+
+============================================================
+
+Email ID: email_001
+Date: 2026-04-07 09:12:44
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: rachel.nandakumar@eastportuniversity.edu, michael.ortiz@eastportuniversity.edu
+CC: linda.cho@eastportuniversity.edu, daniel.kim@eastportuniversity.edu
+Subject: Onboarding checklist – pre-start gating items (TT faculty, non-U.S. citizen)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Rachel and Michael,
+
+I’m finalizing the onboarding workflow for a newly hired tenure-track faculty member in Arts & Sciences. The faculty member is a non-U.S. citizen currently outside the U.S. and the department is targeting a start date in early August.
+
+To make sure we sequence things correctly, can you confirm the immigration and pre-employment screening steps that must be completed before the faculty member can start (and any items that tend to delay readiness)?
+
+Thank you,
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+============================================================
+
+Email ID: email_002
+Date: 2026-04-07 10:03:18
+From: Rachel Nandakumar <rachel.nandakumar@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu
+CC: linda.cho@eastportuniversity.edu, daniel.kim@eastportuniversity.edu, michael.ortiz@eastportuniversity.edu
+Subject: Re: Onboarding checklist – pre-start gating items (TT faculty, non-U.S. citizen)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+For a new tenure-track faculty member who is a non-U.S. citizen and currently outside the U.S., our standard path is entry in J-1 “Professor” status.
+
+Pre-start immigration steps (ISSS):
+1) Department opens an ISSS case (this is required to initiate sponsorship).
+2) For the DS-2019 request, the department uploads the required documents:
+   • Passport biographic page
+   • Current CV
+   • Signed offer letter/appointment letter
+3) Once ISSS issues the DS-2019, the scholar can proceed with the consular visa process and plan travel/start date accordingly.
+
+Timing note: DS-2019 issuance/visa processing is often the longest lead-time item and can impact start readiness, so it’s best treated as a gating step in the onboarding workflow.
+
+Best,
+Rachel Nandakumar
+International Scholar & Faculty Services (ISSS)
+Eastport University
+============================================================
+
+Email ID: email_003
+Date: 2026-04-07 11:22:51
+From: Michael Ortiz <michael.ortiz@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu
+CC: linda.cho@eastportuniversity.edu, daniel.kim@eastportuniversity.edu, rachel.nandakumar@eastportuniversity.edu
+Subject: Re: Onboarding checklist – pre-start gating items (TT faculty, non-U.S. citizen)
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Adding the pre-employment screening piece from HR.
+
+Because the tenure-track appointment is benefits-eligible, a background check is required prior to start. The hire completes the BGC-2 authorization in EastportWorks once the background check link is triggered (it’s sent automatically after the department/HR initiates the request in the system).
+
+Practical note: background checks and immigration processing are the two items most likely to affect “start-ready” status, so we recommend building both into the onboarding timeline (don’t wait until the week before the start date to trigger BGC-2).
+
+Regards,
+Michael Ortiz
+HR Operations & Compliance
+Eastport University
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================

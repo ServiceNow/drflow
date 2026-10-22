@@ -1,0 +1,226 @@
+{
+    "file_name": "roundcube_email_20260409_102257",
+    "content": "{\"type\": \"user\", \"username\": \"maria.nguyen\", \"first_name\": \"Maria\", \"last_name\": \"Nguyen\", \"email\": \"maria.nguyen@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"jordan.patel\", \"first_name\": \"Jordan\", \"last_name\": \"Patel\", \"email\": \"jordan.patel@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"erin.oconnor\", \"first_name\": \"Erin\", \"last_name\": \"OConnor\", \"email\": \"erin.oconnor@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"david.chen\", \"first_name\": \"David\", \"last_name\": \"Chen\", \"email\": \"david.chen@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"sophia.reyes\", \"first_name\": \"Sophia\", \"last_name\": \"Reyes\", \"email\": \"sophia.reyes@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"luke.washington\", \"first_name\": \"Luke\", \"last_name\": \"Washington\", \"email\": \"luke.washington@harborpointcb.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"user\", \"username\": \"daniel.han\", \"first_name\": \"Daniel\", \"last_name\": \"Han\", \"email\": \"daniel.han@harborpoint.com\", \"password\": \"my_drbench_pwd\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Q2 Treasury Services Client Webinar - Agenda + Speaker Slots\", \"from\": \"maria.nguyen@harborpointcb.com\", \"from_name\": \"Maria Nguyen\", \"to\": [\"sophia.reyes@harborpointcb.com\", \"jordan.patel@harborpointcb.com\", \"daniel.han@harborpoint.com\"], \"cc\": [\"erin.oconnor@harborpointcb.com\"], \"date\": \"2026-04-08 09:12:44\", \"body\": \"Hi Sophia and Jordan,\\n\\nFor the Q2 Treasury Services webinar (targeting small/mid-sized business clients), can you review the draft agenda below and confirm who can cover each section?\\n\\nProposed agenda (45 min + Q&A):\\n1) Welcome + quick poll (2 min)\\n2) Positive Pay refresher + common exceptions (10 min)\\n3) ACH filters/blocks + recommended setup by business type (10 min)\\n4) Wire best practices + callback procedures overview (8 min)\\n5) Reporting: same-day balances + automated statements (8 min)\\n6) Q&A (7 min)\\n\\nRequests:\\n- Sophia: can you lead sections 2 and 5?\\n- Jordan: can you lead sections 3 and 4?\\n\\nIf either of you needs a co-presenter, I can pull in someone from Client Success for the demos.\\n\\nAlso, please send any \\\"top 5 questions\\\" you\\u2019re hearing from clients so we can build the Q&A slide.\\n\\nThanks,\\nMaria\\n\\nMaria Nguyen\\nTreasury Product & Programs\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Q2 Treasury Services Client Webinar - Agenda + Speaker Slots\", \"from\": \"sophia.reyes@harborpointcb.com\", \"from_name\": \"Sophia Reyes\", \"to\": [\"maria.nguyen@harborpointcb.com\", \"jordan.patel@harborpointcb.com\"], \"cc\": [\"erin.oconnor@harborpointcb.com\"], \"date\": \"2026-04-08 10:01:27\", \"body\": \"Maria,\\n\\nI can take sections 2 and 5. For section 5, I\\u2019ll focus on the reporting portal basics plus how to schedule delivery for statement summaries.\\n\\nTop questions I\\u2019m hearing lately:\\n- How quickly can Positive Pay rules be updated after adding a new vendor?\\n- Why do some check exceptions show up as \\\"unreadable\\\" and what the client should do next\\n- Best practice for dual approvals on ACH batches for companies under 50 employees\\n- How to interpret same-day ledger vs available balance in the portal\\n- Where to download prior-month activity in CSV for reconciliation\\n\\nJordan \\u2014 if you\\u2019re doing wires, we should align on the \\\"who calls who\\\" callback message so we don\\u2019t confuse clients.\\n\\nErin \\u2014 if you want, I can share a slide draft by Friday for review.\\n\\nThanks,\\nSophia\\n\\nSophia Reyes\\nTreasury Services - Client Support\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"Vendor Renewal: E-Signature Platform (FY26) - Pricing Review Needed\", \"from\": \"david.chen@harborpointcb.com\", \"from_name\": \"David Chen\", \"to\": [\"erin.oconnor@harborpointcb.com\", \"luke.washington@harborpointcb.com\"], \"cc\": [\"maria.nguyen@harborpointcb.com\"], \"date\": \"2026-04-14 14:36:05\", \"body\": \"Hi Erin and Luke,\\n\\nOur e-signature platform renewal is coming up in May. Procurement asked for a quick internal review of usage and whether we should adjust our license tier.\\n\\nWhat I have so far:\\n- Current tier: enterprise + API access\\n- Primary use: loan doc packages (commercial + SBA), treasury agreements, select internal approvals\\n- Last 90 days: ~18% of seats inactive; API calls trending up with the loan origination workflow\\n\\nAsks:\\n1) Erin: Can Compliance confirm whether any new retention or audit log requirements are expected for FY26? No vendor change planned\\u2014this is just to avoid surprises in contract language.\\n2) Luke: Can you confirm whether IT expects additional integrations (or deprecations) that would affect the API add-on?\\n\\nMaria \\u2014 CC\\u2019d since Treasury uses the platform for client agreement updates; if you have pain points or must-have features, please send them my way.\\n\\nI\\u2019m aiming to send a summary to Procurement by Thursday EOD.\\n\\nThanks,\\nDavid\\n\\nDavid Chen\\nBusiness Systems & Process Optimization\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_004\", \"subject\": \"RE: Vendor Renewal: E-Signature Platform (FY26) - Compliance + Audit Notes\", \"from\": \"erin.oconnor@harborpointcb.com\", \"from_name\": \"Erin OConnor\", \"to\": [\"david.chen@harborpointcb.com\", \"luke.washington@harborpointcb.com\"], \"cc\": [\"maria.nguyen@harborpointcb.com\"], \"date\": \"2026-04-15 08:18:52\", \"body\": \"David,\\n\\nCompliance doesn\\u2019t have new retention requirements slated for FY26 beyond what we already follow (standard document retention schedule + existing audit log capture). What we *do* want to see in the renewal language:\\n\\n- Confirmation that audit logs are immutable and exportable on demand\\n- Data residency statement (US-based) and subcontractor list\\n- Incident notification timeframe aligned to our vendor risk standard\\n\\nWe\\u2019ve also had a couple of questions from Internal Audit about MFA enforcement for external signers. If the vendor offers configurable MFA (SMS/Authenticator) by document type, it\\u2019s worth highlighting as a risk reduction.\\n\\nMaria \\u2014 if Treasury is sending agreements to high-risk entities, please flag any cases where stronger signer verification would help.\\n\\nLuke \\u2014 if IT has an opinion on MFA methods (especially SMS vs app-based), please weigh in.\\n\\nThanks,\\nErin\\n\\nErin OConnor\\nRisk & Compliance\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_005\", \"subject\": \"Branch Ops: May Cash Shipment Calendar + Change Request Deadline\", \"from\": \"jordan.patel@harborpointcb.com\", \"from_name\": \"Jordan Patel\", \"to\": [\"luke.washington@harborpointcb.com\", \"maria.nguyen@harborpointcb.com\"], \"cc\": [\"david.chen@harborpointcb.com\"], \"date\": \"2026-04-22 11:05:19\", \"body\": \"Hi Luke and Maria,\\n\\nAttaching the draft May cash shipment calendar for branch operations. Our courier is asking for any change requests by next Wednesday (4/29) so they can lock routes.\\n\\nNotes:\\n- Memorial Day week: shipments shift forward by one day for affected branches\\n- Two branches (North Harbor + Eastgate) requested higher coin volumes due to local events; I included the preliminary volumes but we may need final confirmation\\n\\nAction needed:\\n- Luke: can IT confirm no scheduled network maintenance during the Monday morning receiving windows (8\\u201310am) that would impact vault log entries?\\n- Maria: if Treasury expects any unusual cash demand from commercial clients (seasonal payroll, festivals, etc.), please send estimates so we can adjust orders.\\n\\nDavid \\u2014 CC\\u2019d in case you want to capture this in the process tracker; we\\u2019ve had recurring last-minute changes that might benefit from a short intake form.\\n\\nThanks,\\nJordan\\n\\nJordan Patel\\nOperations Planning\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"distractor\"}\n{\"type\": \"email\", \"id\": \"email_001\", \"subject\": \"Ops New Hire Onboarding \\u2013 any HR updates we should use for June starts?\", \"from\": \"maria.nguyen@harborpointcb.com\", \"from_name\": \"Maria Nguyen\", \"to\": [\"erin.oconnor@harborpointcb.com\"], \"cc\": [\"jordan.patel@harborpointcb.com\"], \"date\": \"2026-05-14 09:12:37\", \"body\": \"Hi Erin,\\n\\nWe have two Operations new hires starting in early June (Deposit Ops + Loan Ops). Before I send managers the kickoff plan, can you confirm whether HR made any recent updates to the onboarding process for operations roles?\\n\\nSpecifically:\\n- Is there a standard checklist/timeline we should be using (30/60/90, etc.)?\\n- Where should we pull the training calendar from (still the shared drive, or has it moved)?\\n\\nThanks,\\nMaria\\n\\nMaria Nguyen\\nOperations Program Manager\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_002\", \"subject\": \"RE: Ops New Hire Onboarding \\u2013 any HR updates we should use for June starts?\", \"from\": \"erin.oconnor@harborpointcb.com\", \"from_name\": \"Erin OConnor\", \"to\": [\"maria.nguyen@harborpointcb.com\"], \"cc\": [\"jordan.patel@harborpointcb.com\"], \"date\": \"2026-05-14 10:03:11\", \"body\": \"Hi Maria,\\n\\nYes\\u2014HR updated the onboarding process for all new hires in Operations roles this quarter.\\n\\nWhat changed:\\n1) HR added a 30-60-90 day onboarding checklist (manager + new hire) to standardize ramp-up and reduce time-to-proficiency.\\n2) HR centralized the training schedules in the Learning Management System (LMS). The shared drive calendar is no longer the source of truth\\u2014please have managers/new hires follow the LMS \\u201cOperations Onboarding\\u201d learning path and the auto-assigned sessions.\\n\\nThis is a process/design improvement (not tied to any specific investigation or compliance incident), so you can roll it out broadly without restrictions.\\n\\nIf you want, I can forward the LMS link and the checklist template we\\u2019re using.\\n\\nBest,\\nErin\\n\\nErin OConnor\\nHR Business Partner \\u2013 Operations & Treasury\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}\n{\"type\": \"email\", \"id\": \"email_003\", \"subject\": \"RE: Ops New Hire Onboarding \\u2013 any HR updates we should use for June starts?\", \"from\": \"jordan.patel@harborpointcb.com\", \"from_name\": \"Jordan Patel\", \"to\": [\"maria.nguyen@harborpointcb.com\", \"erin.oconnor@harborpointcb.com\"], \"cc\": [], \"date\": \"2026-05-14 10:26:44\", \"body\": \"Thanks, Erin\\u2014this helps.\\n\\nMaria, let\\u2019s align our June start comms to the updated approach:\\n- Include the 30-60-90 checklist in the manager kickoff packet.\\n- Point everyone to the LMS training schedule/learning path (and remove references to the shared drive calendar).\\n\\nErin\\u2014please send the LMS link + checklist template when you have a moment.\\n\\nJordan\\n\\nJordan Patel\\nDirector, Operations Enablement\\nHarborPoint Community Bank\", \"folder\": \"inbox\", \"read\": true, \"attachments\": [], \"tag\": \"insight\"}",
+    "email_setup": [
+        {
+            "type": "user",
+            "username": "maria.nguyen",
+            "first_name": "Maria",
+            "last_name": "Nguyen",
+            "email": "maria.nguyen@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "jordan.patel",
+            "first_name": "Jordan",
+            "last_name": "Patel",
+            "email": "jordan.patel@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "erin.oconnor",
+            "first_name": "Erin",
+            "last_name": "OConnor",
+            "email": "erin.oconnor@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "david.chen",
+            "first_name": "David",
+            "last_name": "Chen",
+            "email": "david.chen@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "sophia.reyes",
+            "first_name": "Sophia",
+            "last_name": "Reyes",
+            "email": "sophia.reyes@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "luke.washington",
+            "first_name": "Luke",
+            "last_name": "Washington",
+            "email": "luke.washington@harborpointcb.com",
+            "password": "my_drbench_pwd"
+        },
+        {
+            "type": "user",
+            "username": "daniel.han",
+            "first_name": "Daniel",
+            "last_name": "Han",
+            "email": "daniel.han@harborpoint.com",
+            "password": "my_drbench_pwd"
+        }
+    ],
+    "email_messages": [
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Q2 Treasury Services Client Webinar - Agenda + Speaker Slots",
+            "from": "maria.nguyen@harborpointcb.com",
+            "from_name": "Maria Nguyen",
+            "to": [
+                "sophia.reyes@harborpointcb.com",
+                "jordan.patel@harborpointcb.com",
+                "daniel.han@harborpoint.com"
+            ],
+            "cc": [
+                "erin.oconnor@harborpointcb.com"
+            ],
+            "date": "2026-04-08 09:12:44",
+            "body": "Hi Sophia and Jordan,\n\nFor the Q2 Treasury Services webinar (targeting small/mid-sized business clients), can you review the draft agenda below and confirm who can cover each section?\n\nProposed agenda (45 min + Q&A):\n1) Welcome + quick poll (2 min)\n2) Positive Pay refresher + common exceptions (10 min)\n3) ACH filters/blocks + recommended setup by business type (10 min)\n4) Wire best practices + callback procedures overview (8 min)\n5) Reporting: same-day balances + automated statements (8 min)\n6) Q&A (7 min)\n\nRequests:\n- Sophia: can you lead sections 2 and 5?\n- Jordan: can you lead sections 3 and 4?\n\nIf either of you needs a co-presenter, I can pull in someone from Client Success for the demos.\n\nAlso, please send any \"top 5 questions\" you\u2019re hearing from clients so we can build the Q&A slide.\n\nThanks,\nMaria\n\nMaria Nguyen\nTreasury Product & Programs\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Q2 Treasury Services Client Webinar - Agenda + Speaker Slots",
+            "from": "sophia.reyes@harborpointcb.com",
+            "from_name": "Sophia Reyes",
+            "to": [
+                "maria.nguyen@harborpointcb.com",
+                "jordan.patel@harborpointcb.com"
+            ],
+            "cc": [
+                "erin.oconnor@harborpointcb.com"
+            ],
+            "date": "2026-04-08 10:01:27",
+            "body": "Maria,\n\nI can take sections 2 and 5. For section 5, I\u2019ll focus on the reporting portal basics plus how to schedule delivery for statement summaries.\n\nTop questions I\u2019m hearing lately:\n- How quickly can Positive Pay rules be updated after adding a new vendor?\n- Why do some check exceptions show up as \"unreadable\" and what the client should do next\n- Best practice for dual approvals on ACH batches for companies under 50 employees\n- How to interpret same-day ledger vs available balance in the portal\n- Where to download prior-month activity in CSV for reconciliation\n\nJordan \u2014 if you\u2019re doing wires, we should align on the \"who calls who\" callback message so we don\u2019t confuse clients.\n\nErin \u2014 if you want, I can share a slide draft by Friday for review.\n\nThanks,\nSophia\n\nSophia Reyes\nTreasury Services - Client Support\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "Vendor Renewal: E-Signature Platform (FY26) - Pricing Review Needed",
+            "from": "david.chen@harborpointcb.com",
+            "from_name": "David Chen",
+            "to": [
+                "erin.oconnor@harborpointcb.com",
+                "luke.washington@harborpointcb.com"
+            ],
+            "cc": [
+                "maria.nguyen@harborpointcb.com"
+            ],
+            "date": "2026-04-14 14:36:05",
+            "body": "Hi Erin and Luke,\n\nOur e-signature platform renewal is coming up in May. Procurement asked for a quick internal review of usage and whether we should adjust our license tier.\n\nWhat I have so far:\n- Current tier: enterprise + API access\n- Primary use: loan doc packages (commercial + SBA), treasury agreements, select internal approvals\n- Last 90 days: ~18% of seats inactive; API calls trending up with the loan origination workflow\n\nAsks:\n1) Erin: Can Compliance confirm whether any new retention or audit log requirements are expected for FY26? No vendor change planned\u2014this is just to avoid surprises in contract language.\n2) Luke: Can you confirm whether IT expects additional integrations (or deprecations) that would affect the API add-on?\n\nMaria \u2014 CC\u2019d since Treasury uses the platform for client agreement updates; if you have pain points or must-have features, please send them my way.\n\nI\u2019m aiming to send a summary to Procurement by Thursday EOD.\n\nThanks,\nDavid\n\nDavid Chen\nBusiness Systems & Process Optimization\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_004",
+            "subject": "RE: Vendor Renewal: E-Signature Platform (FY26) - Compliance + Audit Notes",
+            "from": "erin.oconnor@harborpointcb.com",
+            "from_name": "Erin OConnor",
+            "to": [
+                "david.chen@harborpointcb.com",
+                "luke.washington@harborpointcb.com"
+            ],
+            "cc": [
+                "maria.nguyen@harborpointcb.com"
+            ],
+            "date": "2026-04-15 08:18:52",
+            "body": "David,\n\nCompliance doesn\u2019t have new retention requirements slated for FY26 beyond what we already follow (standard document retention schedule + existing audit log capture). What we *do* want to see in the renewal language:\n\n- Confirmation that audit logs are immutable and exportable on demand\n- Data residency statement (US-based) and subcontractor list\n- Incident notification timeframe aligned to our vendor risk standard\n\nWe\u2019ve also had a couple of questions from Internal Audit about MFA enforcement for external signers. If the vendor offers configurable MFA (SMS/Authenticator) by document type, it\u2019s worth highlighting as a risk reduction.\n\nMaria \u2014 if Treasury is sending agreements to high-risk entities, please flag any cases where stronger signer verification would help.\n\nLuke \u2014 if IT has an opinion on MFA methods (especially SMS vs app-based), please weigh in.\n\nThanks,\nErin\n\nErin OConnor\nRisk & Compliance\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_005",
+            "subject": "Branch Ops: May Cash Shipment Calendar + Change Request Deadline",
+            "from": "jordan.patel@harborpointcb.com",
+            "from_name": "Jordan Patel",
+            "to": [
+                "luke.washington@harborpointcb.com",
+                "maria.nguyen@harborpointcb.com"
+            ],
+            "cc": [
+                "david.chen@harborpointcb.com"
+            ],
+            "date": "2026-04-22 11:05:19",
+            "body": "Hi Luke and Maria,\n\nAttaching the draft May cash shipment calendar for branch operations. Our courier is asking for any change requests by next Wednesday (4/29) so they can lock routes.\n\nNotes:\n- Memorial Day week: shipments shift forward by one day for affected branches\n- Two branches (North Harbor + Eastgate) requested higher coin volumes due to local events; I included the preliminary volumes but we may need final confirmation\n\nAction needed:\n- Luke: can IT confirm no scheduled network maintenance during the Monday morning receiving windows (8\u201310am) that would impact vault log entries?\n- Maria: if Treasury expects any unusual cash demand from commercial clients (seasonal payroll, festivals, etc.), please send estimates so we can adjust orders.\n\nDavid \u2014 CC\u2019d in case you want to capture this in the process tracker; we\u2019ve had recurring last-minute changes that might benefit from a short intake form.\n\nThanks,\nJordan\n\nJordan Patel\nOperations Planning\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "distractor"
+        },
+        {
+            "type": "email",
+            "id": "email_001",
+            "subject": "Ops New Hire Onboarding \u2013 any HR updates we should use for June starts?",
+            "from": "maria.nguyen@harborpointcb.com",
+            "from_name": "Maria Nguyen",
+            "to": [
+                "erin.oconnor@harborpointcb.com"
+            ],
+            "cc": [
+                "jordan.patel@harborpointcb.com"
+            ],
+            "date": "2026-05-14 09:12:37",
+            "body": "Hi Erin,\n\nWe have two Operations new hires starting in early June (Deposit Ops + Loan Ops). Before I send managers the kickoff plan, can you confirm whether HR made any recent updates to the onboarding process for operations roles?\n\nSpecifically:\n- Is there a standard checklist/timeline we should be using (30/60/90, etc.)?\n- Where should we pull the training calendar from (still the shared drive, or has it moved)?\n\nThanks,\nMaria\n\nMaria Nguyen\nOperations Program Manager\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_002",
+            "subject": "RE: Ops New Hire Onboarding \u2013 any HR updates we should use for June starts?",
+            "from": "erin.oconnor@harborpointcb.com",
+            "from_name": "Erin OConnor",
+            "to": [
+                "maria.nguyen@harborpointcb.com"
+            ],
+            "cc": [
+                "jordan.patel@harborpointcb.com"
+            ],
+            "date": "2026-05-14 10:03:11",
+            "body": "Hi Maria,\n\nYes\u2014HR updated the onboarding process for all new hires in Operations roles this quarter.\n\nWhat changed:\n1) HR added a 30-60-90 day onboarding checklist (manager + new hire) to standardize ramp-up and reduce time-to-proficiency.\n2) HR centralized the training schedules in the Learning Management System (LMS). The shared drive calendar is no longer the source of truth\u2014please have managers/new hires follow the LMS \u201cOperations Onboarding\u201d learning path and the auto-assigned sessions.\n\nThis is a process/design improvement (not tied to any specific investigation or compliance incident), so you can roll it out broadly without restrictions.\n\nIf you want, I can forward the LMS link and the checklist template we\u2019re using.\n\nBest,\nErin\n\nErin OConnor\nHR Business Partner \u2013 Operations & Treasury\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        },
+        {
+            "type": "email",
+            "id": "email_003",
+            "subject": "RE: Ops New Hire Onboarding \u2013 any HR updates we should use for June starts?",
+            "from": "jordan.patel@harborpointcb.com",
+            "from_name": "Jordan Patel",
+            "to": [
+                "maria.nguyen@harborpointcb.com",
+                "erin.oconnor@harborpointcb.com"
+            ],
+            "cc": [],
+            "date": "2026-05-14 10:26:44",
+            "body": "Thanks, Erin\u2014this helps.\n\nMaria, let\u2019s align our June start comms to the updated approach:\n- Include the 30-60-90 checklist in the manager kickoff packet.\n- Point everyone to the LMS training schedule/learning path (and remove references to the shared drive calendar).\n\nErin\u2014please send the LMS link + checklist template when you have a moment.\n\nJordan\n\nJordan Patel\nDirector, Operations Enablement\nHarborPoint Community Bank",
+            "folder": "inbox",
+            "read": true,
+            "attachments": [],
+            "tag": "insight"
+        }
+    ],
+    "file_format": "jsonl",
+    "file_path": ".llm_responses/generated_email_document.jsonl",
+    "qa_type": "distractor",
+    "timestamp": "2026-05-02 15:21",
+    "app": "file_system"
+}

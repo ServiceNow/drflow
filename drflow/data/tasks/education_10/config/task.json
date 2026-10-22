@@ -1,0 +1,41 @@
+{
+    "name": "education_10",
+    "task_id": "education_10",
+    "level": "",
+    "company_info": {
+        "name": "Eastport University",
+        "industry": "Higher Education",
+        "description": "A R1 university hosting a growing newly hired research-track faculties across multiple colleges.",
+        "size": "Large",
+        "employee_count": "2,500-6,000",
+        "annual_revenue": "$600M-$1.2B",
+        "founded_year": 2000,
+        "headquarters": "Unknown",
+        "key_products_services": [],
+        "market_position": "",
+        "target_markets": []
+    },
+    "dr_question": "What is the workflow to onboard a newly hired tenured-track faculty?",
+    "date": "2026-02-01",
+    "persona": {
+        "name": "Aisha Rahman",
+        "first_name": "Aisha",
+        "last_name": "Rahman",
+        "role": "University Graduate Program Coordinator",
+        "department": "Department",
+        "email": "aisha.rahman@eastportuniversity.edu",
+        "password": "my_drbench_pwd",
+        "seniority": "Mid",
+        "responsibilities": "Coordinates orientation, document collection, and ongoing compliance communications for new faculties.",
+        "id": "education_10",
+        "domain": "crm",
+        "justification": "",
+        "username": "aisha.rahman"
+    },
+    "citation_format": {
+        "urls": [],
+        "file_names": [],
+        "mattermost_chats": [],
+        "email_messages": []
+    }
+}

@@ -1,0 +1,113 @@
+================================================================================
+MATTERMOST CHAT EXPORT
+================================================================================
+
+TEAMS:
+----------------------------------------
+• Ops, Risk & Compliance (ops-risk-compliance)
+  Description: N/A
+  Type: Open
+
+• Workplace Services (workplace-services)
+  Description: N/A
+  Type: Open
+
+CHANNELS:
+----------------------------------------
+• #Controls & Issues Log (controls-issues-log)
+  Team: ops-risk-compliance
+  Purpose: Central place for reporting, triaging, and documenting remediation actions and evidence.
+  Type: Public
+
+• #Facilities (HQ Ops) (facilities-hq-ops)
+  Team: workplace-services
+  Purpose: Coordinate facilities requests, communicate maintenance actions, and provide status updates to stakeholders.
+  Type: Public
+
+USERS:
+----------------------------------------
+• @daniel.han
+  Name: Daniel Han
+  Position: Operations Manager
+  Email: daniel.han@harborpoint.com
+
+• @maria.santos
+  Name: Maria Santos
+  Position: Facilities Manager
+  Email: maria.santos@harborpoint.com
+
+• @kevin.lee
+  Name: Kevin Lee
+  Position: Workplace Operations Coordinator
+  Email: kevin.lee@harborpoint.com
+
+MESSAGES:
+================================================================================
+[2024-04-09 01:00:00] #ops-risk-compliance:controls-issues-log
+@daniel.han:
+Reminder: Q2 RCSA refresh is due next Friday. If you have any open control owner attestations, please update the status and attach supporting evidence (screen grabs or ticket IDs) so we’re audit-ready.
+------------------------------------------------------------
+
+[2024-04-09 01:05:00] #ops-risk-compliance:controls-issues-log
+@maria.santos:
+Workplace Services note for the issues log: we completed the annual fire extinguisher inspection across HQ. Certificates are in the vendor portal; if you need a copy for the exam binder, I can upload PDFs to the shared evidence folder.
+------------------------------------------------------------
+
+[2024-04-09 01:10:00] #workplace-services:facilities-hq-ops
+@kevin.lee:
+Heads up: the lobby flooring contractor is proposing the weekend of 4/20 for the polish/seal work. Minimal access impact, but we’ll need to rope off the east entrance for ~6 hours. Maria—OK to proceed if Procurement clears the COI?
+------------------------------------------------------------
+
+[2024-04-09 01:15:00] #workplace-services:facilities-hq-ops
+@maria.santos:
+Yes, proceed once COI + W-9 are on file and the SOW includes after-hours cleanup. Kevin, please also confirm they’ll follow our vendor badge process (check-in at Security, no tailgating).
+------------------------------------------------------------
+
+[2024-04-09 01:20:00] #ops-risk-compliance:controls-issues-log
+@daniel.han:
+Separate item: we had 2 instances this week of locked-file shred bins being overfilled in the branch ops area. Not a breach, but it’s a process gap. Maria/Kevin—can Workplace Services coordinate with the shredding vendor on pickup frequency?
+------------------------------------------------------------
+
+[2024-04-09 01:25:00] #workplace-services:facilities-hq-ops
+@kevin.lee:
+I’ll reach out to IronClad Shred today to move us from biweekly to weekly pickups for the next 60 days, then we can reassess. Daniel—do you want a quick comms note to staff about not forcing materials into full bins?
+------------------------------------------------------------
+
+[2024-04-09 01:30:00] #ops-risk-compliance:controls-issues-log
+@maria.santos:
+On the upcoming regulatory exam logistics: we can reserve the large conference room for the examiner workroom and ensure guest Wi-Fi instructions are printed. Daniel, send me the date range and expected headcount so we can set up access badges in advance.
+------------------------------------------------------------
+
+[2024-04-09 01:35:00] #workplace-services:facilities-hq-ops
+@daniel.han:
+Thanks—dates are 5/6 through 5/17, likely 4 examiners onsite. I’ll share the examiner list once Compliance finalizes. Also, please confirm the after-hours cleaning schedule for that room so we can include it in the exam readiness checklist.
+------------------------------------------------------------
+
+[2026-04-09 00:15:00] #ops-risk-compliance:controls-issues-log
+@daniel.han:
+Logging recurring employee complaints about inconsistent temperatures on HQ 4th floor (east side pods + two conference rooms). Not a control failure, but it’s impacting service levels (call time + meeting relocations). @maria.santos can Facilities confirm root cause + what action was taken so we can close the issue entry with remediation details?
+------------------------------------------------------------
+
+[2026-04-09 00:22:00] #ops-risk-compliance:controls-issues-log
+@maria.santos:
+Yes — this was a routine facilities maintenance issue (no compliance/investigation component). We found two thermostats in the 4th-floor HVAC zone intermittently failing/reading high, which was causing the zone to overcorrect. Action taken: Facilities replaced both failing thermostats and we rescheduled the preventive-maintenance cycle for the 4th-floor zone (moved it up to a monthly check for the next quarter). Complaints have dropped since the replacement.
+------------------------------------------------------------
+
+[2026-04-09 00:35:00] #workplace-services:facilities-hq-ops
+@kevin.lee:
+FYI for visibility: HVAC temp complaints (HQ 4th floor) - vendor confirmed Thermostat #4F-17 and #4F-19 were failing intermittently. Both units replaced this morning; calibrated and tested across the zone. We also adjusted PM schedule for the 4th-floor zone per Maria’s direction (monthly spot-checks through end of quarter, then revert to standard cycle if stable).
+------------------------------------------------------------
+
+[2026-04-09 00:41:00] #workplace-services:facilities-hq-ops
+@maria.santos:
+Thanks Kevin. Please keep the work order notes + vendor service report attached in the ticket; if anyone asks, the remediation is simply thermostat replacements + accelerated PM cycle for that specific 4th-floor HVAC zone. Nothing regulatory here—just building ops stabilization.
+------------------------------------------------------------
+
+[2026-04-09 00:49:00] #ops-risk-compliance:controls-issues-log
+@daniel.han:
+Perfect—closing the issue log entry with: replaced two failing thermostats and rescheduled the preventive-maintenance cycle for the 4th-floor HVAC zone. Appreciate the quick turnaround.
+------------------------------------------------------------
+
+================================================================================
+END OF CHAT EXPORT
+================================================================================

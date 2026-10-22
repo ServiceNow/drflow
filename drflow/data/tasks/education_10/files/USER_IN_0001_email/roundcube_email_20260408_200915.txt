@@ -1,0 +1,217 @@
+================================================================================
+ROUNDCUBE EMAIL EXPORT
+================================================================================
+
+USERS:
+----------------------------------------
+• aisha.rahman
+  Name: Aisha Rahman
+  Email: aisha.rahman@eastportuniversity.edu
+
+• mark.benitez
+  Name: Mark Benitez
+  Email: mark.benitez@eastportuniversity.edu
+
+• elena.kovacs
+  Name: Elena Kovacs
+  Email: elena.kovacs@eastportuniversity.edu
+
+• derek.cho
+  Name: Derek Cho
+  Email: derek.cho@eastportuniversity.edu
+
+• lina.patel
+  Name: Lina Patel
+  Email: lina.patel@eastportuniversity.edu
+
+EMAILS:
+================================================================================
+Email ID: email_001
+Date: 2026-03-03 09:12:44
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: lina.patel@eastportuniversity.edu, mark.benitez@eastportuniversity.edu
+CC: elena.kovacs@eastportuniversity.edu
+Subject: Spring Graduate Orientation: Room Hold + Accessibility Check
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Lina and Mark,
+
+Could you help confirm the room hold and basic AV/accessibility setup for Spring Graduate Orientation (students)? We’re aiming for a 90-minute plenary plus breakouts.
+
+What I need to lock by Friday:
+- Final room assignment (capacity 250+) and overflow plan
+- Microphones (2 handheld + podium), captioning availability, and whether the room supports assistive listening
+- Signage options and whether Facilities can place directional stands by the main lobby
+
+If you’re able, please reply with the room confirmation and any constraints (time limits, catering restrictions, etc.).
+
+Thanks,
+Aisha Rahman
+University Graduate Program Coordinator
+Eastport University
+
+============================================================
+
+Email ID: email_002
+Date: 2026-03-03 11:26:03
+From: Lina Patel <lina.patel@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu
+CC: mark.benitez@eastportuniversity.edu, elena.kovacs@eastportuniversity.edu
+Subject: Re: Spring Graduate Orientation: Room Hold + Accessibility Check
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+Confirmed: We have the Hightower Auditorium hold in the University Center for Tues 4/7, 9:00–12:00. Capacity 320 seated.
+
+Notes:
+- AV: podium mic + 2 handhelds are standard; we can add a lapel mic on request.
+- Captioning: The room supports CART display on the main screen; you’ll need to submit the vendor request. I can connect you with Events Ops once you have the agenda.
+- Assistive listening: Available (12 receivers). We’ll need an estimate of demand so they can be checked out and charged.
+- Signage: Facilities can place 6 directional stanchions, but they require copy by 3/28.
+- Catering: Allowed in the pre-function hall only (not inside the auditorium).
+
+Mark—please confirm whether IT will staff the first 30 minutes for laptop/HDMI troubleshooting.
+
+Best,
+Lina Patel
+Scheduling & Events Services
+Eastport University
+
+============================================================
+
+Email ID: email_003
+Date: 2026-03-10 14:08:19
+From: Derek Cho <derek.cho@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, elena.kovacs@eastportuniversity.edu
+CC: mark.benitez@eastportuniversity.edu
+Subject: License Renewal: Qualtrics Seat Count + Department Codes Needed by 3/15
+Folder: inbox | Status: Unread
+
+Message Body:
+----------------------------------------
+Hi Aisha and Elena,
+
+Finance flagged that our Qualtrics renewal is pending updated seat counts and departmental charge codes. I’m collecting inputs this week so Procurement can issue the PO.
+
+Can you confirm for your areas:
+1) Number of active users who need “collaborator” access (not just survey takers)
+2) Any anticipated temporary users for April–June (e.g., student assistants)
+3) The department code to be billed (or split if applicable)
+
+If I don’t hear back by Friday 3/15, I’ll renew using last year’s counts to avoid a lapse, but that may cause a mid-quarter true-up.
+
+Thank you,
+Derek Cho
+Enterprise Applications Manager
+Eastport University IT Services
+
+============================================================
+
+Email ID: email_001
+Date: 2026-04-06 09:12:44
+From: Elena Kovacs <elena.kovacs@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu
+CC: mark.benitez@eastportuniversity.edu, derek.cho@eastportuniversity.edu
+Subject: Engineering faculty onboarding - access readiness timeline for Aug 15 start
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Aisha,
+
+We have a newly hired tenure-track faculty member in the College of Engineering coming in for fall, and the department is asking about the onboarding workflow and when we need to kick off access provisioning.
+
+The offer is signed and we're ready to move this into the pre-arrival checklist. Can you outline the key steps (HR/ID/I-9, NetID/email, systems, and any compliance items) and what lead time you need so access is ready by the start date?
+
+Thanks,
+Elena
+
+Elena Kovacs
+HR Partner, College of Engineering
+Eastport University
+============================================================
+
+Email ID: email_002
+Date: 2026-04-06 10:03:18
+From: Aisha Rahman <aisha.rahman@eastportuniversity.edu>
+To: elena.kovacs@eastportuniversity.edu
+CC: mark.benitez@eastportuniversity.edu, derek.cho@eastportuniversity.edu
+Subject: Re: Engineering faculty onboarding - access readiness timeline for Aug 15 start
+Folder: sent | Status: Read
+
+Message Body:
+----------------------------------------
+Hi Elena,
+
+Yes—please send the hire details when you have them. For workflow/timing, here’s what we follow for newly hired tenure-track faculty:
+
+1) Pre-arrival (as soon as offer is signed)
+- HR enters the hire into PeopleAdmin/HRIS (this is what triggers downstream account provisioning).
+- Background check status verified (if applicable to the role).
+- Department submits the “New Faculty Access & Space” form (office/lab, phone, keys, building access).
+
+2) Identity + payroll compliance (30–14 days before start, earlier if possible)
+- I-9 instructions sent; documents verified on/near first day per policy, but we collect the intent/appointment ahead of time.
+- Direct deposit/tax forms set up in Employee Self Service.
+
+3) Accounts + systems provisioning (typically 21–10 business days before start)
+- NetID/email and DUO/MFA created after HRIS record is active.
+- Required role-based access: Canvas/teaching tools, library resources, VPN, shared drives, and any engineering-specific systems (e.g., lab computing, CAD license groups) once department confirms needs.
+- Sponsored Projects onboarding if they will submit proposals immediately (ERA, Cayuse, etc.).
+
+4) First-week requirements
+- New Faculty Orientation session registration.
+- Compliance training assignments (COI disclosure, responsible conduct of research, export controls if applicable, lab safety as needed).
+
+For this particular case: the new hire is an Assistant Professor (tenure-track) in the College of Engineering with an Aug 15 start date. The offer has been signed, and the chair has asked that all accounts/access be ready by the first day (they want the faculty member able to access email, VPN, proposal systems, and engineering lab resources immediately).
+
+Given that expectation, we should aim to have HRIS entry completed no later than mid-July so Mark’s team can provision NetID/MFA and core access with enough lead time.
+
+Best,
+Aisha
+
+Aisha Rahman
+Graduate Program Coordinator (Faculty & Program Onboarding)
+Eastport University
+aisha.rahman@eastportuniversity.edu
+============================================================
+
+Email ID: email_003
+Date: 2026-04-06 11:07:02
+From: Mark Benitez <mark.benitez@eastportuniversity.edu>
+To: aisha.rahman@eastportuniversity.edu, elena.kovacs@eastportuniversity.edu
+CC: derek.cho@eastportuniversity.edu
+Subject: Re: Engineering faculty onboarding - access readiness timeline for Aug 15 start
+Folder: inbox | Status: Read
+
+Message Body:
+----------------------------------------
+Aisha/Elena,
+
+Confirmed—once the HRIS record for the Assistant Professor (TT) is active, we can generate NetID/email and DUO enrollment same day, but the downstream access (VPN groups, engineering file shares, CAD license groups, lab domain accounts) needs 10–15 business days because it depends on departmental approvals.
+
+If the chair’s requirement is “ready on Aug 15 (day one),” we should treat this as an access-readiness deadline and work backward:
+- HRIS entry by ~July 15
+- Dept. completes Access & Space form + system-specific requests by ~July 18
+- Provisioning window July 18–Aug 8
+- Final validation the week of Aug 11 (so any missing entitlements are fixed before the start date)
+
+Elena—when you share the hire packet, please include primary department, supervisor/chair contact, and any known systems needed (research computing, lab instrument PCs, proposal submission accounts). We’ll align provisioning so everything is live before they walk in on Aug 15.
+
+Thanks,
+Mark
+
+Mark Benitez
+Identity & Access Management (IAM)
+Eastport University
+mark.benitez@eastportuniversity.edu
+============================================================
+
+================================================================================
+END OF EMAIL EXPORT
+================================================================================
