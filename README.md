@@ -1,9 +1,22 @@
-# DRFLOW: Benchmark for Personalized Workflow Synthesis
+# DRFLOW: A Deep Research Benchmark for Personalized Workflow Prediction
+
+<p align="center">
+  <img src="assets/drflow_image.png" alt="DRFLOW logo" width="640">
+</p>
+
+[![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2606.18191)
+
+**`DRFLOW`** is a deep research benchmark designed to evaluate agents on
+**personalized workflow prediction** for complex enterprise tasks.
+
+It tests an agent's ability to connect evidence across **public and private data
+sources** and turn that evidence into an **ordered sequence of action steps**
+tailored to a user's goals and constraints.
 
 ## News
 
-- DRFLOW has been accepted at EMNLP 2026!
-- The benchmark is coming to HuggingFace soon!
+- 🎉 DRFLOW has been accepted at EMNLP 2026!
+- 🤗 The benchmark is coming to Hugging Face soon!
 
 ## Quick Start
 
@@ -67,6 +80,22 @@ python minimal_docker.py
 
 The initial image build takes around 30 minutes and only needs to be done once.
 This example also uses the bundled `b2b_04` task.
+
+## Citation
+
+If you use DRFLOW in your work, please cite:
+
+```bibtex
+@misc{khondaker2026drflowdeepresearchbenchmark,
+  title={DRFLOW: A Deep Research Benchmark for Personalized Workflow Prediction},
+  author={Md Tawkat Islam Khondaker and Raymond Li and Muhammad Abdul-Mageed and Laks V. S. Lakshmanan and Issam H. Laradji},
+  year={2026},
+  eprint={2606.18191},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2606.18191},
+}
+```
 
 ## Acknowledgement
 
