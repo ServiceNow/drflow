@@ -9,14 +9,14 @@
 **`DRFLOW`** is a deep research benchmark designed to evaluate agents on
 **personalized workflow prediction** for complex enterprise tasks.
 
-It tests an agent's ability to connect evidence across **public and private data
+It tests an agent's ability to connect evidence across **heterogeneous data
 sources** and turn that evidence into an **ordered sequence of action steps**
 tailored to a user's goals and constraints.
 
 ## News
 
-- 🎉 DRFLOW has been accepted at EMNLP 2026!
-- 🤗 The benchmark is coming to Hugging Face soon!
+- DRFLOW has been accepted at EMNLP 2026! 🎉
+- The benchmark is coming to HuggingFace soon! 🤗
 
 ## Quick Start
 
@@ -54,12 +54,6 @@ python minimal_local.py --task-id education_10
 python minimal_local.py --task-id legal_01 --max-iterations 5
 python minimal_local.py --help
 ```
-
-The defaults are `openrouter/openai/gpt-5.2` for generation,
-`openrouter/openai/text-embedding-ada-002` for embeddings, and `gpt-4o-mini` for
-evaluation. Use `--model`, `--embedding-model`, and `--eval-model` to change them.
-Direct OpenAI models require `OPENAI_API_KEY`; the default embeddings require
-`OPENROUTER_API_KEY` unless you also change `--embedding-model`.
 
 Each run writes its report and workflow spreadsheet under
 `outputs/research_workspace/<run_id>/`, its vector store under
