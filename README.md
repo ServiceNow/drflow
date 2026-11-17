@@ -5,6 +5,7 @@
 </p>
 
 [![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2606.18191)
+[![Dataset on Hugging Face](https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-FFD21E.svg)](https://huggingface.co/datasets/ServiceNow/DRFlow)
 
 **`DRFLOW`** is a deep research benchmark designed to evaluate agents on
 **personalized workflow prediction** for complex enterprise tasks.
@@ -16,7 +17,7 @@ tailored to a user's goals and constraints.
 ## News
 
 - DRFLOW has been accepted at EMNLP 2026! 🎉
-- The benchmark is coming to HuggingFace soon! 🤗
+- The DRFLOW dataset is now available on [Hugging Face](https://huggingface.co/datasets/ServiceNow/DRFlow)! 🤗
 
 ## Quick Start
 
@@ -80,14 +81,26 @@ This example also uses the bundled `b2b_04` task.
 If you use DRFLOW in your work, please cite:
 
 ```bibtex
-@misc{khondaker2026drflowdeepresearchbenchmark,
-  title={DRFLOW: A Deep Research Benchmark for Personalized Workflow Prediction},
-  author={Md Tawkat Islam Khondaker and Raymond Li and Muhammad Abdul-Mageed and Laks V. S. Lakshmanan and Issam H. Laradji},
-  year={2026},
-  eprint={2606.18191},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI},
-  url={https://arxiv.org/abs/2606.18191},
+@inproceedings{khondaker-etal-2026-drflow,
+    title = "{DRFLOW}: A Deep Research Benchmark for Personalized Workflow Prediction",
+    author = "Khondaker, Md Tawkat Islam  and
+      Li, Raymond  and
+      Abdul-Mageed, Muhammad  and
+      Lakshmanan, Laks V. S.  and
+      Laradji, Issam H.",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.1344/",
+    doi = "10.18653/2026.findings-emnlp.1344",
+    pages = "28492--28558",
+    ISBN = "979-8-89176-462-0"
 }
 ```
 
